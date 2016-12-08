@@ -50,27 +50,19 @@ public class IntelligentAgent {
 
         // Here the ball is in reach and the rod is in position and ready to shoot
         if (AnticipateDefend.Column == -1) {
-            // Send Commands.KICK Power = 1
+            // Send Commands.KICK Power = 1 direction = forward 
             return;
         }
 
-        
-
-
-
-        if (Field.Ball.Column < Field.Length / 2) { // Defensive mode
-            // TODO check with the ball direction a7san
-            if (AnticipateDefend.Row == 6) {
-                //Move to RodPosition.Top
-            } else if (AnticipateDefend.Row % 2 == 0) { // == 0 || 2 || 4 is probably faster
-                //Move to RodPosition.Bottom
-            } else { // if no intersection or intersection with an odd row
-                // NO_ACTION (Move to middle)
-            }
-        } else { // Offensive mode
-
+        if (AnticipateDefend.Column == 0) {
+            // TODO compute direction
+            // Send Commands.KICK Power = 1 
         }
-        //Commands.NO_ACTION;
+
+        if (AnticipateDefend.Column == 1) {
+            // TODO compute direction
+            // send Commands.KICK power = 5
+        }
     }
 
     public static void Controloffense(FieldModel Field) {
@@ -81,6 +73,31 @@ public class IntelligentAgent {
     public static void MakeGuestDecision(FieldModel Field) {
 
         //Commands.NO_ACTION;
+    }
+
+    public static int getKickDirection(int Row) {
+        //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
+        //
+        double[] Direction = { 0.0, 1.0, 0.0 };
+        if (Row >= 3) {
+            Direction[0] = 1.0;
+        }
+
+        if (Row <= 3) {
+            Direction[2] = 1.0;
+        }
+        // divide each member by the sum and then get one of them according to it's probability
+        return 0;
+    }
+
+    public static int getGoalDirection(int Row) {
+        if (Row <= 1) {
+            return 0;
+        } else if (Row >= 5) {
+            return 2;
+        } else {
+            return 1;
+        }
     }
 }
 

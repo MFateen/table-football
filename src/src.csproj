@@ -83,8 +83,8 @@
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
     <Compile Include="Assets\Environment\Script\OffsetAnim.cs" />
-    <Compile Include="Assets\Scripts\DataTypes\Commands.cs" />
     <Compile Include="Assets\Scripts\DataTypes\Anticipate.cs" />
+    <Compile Include="Assets\Scripts\DataTypes\Commands.cs" />
     <Compile Include="Assets\Scripts\DataTypes\PlayerType.cs" />
     <Compile Include="Assets\Scripts\DataTypes\RodPosition.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />

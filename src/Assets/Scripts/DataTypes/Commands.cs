@@ -9,3 +9,9 @@ public enum Commands {
     MOVE_LEFT,
     MOVE_RIGHT
 }
+
+public enum KICK {
+    LEFT = 0,
+    FORWARD = 1,
+    RIGHT = 2
+}

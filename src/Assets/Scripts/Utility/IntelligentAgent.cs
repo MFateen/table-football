@@ -13,9 +13,6 @@ public class IntelligentAgent {
             MakeGuestDecision(Field);
         }
 
-        // TODO always return the rods to middle
-
-        // TODO: Send Cmnd !!!!!
         SharedMemory.Decision = new Command("", null, "");
     }
 
@@ -34,12 +31,27 @@ public class IntelligentAgent {
         Anticipate AnticipateDefend = Field.Ball.getRowIntersection(Field.DefenseRodHost.Column);
 
         if (AnticipateDefend.Row == -1) {
-            // move to middle
+            if (Field.DefenseRodHost.Position == RodPosition.Top) {
+                // move down
+            } else if (Field.DefenseRodHost.Position == RodPosition.Bottom) {
+                // move up
+            } else {
+                //no action
+            }
             return;
         }
 
         if (!Field.DefenseRodHost.RowInPlayerReach(AnticipateDefend.Row)) {
             // move to AnticipateDefend.Row
+            if (Field.DefenseRodHost.Position == RodPosition.Middle && AnticipateDefend.Row == 6) {
+                // send move down (right)
+            } else if (Field.DefenseRodHost.Position == RodPosition.Middle) {
+                // send move up (left)
+            } else if (Field.DefenseRodHost.Position == RodPosition.Top) {
+                // send move down
+            } else {
+                // send move up
+            }
             return;
         }
 
@@ -55,13 +67,13 @@ public class IntelligentAgent {
         }
 
         if (AnticipateDefend.Column == 0) {
-            // TODO compute direction
-            // Send Commands.KICK Power = 1 
+            // Send Commands.KICK Power = 1 and direction =
+            getKickDirection(AnticipateDefend.Row); 
         }
 
         if (AnticipateDefend.Column == 1) {
-            // TODO compute direction
-            // send Commands.KICK power = 5
+            // send Commands.KICK power = 5 and the following direction
+            getKickDirection(AnticipateDefend.Row);
         }
     }
 
@@ -75,28 +87,37 @@ public class IntelligentAgent {
         //Commands.NO_ACTION;
     }
 
-    public static int getKickDirection(int Row) {
+    public static KICK getKickDirection(int Row) {
         //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
         //
         double[] Direction = { 0.0, 1.0, 0.0 };
         if (Row >= 3) {
-            Direction[0] = 1.0;
+            Direction[(int)KICK.LEFT] = 1.0;
         }
 
         if (Row <= 3) {
-            Direction[2] = 1.0;
+            Direction[(int)KICK.RIGHT] = 1.0;
         }
-        // divide each member by the sum and then get one of them according to it's probability
-        return 0;
+
+        double Sum = Direction.Sum();
+        double Probability = (new System.Random(0)).NextDouble() * Sum;
+
+        for (int i = 0; i < Direction.Length; i++) {
+            Probability -= Direction[i];
+            if (Probability <= 0) {
+                return (KICK)i;
+            }
+        }
+        return KICK.FORWARD;
     }
 
-    public static int getGoalDirection(int Row) {
+    public static KICK getGoalDirection(int Row) {
         if (Row <= 1) {
-            return 0;
+            return KICK.LEFT;
         } else if (Row >= 5) {
-            return 2;
+            return KICK.RIGHT;
         } else {
-            return 1;
+            return KICK.FORWARD;
         }
     }
 }

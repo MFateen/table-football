@@ -81,7 +81,64 @@ public class BallModel {
         //TODO
         //get difference between TargetColumn and Column
         //if diff <= Power => an intersection will occur at Row + diff*RowVelocity
-        return new Anticipate(-1, 0, false);
+        Anticipate Result;
+        int ColumnDifference = Math.Abs(TargetColumn-Column);
+        bool MoveTowardsTarget;// condition to check if ball moves towards target column
+        // Test if the ball is currently near
+        if(Column<=TargetColumn+1 && Column>=TargetColumn-1)
+            Result.Near = true;
+        else
+            Result.Near=false;
+        // Checking against Target Column
+        if(Column == TargetColumn)
+        {
+            Result.Row = Row;
+            Result.Column = 0;
+            return Result;
+        }
+        MoveTowardsTarget = (TargetColumn-Column>0 && ColumnVelocity==1) || (TargetColumn-Column<0 && ColumnVelocity==-1);
+        if(Power>=ColumnDifference && MoveTowardsTarget)
+        {
+            Result.Row = Row + ColumnDifference*RowVelocity;
+            Result.Column=0;
+            return Result;
+        }
+        // check column to the right
+        if(Column == TargetColumn+1)
+        {
+            Result.Row = Row;
+            Result.Column = 1;
+            return Result;
+        }        
+        MoveTowardsTarget = (TargetColumn+1-Column>0 && ColumnVelocity==1) || (TargetColumn+1-Column<0 && ColumnVelocity==-1);
+        ColumnDifference = Math.Abs(TargetColumn+1-Column);
+        if(Power>=ColumnDifference && MoveTowardsTarget)
+        {
+            Result.Row = Row + ColumnDifference*RowVelocity;
+            Result.Column=1;
+            return Result;
+        }
+
+        // check column to the left
+        if(Column == TargetColumn-1)
+        {
+            Result.Row = Row;
+            Result.Column = -1;
+            return Result;
+        }        
+        MoveTowardsTarget = (TargetColumn-1-Column>0 && ColumnVelocity==1) || (TargetColumn-1-Column<0 && ColumnVelocity==-1);
+        ColumnDifference = Math.Abs(TargetColumn-1-Column);
+        if(Power>=ColumnDifference && MoveTowardsTarget)
+        {
+            Result.Row = Row + ColumnDifference*RowVelocity;
+            Result.Column=-1;
+            return Result;
+        }
+        // If non of the previous condition applies
+        Result.Near = false;
+        Result.Row = -1;
+        Result.Column = -2;
+        return Result;
     }
 
     public void Draw() {

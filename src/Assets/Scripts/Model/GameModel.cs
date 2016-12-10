@@ -173,19 +173,22 @@ public class GameModel
         if (intelligentAgentThread.IsAlive) {
             intelligentAgentThread.Abort();
             // Random decision
-            agentDecision = new Command("", null, "");
+            // TODO
+            //agentDecision = new Command("", null, "");
         } else {
             agentDecision = SharedMemory.Decision;
         }
 
         // 3- Send Decision to enemy team
-        NetworkInterface.SendCommand(agentDecision);
+        // TODO
+        //NetworkInterface.SendCommand(agentDecision);
 
         // 4- Receive Decision from enemy team
         Command enemyDecision = NetworkInterface.ReceiveCommand();
 
         // 5- Update state with both decisions
-        UpdateState(agentDecision);
+        // TODO
+        //UpdateState(agentDecision);
         UpdateState(enemyDecision);
     }
 

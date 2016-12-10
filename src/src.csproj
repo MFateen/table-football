@@ -83,12 +83,13 @@
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
     <Compile Include="Assets\Environment\Script\OffsetAnim.cs" />
-    <Compile Include="Assets\Scripts\DataTypes\Anticipate.cs" />
     <Compile Include="Assets\Scripts\DataTypes\ActionType.cs" />
+    <Compile Include="Assets\Scripts\DataTypes\Anticipate.cs" />
     <Compile Include="Assets\Scripts\DataTypes\LogType.cs" />
     <Compile Include="Assets\Scripts\DataTypes\PlayerType.cs" />
     <Compile Include="Assets\Scripts\DataTypes\ReboundDirection.cs" />
     <Compile Include="Assets\Scripts\DataTypes\RodPosition.cs" />
+    <Compile Include="Assets\Scripts\DataTypes\RodType.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\Model\BallModel.cs" />
     <Compile Include="Assets\Scripts\Model\FieldModel.cs" />

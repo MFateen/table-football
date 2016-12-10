@@ -7,6 +7,7 @@ using UnityEngine;
 public class RodModel {
     // Rod properties
     public PlayerType Player { get; set; }
+    public RodType Type { get; set; }
     public int Column { get; set; }
 
     // Absolute position of the rod
@@ -18,8 +19,9 @@ public class RodModel {
     // View object
     private RodView View { get; set; }
 
-    public RodModel(PlayerType _Player, string rodTag, int _Column, RodPosition _Position = RodPosition.Middle) {
+    public RodModel(PlayerType _Player, RodType _Type, string rodTag, int _Column, RodPosition _Position = RodPosition.Middle) {
         Player = _Player;
+        Type = _Type;
         Column = _Column;
         Position = _Position;
         PlayersPositions = new List<int>();

@@ -83,6 +83,5 @@ public class RandomAgent {
         }
 
         // TODO: Send Cmnd !!!!!
-        SharedMemory.Decision = new Command("", null, "");
     }
 }

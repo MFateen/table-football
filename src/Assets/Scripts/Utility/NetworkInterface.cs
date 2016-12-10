@@ -9,6 +9,8 @@ static class NetworkInterface {
     }
 
     public static Command ReceiveCommand() {
-        return new Command("", null, "");
+        //TODO
+        //return new Command("", null, "");
+        return null;
     }
 }

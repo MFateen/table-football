@@ -22,10 +22,10 @@ public class FieldModel {
         Length = GameSettings.FieldLength;
         Width = GameSettings.FieldWidth;
 
-        DefenseRodHost = new RodModel(PlayerType.Host, GameSettings.DefenseRodHostTag, GameSettings.DefenseRodHostColumn);
-        OffenseRodHost = new RodModel(PlayerType.Host, GameSettings.OffenseRodHostTag, GameSettings.OffenseRodHostColumn);
-        DefenseRodGuest = new RodModel(PlayerType.Guest, GameSettings.DefenseRodGuestTag, GameSettings.DefenseRodGuestColumn);
-        OffenseRodGuest = new RodModel(PlayerType.Guest, GameSettings.OffenseRodGuestTag, GameSettings.OffenseRodGuestColumn);
+        DefenseRodHost = new RodModel(PlayerType.Host, RodType.Defense, GameSettings.DefenseRodHostTag, GameSettings.DefenseRodHostColumn);
+        OffenseRodHost = new RodModel(PlayerType.Host, RodType.Offense, GameSettings.OffenseRodHostTag, GameSettings.OffenseRodHostColumn);
+        DefenseRodGuest = new RodModel(PlayerType.Guest, RodType.Defense, GameSettings.DefenseRodGuestTag, GameSettings.DefenseRodGuestColumn);
+        OffenseRodGuest = new RodModel(PlayerType.Guest, RodType.Offense, GameSettings.OffenseRodGuestTag, GameSettings.OffenseRodGuestColumn);
 
         Ball = new BallModel(Length/2 , Width/2);
     }

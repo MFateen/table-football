@@ -1,19 +1,22 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
 
-public class Command
-{
-    public string name { private set; get; }
-    public List<int> parameters { private set; get; }
-    public string player { private set; get; }
+public class Command {
+    public PlayerType Player { get; set; }
+    public ActionType OffenceAction { get; set; }
+    public List<int> OffenceActionParameters { get; set; }
+    public ActionType DefenseAction { get; set; }
+    public List<int> DefenseActionParameters { get; set; }
 
-    public Command(string name, List<int> parameters, string player)
+    public Command(PlayerType _Player, ActionType _Offence, List<int> _OffenceParameters, ActionType _Defense, List<int> _DefenseParameters)
     {
-        this.name = name;
-        this.player = player;
-        this.parameters = parameters;
+        Player = _Player;
+        OffenceAction = _Offence;
+        OffenceActionParameters = _OffenceParameters;
+        DefenseAction = _Defense;
+        DefenseActionParameters = _DefenseParameters;
     }
 }

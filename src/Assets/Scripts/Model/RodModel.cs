@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -107,5 +107,65 @@ public class RodModel {
         }
         Ball.Power = power;
         return true;
+    }
+
+	public ReboundDirection ShouldRebound(PlayerType Player, BallModel Ball)
+    {
+        if (Player == PlayerType.Host)
+        {
+            if (Ball.Column == Column && Ball.PreviousColumn == Column + 1)
+            {
+                for (int i = 0; i < PlayersPositions.Count; i++)
+                {
+                    if (Ball.Row == PlayersPositions[i])
+                    {
+                        if (Ball.Power > 0)
+                        {
+                            if (Ball.PreviousRow == Ball.Row - 1)
+                            {
+                                return ReboundDirection.Bottom;
+                            }
+                            else if (Ball.PreviousRow == Ball.Row + 1)
+                            {
+                                return ReboundDirection.Top;
+                            }
+                            else
+                            {
+                                return ReboundDirection.Middle;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else
+        {
+            if (Ball.Column == Column && Ball.PreviousColumn == Column - 1)
+            {
+                for (int i = 0; i < PlayersPositions.Count; i++)
+                {
+                    if (Ball.Row == PlayersPositions[i])
+                    {
+                        if (Ball.Power > 0)
+                        {
+                            if (Ball.PreviousRow == Ball.Row - 1)
+                            {
+                                return ReboundDirection.Bottom;
+                            }
+                            else if (Ball.PreviousRow == Ball.Row + 1)
+                            {
+                                return ReboundDirection.Top;
+                            }
+                            else
+                            {
+                                return ReboundDirection.Middle;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        return ReboundDirection.NoRebound;
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,15 +8,19 @@ public class BallModel {
     //Position coordinates
     public int Row { get; private set; }
     public int Column { get; private set; }
+	//Previous position of the ball
+	public int PreviousRow { get; private set; }
+	public int PreviousColumn { get; private set; }
     public int RowVelocity { get; set; }
     public int ColumnVelocity { get; set; }
     public int Power { get; set; }
     private BallView View { get; set;}
 
-    public BallModel(int _Row, int _Column) {
+    public BallModel(int _Row, int _Column)
+    {
         Row = _Row;
         Column = _Column;
-        RowVelocity = ColumnVelocity = Power = 0;
+        RowVelocity = ColumnVelocity = Power = PreviousRow = PreviousColumn = 0;
         View = GameObject.FindGameObjectWithTag("Ball").GetComponent<BallView>();
     }
 
@@ -26,20 +30,26 @@ public class BallModel {
      * -1 -> Goal in player
      *  1 -> Goal in enemy
     */
-    public int Move(FieldModel field) {
-        if (Power == 0) {
+    public int Move(FieldModel field)
+    {
+        if (Power == 0)
+        {
             RowVelocity = ColumnVelocity = 0;
             return 0;
         }
         Power--;
+		PreviousRow = Row;
         Row += RowVelocity;
+		PreviousColumn = Column;
         Column += ColumnVelocity;
-        if (Row < 0 || Row >= field.Width || Column < 0 || Column >= field.Length) {
+        if (Row < 0 || Row >= field.Width || Column < 0 || Column >= field.Length)
+        {
             int inGoal = isInGoal();
-            if (inGoal != 0) {
+            if (inGoal != 0)
+            {
                 Row = 3;
                 Column = 5;
-                Power = RowVelocity = ColumnVelocity = 0;
+                Power = RowVelocity = ColumnVelocity = PreviousRow = PreviousColumn = 0;
                 return inGoal;
             }
             Row -= RowVelocity;
@@ -67,11 +77,11 @@ public class BallModel {
     }
 
     /// <summary>
-    ///     A function that computes the intersection between the ball's path and the 
+    ///     A function that computes the intersection between the ball's path and the
     ///     passed Column or the 2 columns around it
     /// </summary>
-    /// <param name="TargetColumn"> 
-    ///     The column which we need to find the intersection with 
+    /// <param name="TargetColumn">
+    ///     The column which we need to find the intersection with
     /// </param>
     /// <returns>
     ///     an Anticipate object with row = row of intersection or -1
@@ -109,7 +119,7 @@ public class BallModel {
             Result.Row = Row;
             Result.Column = 1;
             return Result;
-        }        
+        }
         MoveTowardsTarget = (TargetColumn+1-Column>0 && ColumnVelocity==1) || (TargetColumn+1-Column<0 && ColumnVelocity==-1);
         ColumnDifference = Math.Abs(TargetColumn+1-Column);
         if(Power>=ColumnDifference && MoveTowardsTarget)
@@ -125,7 +135,7 @@ public class BallModel {
             Result.Row = Row;
             Result.Column = -1;
             return Result;
-        }        
+        }
         MoveTowardsTarget = (TargetColumn-1-Column>0 && ColumnVelocity==1) || (TargetColumn-1-Column<0 && ColumnVelocity==-1);
         ColumnDifference = Math.Abs(TargetColumn-1-Column);
         if(Power>=ColumnDifference && MoveTowardsTarget)

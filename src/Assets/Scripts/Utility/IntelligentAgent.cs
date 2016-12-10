@@ -86,25 +86,25 @@ public class IntelligentAgent {
         //Commands.NO_ACTION;
     }
 
-    public static KICK getKickDirection(int Row, int Power) {
+    public static DIRECTION getKickDirection(int Row, int Power) {
         //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
         //
         double[] Direction = { 0.0, 1.0, 0.0 };
         if (Power == 1) {
             if (Row >= 1) {
-                Direction[(int)KICK.LEFT] = 1.0;
+                Direction[(int)DIRECTION.LEFT] = 1.0;
             }
 
             if (Row <= 6) {
-                Direction[(int)KICK.RIGHT] = 1.0;
+                Direction[(int)DIRECTION.RIGHT] = 1.0;
             }
         } else {
             if (Row >= 3) {
-                Direction[(int)KICK.LEFT] = 1.0;
+                Direction[(int)DIRECTION.LEFT] = 1.0;
             }
 
             if (Row <= 3) {
-                Direction[(int)KICK.RIGHT] = 1.0;
+                Direction[(int)DIRECTION.RIGHT] = 1.0;
             }
         }
         
@@ -115,19 +115,19 @@ public class IntelligentAgent {
         for (int i = 0; i < Direction.Length; i++) {
             Probability -= Direction[i];
             if (Probability <= 0) {
-                return (KICK)i;
+                return (DIRECTION)i;
             }
         }
-        return KICK.FORWARD;
+        return DIRECTION.FORWARD;
     }
 
-    public static KICK getGoalDirection(int Row) {
+    public static DIRECTION getGoalDirection(int Row) {
         if (Row <= 1) {
-            return KICK.RIGHT;
+            return DIRECTION.RIGHT;
         } else if (Row >= 5) {
-            return KICK.LEFT;
+            return DIRECTION.LEFT;
         } else {
-            return KICK.FORWARD;
+            return DIRECTION.FORWARD;
         }
     }
 }

@@ -26,6 +26,16 @@ public class IntelligentAgent {
         ControlHostRod(Field, Field.OffenseRodHost);
     }
 
+    public static void MakeGuestDecision(FieldModel Field) {
+        if (Field.Ball.Column == 10 && Field.Ball.Row >= 2 && Field.Ball.Row <= 4) {
+            // Panic mode XD
+            // TODO send Commands.KICK to Field.DefenseRodHost
+        }
+
+        ControlGuestRod(Field, Field.DefenseRodGuest);
+        ControlGuestRod(Field, Field.OffenseRodGuest);
+    }
+
     public static void ControlHostRod(FieldModel Field, RodModel Rod) {
         Anticipate Anticipated = Field.Ball.getRowIntersection(Rod.Column);
 
@@ -81,9 +91,59 @@ public class IntelligentAgent {
         }
     }
 
-    public static void MakeGuestDecision(FieldModel Field) {
+    public static void ControlGuestRod(FieldModel Field, RodModel Rod) {
+        Anticipate Anticipated = Field.Ball.getRowIntersection(Rod.Column);
 
-        //Commands.NO_ACTION;
+        if (Anticipated.Row == -1) {
+            if (Rod.Position == RodPosition.Top) {
+                // move down
+            } else if (Rod.Position == RodPosition.Bottom) {
+                // move up
+            } else {
+                //no action
+            }
+            return;
+        }
+
+        if (!Rod.RowInPlayerReach(Anticipated.Row)) {
+            // move to AnticipateDefend.Row
+            if (Rod.Position == RodPosition.Middle && Anticipated.Row == 6) {
+                // send move down (left)
+            } else if (Rod.Position == RodPosition.Middle) {
+                // send move up (right)
+            } else if (Rod.Position == RodPosition.Top) {
+                // send move down
+            } else {
+                // send move up
+            }
+            return;
+        }
+
+        if (!Anticipated.Near) {
+            // Send Commands.NO_ACTION
+            return;
+        }
+
+        // Here the ball is in reach and the rod is in position and ready to shoot
+        if (Anticipated.Column == 1) {
+            // Send Commands.KICK Power = 1 direction = forward 
+            return;
+        }
+
+        if (Anticipated.Column == 0) {
+            // Send Commands.KICK Power = 1 and direction =
+            getGuestKickDirection(Anticipated.Row, 1);
+        }
+
+        if (Anticipated.Column == -1) {
+            if (Rod == Field.DefenseRodHost) {
+                // send Commands.KICK power = 5 and the following direction
+                getGuestKickDirection(Anticipated.Row, 5);
+            } else {
+                // send Commands.KICK power = 5 and the following direction
+                getGuestGoalDirection(Anticipated.Row);
+            }
+        }
     }
 
     public static DIRECTION getKickDirection(int Row, int Power) {
@@ -130,5 +190,51 @@ public class IntelligentAgent {
             return DIRECTION.FORWARD;
         }
     }
+
+    public static KICK getGuestKickDirection(int Row, int Power) {
+        //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
+        //
+        double[] Direction = { 0.0, 1.0, 0.0 };
+        if (Power == 1) {
+            if (Row >= 1) {
+                Direction[(int)KICK.RIGHT] = 1.0;
+            }
+
+            if (Row <= 6) {
+                Direction[(int)KICK.LEFT] = 1.0;
+            }
+        } else {
+            if (Row >= 3) {
+                Direction[(int)KICK.RIGHT] = 1.0;
+            }
+
+            if (Row <= 3) {
+                Direction[(int)KICK.LEFT] = 1.0;
+            }
+        }
+
+
+        double Sum = Direction.Sum();
+        double Probability = (new System.Random(0)).NextDouble() * Sum;
+
+        for (int i = 0; i < Direction.Length; i++) {
+            Probability -= Direction[i];
+            if (Probability <= 0) {
+                return (KICK)i;
+            }
+        }
+        return KICK.FORWARD;
+    }
+
+    public static KICK getGuestGoalDirection(int Row) {
+        if (Row <= 1) {
+            return KICK.LEFT;
+        } else if (Row >= 5) {
+            return KICK.RIGHT;
+        } else {
+            return KICK.FORWARD;
+        }
+    }
+
 }
 

@@ -39,7 +39,7 @@ public class IntelligentAgent {
 
     private static void ControlRod(PlayerType Player, FieldModel Field, RodModel Rod, Command Decision) {
         Anticipate Anticipated = Field.Ball.getRowIntersection(Rod.Column);
-        int Coeff = Player == PlayerType.Host ? 1 : -1; 
+        int Coeff = Player == PlayerType.Host ? 1 : -1;
 
         if (Anticipated.Row == -1) {
             if (Rod.Position == RodPosition.Top) {
@@ -72,55 +72,47 @@ public class IntelligentAgent {
         }
 
         // Here the ball is in reach and the rod is in position and ready to shoot
-        if (Anticipated.Column == (-1 * Coeff) ) {
+        if (Anticipated.Column == (-1 * Coeff)) {
             Decision.Kick(Rod.Type, DIRECTION.FORWARD, 1);
             return;
         }
 
         if (Anticipated.Column == 0) {
-            if (Player == PlayerType.Host) {
-                Decision.Kick(Rod.Type, getKickDirection(Anticipated.Row, 1), 1);
-            } else {
-                Decision.Kick(Rod.Type, getGuestKickDirection(Anticipated.Row, 1), 1);
-            }
+            Decision.Kick(Rod.Type, getKickDirection(Player, Anticipated.Row, 1), 1);
         }
 
         if (Anticipated.Column == (1 * Coeff)) {
             if (Rod.Type == RodType.Defense) {
-                if (Player == PlayerType.Host) {
-                    Decision.Kick(Rod.Type, getKickDirection(Anticipated.Row, 5), 5);
-                } else {
-                    Decision.Kick(Rod.Type, getGuestKickDirection(Anticipated.Row, 5), 5);
-                }
+                Decision.Kick(Rod.Type, getKickDirection(Player, Anticipated.Row, 5), 5);
             } else {
-                if (Player == PlayerType.Host) {
-                    Decision.Kick(Rod.Type, getGoalDirection(Anticipated.Row), 5);
-                } else {
-                    Decision.Kick(Rod.Type, getGuestGoalDirection(Anticipated.Row), 5);
-                }
+                Decision.Kick(Rod.Type, getGoalDirection(Player, Anticipated.Row), 5);
             }
         }
     }
 
-    public static DIRECTION getKickDirection(int Row, int Power) {
+    public static DIRECTION getKickDirection(PlayerType Player, int Row, int Power) {
         //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
-        //
+
+        DIRECTION Up = Player == PlayerType.Host ? DIRECTION.LEFT : DIRECTION.RIGHT;
+        DIRECTION Down = Player == PlayerType.Host ? DIRECTION.RIGHT : DIRECTION.LEFT;
+
+
         double[] KickDirection = { 0.0, 1.0, 0.0 };
         if (Power == 1) {
             if (Row >= 1) {
-                KickDirection[(int)DIRECTION.LEFT] = 1.0;
+                KickDirection[(int)Up] = 1.0;
             }
 
             if (Row <= 6) {
-                KickDirection[(int)DIRECTION.RIGHT] = 1.0;
+                KickDirection[(int)Down] = 1.0;
             }
         } else {
             if (Row >= 3) {
-                KickDirection[(int)DIRECTION.LEFT] = 1.0;
+                KickDirection[(int)Up] = 1.0;
             }
 
             if (Row <= 3) {
-                KickDirection[(int)DIRECTION.RIGHT] = 1.0;
+                KickDirection[(int)Down] = 1.0;
             }
         }
 
@@ -137,60 +129,17 @@ public class IntelligentAgent {
         return DIRECTION.FORWARD;
     }
 
-    public static DIRECTION getGoalDirection(int Row) {
+    public static DIRECTION getGoalDirection(PlayerType Player, int Row) {
+        DIRECTION Up = Player == PlayerType.Host ? DIRECTION.LEFT : DIRECTION.RIGHT;
+        DIRECTION Down = Player == PlayerType.Host ? DIRECTION.RIGHT : DIRECTION.LEFT;
+
         if (Row <= 1) {
-            return DIRECTION.RIGHT;
+            return Down;
         } else if (Row >= 5) {
-            return DIRECTION.LEFT;
+            return Up;
         } else {
             return DIRECTION.FORWARD;
         }
     }
-
-    public static DIRECTION getGuestKickDirection(int Row, int Power) {
-        //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
-        //
-        double[] KickDirection = { 0.0, 1.0, 0.0 };
-        if (Power == 1) {
-            if (Row >= 1) {
-                KickDirection[(int)DIRECTION.RIGHT] = 1.0;
-            }
-
-            if (Row <= 6) {
-                KickDirection[(int)DIRECTION.LEFT] = 1.0;
-            }
-        } else {
-            if (Row >= 3) {
-                KickDirection[(int)DIRECTION.RIGHT] = 1.0;
-            }
-
-            if (Row <= 3) {
-                KickDirection[(int)DIRECTION.LEFT] = 1.0;
-            }
-        }
-
-
-        double Sum = KickDirection.Sum();
-        double Probability = (new System.Random(0)).NextDouble() * Sum;
-
-        for (int i = 0; i < KickDirection.Length; i++) {
-            Probability -= KickDirection[i];
-            if (Probability <= 0) {
-                return (DIRECTION)i;
-            }
-        }
-        return DIRECTION.FORWARD;
-    }
-
-    public static DIRECTION getGuestGoalDirection(int Row) {
-        if (Row <= 1) {
-            return DIRECTION.LEFT;
-        } else if (Row >= 5) {
-            return DIRECTION.RIGHT;
-        } else {
-            return DIRECTION.FORWARD;
-        }
-    }
-
 }
 

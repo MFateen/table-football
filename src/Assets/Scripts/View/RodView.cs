@@ -18,20 +18,20 @@ public class RodView : MonoBehaviour {
     //    Draw(1);
     //}
 
-    public void Draw(int position) {
+    public void Draw(RodPosition position) {
         float zValue;
         float xValue;
         switch (position)
         {
-            case -1:
+            case RodPosition.Top:
                 zValue = grid.CalculateZ(grid_Y, CustomGrid.Direction.NONE);
                 xValue = grid.CalculateX(grid_X, CustomGrid.Direction.UP);
                 break;
-            case 0:
+            case RodPosition.Middle:
                 zValue = grid.CalculateZ(grid_Y, CustomGrid.Direction.NONE);
                 xValue = grid.CalculateX(grid_X, CustomGrid.Direction.NONE);
                 break;
-            case 1:
+            case RodPosition.Bottom:
                 zValue = grid.CalculateZ(grid_Y, CustomGrid.Direction.NONE);
                 xValue = grid.CalculateX(grid_X, CustomGrid.Direction.DOWN);
                 break;

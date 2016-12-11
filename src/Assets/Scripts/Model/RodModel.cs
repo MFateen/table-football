@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-public class RodModel {
+public class RodModel
+{
     // Rod properties
     public PlayerType Player { get; set; }
     public RodType Type { get; set; }
@@ -19,27 +20,28 @@ public class RodModel {
     // View object
     private RodView View { get; set; }
 
-    public RodModel(PlayerType _Player, RodType _Type, string rodTag, int _Column, RodPosition _Position = RodPosition.Middle) {
+    public RodModel(PlayerType _Player, RodType _Type, string rodTag, int _Column, RodPosition _Position = RodPosition.Middle)
+    {
         Player = _Player;
         Type = _Type;
         Column = _Column;
         Position = _Position;
-        PlayersPositions = new List<int>();
-        PlayersPositions.Add(GameSettings.RodFirstPlayerRelativePosition);
-        PlayersPositions.Add(GameSettings.RodSecondPlayerRelativePosition);
-        PlayersPositions.Add(GameSettings.RodThirdPlayerRelativePosition);
+        PlayersPositions = new List<int> { 0, 0, 0 };
         UpdatePlayersPositions();
         View = GameObject.FindGameObjectWithTag(rodTag).GetComponent<RodView>();
     }
 
-    private void UpdatePlayersPositions() {
-        for (int i = 0; i < PlayersPositions.Count; i++) {
-            PlayersPositions[i] += (int)Position;
-        }
+    private void UpdatePlayersPositions()
+    {
+        PlayersPositions[0] = GameSettings.RodFirstPlayerRelativePosition + (int)Position;
+        PlayersPositions[1] = GameSettings.RodSecondPlayerRelativePosition + (int)Position;
+        PlayersPositions[2] = GameSettings.RodThirdPlayerRelativePosition + (int)Position;
     }
 
-    public bool MoveUp() {
-        if (Position != RodPosition.Top) {
+    public bool MoveUp()
+    {
+        if (Position != RodPosition.Top)
+        {
             Position--;
             UpdatePlayersPositions();
             return true;
@@ -47,8 +49,10 @@ public class RodModel {
         return false;
     }
 
-    public bool MoveDown() {
-        if (Position != RodPosition.Bottom) {
+    public bool MoveDown()
+    {
+        if (Position != RodPosition.Bottom)
+        {
             Position++;
             UpdatePlayersPositions();
             return true;
@@ -60,23 +64,28 @@ public class RodModel {
      * Responsible for drawing the fields and the rods.
      * May be unnecessary.
     */
-    public void Draw() {
+    public void Draw()
+    {
         //Draw Rod
-        //View.draw();
+        View.Draw(Position);
     }
 
     /*
      * Checks if the ball is in the reach of the rod
      */
-    public bool BallInPlayerReach(BallModel Ball) {
+    public bool BallInPlayerReach(BallModel Ball)
+    {
         //If the ball is not in the reach of the rod column-wise
-        if (Ball.Column != Column && Ball.Column != Column - 1 && Ball.Column != Column + 1) {
+        if (Ball.Column != Column && Ball.Column != Column - 1 && Ball.Column != Column + 1)
+        {
             return false;
         }
 
         //If the ball is in the reach of the rod row-wise
-        for (int i = 0; i < PlayersPositions.Count; i++) {
-            if (Ball.Row == PlayersPositions[i]) {
+        for (int i = 0; i < PlayersPositions.Count; i++)
+        {
+            if (Ball.Row == PlayersPositions[i])
+            {
                 return true;
             }
         }
@@ -85,9 +94,12 @@ public class RodModel {
     }
 
 
-    public bool RowInPlayerReach(int Row) {
-        for (int i = 0; i < PlayersPositions.Count; i++) {
-            if (Row == PlayersPositions[i]) {
+    public bool RowInPlayerReach(int Row)
+    {
+        for (int i = 0; i < PlayersPositions.Count; i++)
+        {
+            if (Row == PlayersPositions[i])
+            {
                 return true;
             }
         }
@@ -97,21 +109,26 @@ public class RodModel {
     /*
      * Kicks the ball
      */
-    public bool Kick(int direction, int power, BallModel Ball) {
-        if (!BallInPlayerReach(Ball)) {
+    public bool Kick(int direction, int power, BallModel Ball)
+    {
+        if (!BallInPlayerReach(Ball))
+        {
             return false;
         }
         Ball.RowVelocity = direction;
-        if (Player == PlayerType.Host) {
+        if (Player == PlayerType.Host)
+        {
             Ball.ColumnVelocity = 1;
-        } else {
+        }
+        else
+        {
             Ball.ColumnVelocity = -1;
         }
         Ball.Power = power;
         return true;
     }
 
-	public ReboundDirection ShouldRebound(PlayerType Player, BallModel Ball)
+    public ReboundDirection ShouldRebound(PlayerType Player, BallModel Ball)
     {
         if (Player == PlayerType.Host)
         {

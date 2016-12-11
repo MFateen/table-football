@@ -15,14 +15,14 @@ public class IntelligentAgent {
 
         if (Player == PlayerType.Host) {
             ControlRod(Player, Field, Field.DefenseRodHost, Decision);
-            ControlRod(Player, Field, Field.DefenseRodHost, Decision);
+            ControlRod(Player, Field, Field.OffenseRodHost, Decision);
 
         } else {
             ControlRod(Player, Field, Field.DefenseRodGuest, Decision);
             ControlRod(Player, Field, Field.OffenseRodGuest, Decision);
         }
 
-        //SharedMemory.Decision = new Command("", null, "");
+        SharedMemory.Decision = Decision;
     }
 
     private static bool ShouldPanic(FieldModel Field, PlayerType Player) {
@@ -71,8 +71,9 @@ public class IntelligentAgent {
             return;
         }
 
+        //Check here
         // Here the ball is in reach and the rod is in position and ready to shoot
-        if (Anticipated.Column == (-1 * Coeff)) {
+        if (Anticipated.Column == (-1 * Coeff) && !(Player==PlayerType.Guest && Field.Ball.Column == 5)) {
             Decision.Kick(Rod.Type, DIRECTION.FORWARD, 1);
             return;
         }
@@ -100,19 +101,19 @@ public class IntelligentAgent {
         double[] KickDirection = { 0.0, 1.0, 0.0 };
         if (Power == 1) {
             if (Row >= 1) {
-                KickDirection[(int)Up] = 1.0;
+                KickDirection[(int)Up + 1] = 1.0;
             }
 
-            if (Row <= 6) {
-                KickDirection[(int)Down] = 1.0;
+            if (Row <= 5) {
+                KickDirection[(int)Down + 1] = 1.0;
             }
         } else {
             if (Row >= 3) {
-                KickDirection[(int)Up] = 1.0;
+                KickDirection[(int)Up + 1] = 1.0;
             }
 
             if (Row <= 3) {
-                KickDirection[(int)Down] = 1.0;
+                KickDirection[(int)Down + 1] = 1.0;
             }
         }
 
@@ -123,7 +124,7 @@ public class IntelligentAgent {
         for (int i = 0; i < KickDirection.Length; i++) {
             Probability -= KickDirection[i];
             if (Probability <= 0) {
-                return (DIRECTION)i;
+                return (DIRECTION)(i - 1);
             }
         }
         return DIRECTION.FORWARD;

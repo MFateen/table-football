@@ -10,7 +10,7 @@ public enum ActionType {
 }
 
 public enum DIRECTION {
-    LEFT = 0,
-    FORWARD = 1,
-    RIGHT = 2
+    LEFT = -1,
+    FORWARD = 0,
+    RIGHT = 1
 }

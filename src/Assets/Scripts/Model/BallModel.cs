@@ -64,12 +64,16 @@ public class BallModel {
      * -1 -> Goal in player
      *  1 -> Goal in enemy
     */
-    public int isInGoal() {
-        if (Row >= 2 && Row <= 4) {
-            if (Column == -1) {
+    public int isInGoal()
+    {
+        if ((Row >= 2 && Row <= 4) || ((Row == 1 || Row == 5) && (PreviousRow >= 2 && PreviousRow <= 4)))
+        {
+            if (Column == -1)
+            {
                 return -1;
             }
-            if (Column == 11) {
+            if (Column == 11)
+            {
                 return 1;
             }
         }
@@ -152,6 +156,6 @@ public class BallModel {
     }
 
     public void Draw() {
-        View.Draw(Column, Row);
+        View.Draw(Row, Column);
     }
 }

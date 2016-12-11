@@ -44,7 +44,7 @@ public class GameModel
         }
         else if (decision.OffenceAction == ActionType.MOVEROD)
         {
-            if (decision.OffenceActionParameters[0] == 1)
+            if (decision.OffenceActionParameters[0] == -1)
             {
                 Field.OffenseRodHost.MoveUp();
             }
@@ -72,7 +72,7 @@ public class GameModel
         }
         else if (decision.DefenseAction == ActionType.MOVEROD)
         {
-            if (decision.DefenseActionParameters[0] == 1)
+            if (decision.DefenseActionParameters[0] == -1)
             {
                 Field.DefenseRodHost.MoveUp();
             }
@@ -104,7 +104,7 @@ public class GameModel
         }
         else if (decision.OffenceAction == ActionType.MOVEROD)
         {
-            if (decision.OffenceActionParameters[0] == 1)
+            if (decision.OffenceActionParameters[0] == -1)
             {
                 Field.OffenseRodGuest.MoveUp();
             }
@@ -132,7 +132,7 @@ public class GameModel
         }
         else if (decision.DefenseAction == ActionType.MOVEROD)
         {
-            if (decision.DefenseActionParameters[0] == 1)
+            if (decision.DefenseActionParameters[0] == -1)
             {
                 Field.DefenseRodGuest.MoveUp();
             }
@@ -159,37 +159,45 @@ public class GameModel
     public void GameLoop()
     {
         // 1- Draw current state
+        Field.Ball.Move(Field);
         Field.Draw();
+        IntelligentAgent.MakeDecision(Field, PlayerType.Host);
+        Command cmdHost = SharedMemory.Decision;
+        RandomAgent.MakeDecision(Field, PlayerType.Guest);
+        Command cmdGuest = SharedMemory.Decision;
+        UpdateStateHost(cmdHost);
+        UpdateStateGuest(cmdGuest);
+        System.Threading.Thread.Sleep(100);
 
-        // 2- Make Decision from agent based on current state
-        //// Start decision making in another thread
-        Thread intelligentAgentThread = new Thread(() => IntelligentAgent.MakeDecision(Field, Player));
-        intelligentAgentThread.Start();
-        //// Wait for the timestep
-        Thread.Sleep(TimeStep);
-        //// After the timestep if the agent is finished take its decision from the shared memory
-        //// and a random decision otherwise
-        Command agentDecision;
-        if (intelligentAgentThread.IsAlive) {
-            intelligentAgentThread.Abort();
-            // Random decision
-            // TODO
-            //agentDecision = new Command("", null, "");
-        } else {
-            agentDecision = SharedMemory.Decision;
-        }
+        //// 2- Make Decision from agent based on current state
+        ////// Start decision making in another thread
+        //Thread intelligentAgentThread = new Thread(() => IntelligentAgent.MakeDecision(Field, Player));
+        //intelligentAgentThread.Start();
+        ////// Wait for the timestep
+        //Thread.Sleep(TimeStep);
+        ////// After the timestep if the agent is finished take its decision from the shared memory
+        ////// and a random decision otherwise
+        //Command agentDecision;
+        //if (intelligentAgentThread.IsAlive) {
+        //    intelligentAgentThread.Abort();
+        //    // Random decision
+        //    // TODO
+        //    //agentDecision = new Command("", null, "");
+        //} else {
+        //    agentDecision = SharedMemory.Decision;
+        //}
 
         // 3- Send Decision to enemy team
         // TODO
         //NetworkInterface.SendCommand(agentDecision);
 
         // 4- Receive Decision from enemy team
-        Command enemyDecision = NetworkInterface.ReceiveCommand();
+        //Command enemyDecision = Communication.ReceiveCommand();
 
         // 5- Update state with both decisions
         // TODO
         //UpdateState(agentDecision);
-        UpdateState(enemyDecision);
+        //UpdateState(enemyDecision);
     }
 
     public void Draw() {

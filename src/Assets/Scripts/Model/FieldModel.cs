@@ -27,7 +27,7 @@ public class FieldModel {
         DefenseRodGuest = new RodModel(PlayerType.Guest, RodType.Defense, GameSettings.DefenseRodGuestTag, GameSettings.DefenseRodGuestColumn);
         OffenseRodGuest = new RodModel(PlayerType.Guest, RodType.Offense, GameSettings.OffenseRodGuestTag, GameSettings.OffenseRodGuestColumn);
 
-        Ball = new BallModel(Length/2 , Width/2);
+        Ball = new BallModel(Width / 2, Length / 2);
     }
 
     /*

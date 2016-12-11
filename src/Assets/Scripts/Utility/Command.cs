@@ -10,7 +10,7 @@ public class Command {
     public List<int> OffenceActionParameters { get; set; }
     public ActionType DefenseAction { get; set; }
     public List<int> DefenseActionParameters { get; set; }
-
+    
     public Command(PlayerType _Player, ActionType _Offence, List<int> _OffenceParameters, ActionType _Defense, List<int> _DefenseParameters) {
         Player = _Player;
         OffenceAction = _Offence;
@@ -19,7 +19,7 @@ public class Command {
         DefenseActionParameters = _DefenseParameters;
     }
 
-    public Command(PlayerType _Player) {
+    public Command(PlayerType _Player = PlayerType.Host) {
         Player = _Player;
         OffenceAction = ActionType.NO_ACTION;
         OffenceActionParameters = null;
@@ -27,43 +27,31 @@ public class Command {
         DefenseActionParameters = null;
     }
 
-    public void MoveUp(RodType Rod) {
-        if (Player == PlayerType.Host) {
-            if (Rod == RodType.Defense) {
-                DefenseAction = ActionType.MOVEROD;
-                DefenseActionParameters = new List<int>(new int[] { (int)DIRECTION.LEFT });
-            } else {
-                OffenceAction = ActionType.MOVEROD;
-                OffenceActionParameters = new List<int>(new int[] { (int)DIRECTION.LEFT });
-            }
-        } else {
-            if (Rod == RodType.Defense) {
-                DefenseAction = ActionType.MOVEROD;
-                DefenseActionParameters = new List<int>(new int[] { (int)DIRECTION.RIGHT });
-            } else {
-                OffenceAction = ActionType.MOVEROD;
-                OffenceActionParameters = new List<int>(new int[] { (int)DIRECTION.RIGHT });
-            }
+    public void MoveUp(RodType Rod)
+    {
+        if (Rod == RodType.Defense)
+        {
+            DefenseAction = ActionType.MOVEROD;
+            DefenseActionParameters = new List<int>(new int[] { (int)DIRECTION.LEFT });
+        }
+        else
+        {
+            OffenceAction = ActionType.MOVEROD;
+            OffenceActionParameters = new List<int>(new int[] { (int)DIRECTION.LEFT });
         }
     }
 
-    public void MoveDown(RodType Rod) {
-        if (Player == PlayerType.Host) {
-            if (Rod == RodType.Defense) {
-                DefenseAction = ActionType.MOVEROD;
-                DefenseActionParameters = new List<int>(new int[] { (int)DIRECTION.RIGHT });
-            } else {
-                OffenceAction = ActionType.MOVEROD;
-                OffenceActionParameters = new List<int>(new int[] { (int)DIRECTION.RIGHT });
-            }
-        } else {
-            if (Rod == RodType.Defense) {
-                DefenseAction = ActionType.MOVEROD;
-                DefenseActionParameters = new List<int>(new int[] { (int)DIRECTION.LEFT });
-            } else {
-                OffenceAction = ActionType.MOVEROD;
-                OffenceActionParameters = new List<int>(new int[] { (int)DIRECTION.LEFT });
-            }
+    public void MoveDown(RodType Rod)
+    {
+        if (Rod == RodType.Defense)
+        {
+            DefenseAction = ActionType.MOVEROD;
+            DefenseActionParameters = new List<int>(new int[] { (int)DIRECTION.RIGHT });
+        }
+        else
+        {
+            OffenceAction = ActionType.MOVEROD;
+            OffenceActionParameters = new List<int>(new int[] { (int)DIRECTION.RIGHT });
         }
     }
 

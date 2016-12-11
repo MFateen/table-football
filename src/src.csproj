@@ -52,6 +52,9 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -67,6 +70,9 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
@@ -81,6 +87,7 @@
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
     <Compile Include="Assets\Environment\Script\OffsetAnim.cs" />
+    <Compile Include="Assets\Scripts\Communication\Communication.cs" />
     <Compile Include="Assets\Scripts\DataTypes\ActionType.cs" />
     <Compile Include="Assets\Scripts\DataTypes\Anticipate.cs" />
     <Compile Include="Assets\Scripts\DataTypes\LogType.cs" />
@@ -89,16 +96,15 @@
     <Compile Include="Assets\Scripts\DataTypes\RodPosition.cs" />
     <Compile Include="Assets\Scripts\DataTypes\RodType.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\IntelligentAgent\IntelligentAgent.cs" />
+    <Compile Include="Assets\Scripts\IntelligentAgent\RandomAgent.cs" />
     <Compile Include="Assets\Scripts\Model\BallModel.cs" />
     <Compile Include="Assets\Scripts\Model\FieldModel.cs" />
     <Compile Include="Assets\Scripts\Model\GameModel.cs" />
     <Compile Include="Assets\Scripts\Model\RodModel.cs" />
     <Compile Include="Assets\Scripts\Utility\Command.cs" />
     <Compile Include="Assets\Scripts\Utility\GameSettings.cs" />
-    <Compile Include="Assets\Scripts\Utility\IntelligentAgent.cs" />
     <Compile Include="Assets\Scripts\Utility\Logger.cs" />
-    <Compile Include="Assets\Scripts\Utility\NetworkInterface.cs" />
-    <Compile Include="Assets\Scripts\Utility\RandomAgent.cs" />
     <Compile Include="Assets\Scripts\Utility\SharedMemory.cs" />
     <Compile Include="Assets\Scripts\View\BallView.cs" />
     <Compile Include="Assets\Scripts\View\CustomGrid.cs" />

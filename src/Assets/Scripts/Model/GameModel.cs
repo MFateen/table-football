@@ -13,28 +13,20 @@ public class GameModel
     public int TimeStep { private set; get; }
     public FieldModel Field { private set; get; }
 
-    public GameModel(PlayerType _Player, int _TimeStep) {
+    public GameModel(PlayerType _Player, int _TimeStep)
+    {
         Player = _Player;
         HostScore = GuestScore = 0;
         TimeStep = _TimeStep;
         Field = new FieldModel();
     }
 
-    public void UpdateState(Command decision)
+    public void UpdateStateHostKick(Command decision)
     {
-        if (Player == PlayerType.Host)
+        if (decision == null)
         {
-            UpdateStateHost(decision);
+            return;
         }
-        else
-        {
-            UpdateStateGuest(decision);
-        }
-    }
-
-    public void UpdateStateHost(Command decision)
-    {
-        /// Offence Rod
         if (decision.OffenceAction == ActionType.KICK)
         {
             int direction = decision.OffenceActionParameters[0];
@@ -42,7 +34,22 @@ public class GameModel
 
             Field.OffenseRodHost.Kick(direction, power, Field.Ball);
         }
-        else if (decision.OffenceAction == ActionType.MOVEROD)
+        if (decision.DefenseAction == ActionType.KICK)
+        {
+            int direction = decision.DefenseActionParameters[0];
+            int power = decision.DefenseActionParameters[1];
+
+            Field.DefenseRodHost.Kick(direction, power, Field.Ball);
+        }
+    }
+
+    public void UpdateStateHostNoKick(Command decision)
+    {
+        if (decision == null)
+        {
+            return;
+        }
+        if (decision.OffenceAction == ActionType.MOVEROD)
         {
             if (decision.OffenceActionParameters[0] == -1)
             {
@@ -53,7 +60,7 @@ public class GameModel
                 Field.OffenseRodHost.MoveDown();
             }
         }
-        else  // no action
+        else if (decision.OffenceAction == ActionType.NO_ACTION)  // no action
         {
             ReboundDirection R = Field.OffenseRodHost.ShouldRebound(Player, Field.Ball);
             if (R != ReboundDirection.NoRebound)
@@ -63,14 +70,7 @@ public class GameModel
         }
 
         /// Defense Rod
-        if (decision.DefenseAction == ActionType.KICK)
-        {
-            int direction = decision.DefenseActionParameters[0];
-            int power = decision.DefenseActionParameters[1];
-
-            Field.DefenseRodHost.Kick(direction, power, Field.Ball);
-        }
-        else if (decision.DefenseAction == ActionType.MOVEROD)
+        if (decision.DefenseAction == ActionType.MOVEROD)
         {
             if (decision.DefenseActionParameters[0] == -1)
             {
@@ -81,7 +81,7 @@ public class GameModel
                 Field.DefenseRodHost.MoveDown();
             }
         }
-        else  // no action
+        else if (decision.DefenseAction == ActionType.NO_ACTION)  // no action
         {
             ReboundDirection R = Field.DefenseRodHost.ShouldRebound(Player, Field.Ball);
             if (R != ReboundDirection.NoRebound)
@@ -91,9 +91,12 @@ public class GameModel
         }
 
     }
-
-    public void UpdateStateGuest(Command decision)
+    public void UpdateStateGuestKick(Command decision)
     {
+        if (decision == null)
+        {
+            return;
+        }
         /// Offence Rod
         if (decision.OffenceAction == ActionType.KICK)
         {
@@ -102,7 +105,22 @@ public class GameModel
 
             Field.OffenseRodGuest.Kick(direction, power, Field.Ball);
         }
-        else if (decision.OffenceAction == ActionType.MOVEROD)
+        /// Defense Rod
+        if (decision.DefenseAction == ActionType.KICK)
+        {
+            int direction = decision.DefenseActionParameters[0];
+            int power = decision.DefenseActionParameters[1];
+
+            Field.DefenseRodGuest.Kick(direction, power, Field.Ball);
+        }
+    }
+    public void UpdateStateGuestNoKick(Command decision)
+    {
+        if (decision == null)
+        {
+            return;
+        }
+        if (decision.OffenceAction == ActionType.MOVEROD)
         {
             if (decision.OffenceActionParameters[0] == -1)
             {
@@ -113,7 +131,7 @@ public class GameModel
                 Field.OffenseRodGuest.MoveDown();
             }
         }
-        else  // no action
+        else if (decision.OffenceAction == ActionType.NO_ACTION)  // no action
         {
             ReboundDirection R = Field.OffenseRodGuest.ShouldRebound(Player, Field.Ball);
             if (R != ReboundDirection.NoRebound)
@@ -122,15 +140,7 @@ public class GameModel
             }
         }
 
-        /// Defense Rod
-        if (decision.DefenseAction == ActionType.KICK)
-        {
-            int direction = decision.DefenseActionParameters[0];
-            int power = decision.DefenseActionParameters[1];
-
-            Field.DefenseRodGuest.Kick(direction, power, Field.Ball);
-        }
-        else if (decision.DefenseAction == ActionType.MOVEROD)
+        if (decision.DefenseAction == ActionType.MOVEROD)
         {
             if (decision.DefenseActionParameters[0] == -1)
             {
@@ -141,7 +151,7 @@ public class GameModel
                 Field.DefenseRodGuest.MoveDown();
             }
         }
-        else  // no action
+        else if (decision.DefenseAction == ActionType.NO_ACTION)  // no action
         {
             ReboundDirection R = Field.DefenseRodGuest.ShouldRebound(Player, Field.Ball);
             if (R != ReboundDirection.NoRebound)
@@ -158,49 +168,125 @@ public class GameModel
      */
     public void GameLoop()
     {
-        // 1- Draw current state
-        Field.Ball.Move(Field);
-        Field.Draw();
-        IntelligentAgent.MakeDecision(Field, PlayerType.Host);
-        Command cmdHost = SharedMemory.Decision;
-        RandomAgent.MakeDecision(Field, PlayerType.Guest);
-        Command cmdGuest = SharedMemory.Decision;
-        UpdateStateHost(cmdHost);
-        UpdateStateGuest(cmdGuest);
-        System.Threading.Thread.Sleep(100);
-
-        //// 2- Make Decision from agent based on current state
-        ////// Start decision making in another thread
-        //Thread intelligentAgentThread = new Thread(() => IntelligentAgent.MakeDecision(Field, Player));
-        //intelligentAgentThread.Start();
-        ////// Wait for the timestep
-        //Thread.Sleep(TimeStep);
-        ////// After the timestep if the agent is finished take its decision from the shared memory
-        ////// and a random decision otherwise
-        //Command agentDecision;
-        //if (intelligentAgentThread.IsAlive) {
-        //    intelligentAgentThread.Abort();
-        //    // Random decision
-        //    // TODO
-        //    //agentDecision = new Command("", null, "");
-        //} else {
-        //    agentDecision = SharedMemory.Decision;
-        //}
-
-        // 3- Send Decision to enemy team
-        // TODO
-        //NetworkInterface.SendCommand(agentDecision);
-
-        // 4- Receive Decision from enemy team
-        //Command enemyDecision = Communication.ReceiveCommand();
-
-        // 5- Update state with both decisions
-        // TODO
-        //UpdateState(agentDecision);
-        //UpdateState(enemyDecision);
+        if (Player == PlayerType.Host)
+        {
+            GameLoopHost();
+        }
+        else
+        {
+            GameLoopGuest();
+        }
     }
 
-    public void Draw() {
+    public void GameLoopHost()
+    {
+        //Send new step
+        Communication.Send_New_Step(Communication.nwStream);
+
+        //Get previous commands
+        ////Player command
+        Command PlayerCommand = null;
+        Command EnemyCommand1 = null;
+        Command EnemyCommand2 = null;
+        if (SharedMemory.PlayerCommands.Count > 0)
+        {
+            PlayerCommand = SharedMemory.PlayerCommands.Dequeue();
+        }
+        ////Enemy commands
+        if (SharedMemory.EnemyCommands.Count > 0)
+        {
+            EnemyCommand1 = SharedMemory.EnemyCommands.Dequeue();
+        }
+        if (SharedMemory.EnemyCommands.Count > 0)
+        {
+            EnemyCommand2 = SharedMemory.EnemyCommands.Dequeue();
+        }
+
+        //Do Kicks First
+        UpdateStateHostKick(PlayerCommand);
+        UpdateStateGuestKick(EnemyCommand1);
+        UpdateStateGuestKick(EnemyCommand2);
+
+        // Move Ball
+        Field.Ball.Move(Field);
+
+        // Do other actions
+        UpdateStateHostNoKick(PlayerCommand);
+        UpdateStateGuestNoKick(EnemyCommand1);
+        UpdateStateGuestNoKick(EnemyCommand2);
+
+        // Draw current state
+        Field.Draw();
+
+        // Make Decision
+        //IntelligentAgent.MakeDecision(Field, Player);
+        SharedMemory.Decision = new Command(Player);
+
+        // Save it for next time
+        SharedMemory.PlayerCommands.Enqueue(SharedMemory.Decision);
+
+        // Send Decision
+        //Communication.Send_Command(SharedMemory.Decision, Communication.nwStream);
+
+        Thread.Sleep(1000);
+    }
+
+    public void GameLoopGuest()
+    {
+        //Wait for new step to be received
+        while (!SharedMemory.NewStepReceived) ;
+
+        //Get previous commands
+        ////Player command
+        Command PlayerCommand = null;
+        Command EnemyCommand1 = null;
+        Command EnemyCommand2 = null;
+        if (SharedMemory.PlayerCommands.Count > 0)
+        {
+            PlayerCommand = SharedMemory.PlayerCommands.Dequeue();
+        }
+        ////Enemy commands
+        if (SharedMemory.EnemyCommands.Count > 0)
+        {
+            EnemyCommand1 = SharedMemory.EnemyCommands.Dequeue();
+        }
+        if (SharedMemory.EnemyCommands.Count > 0)
+        {
+            EnemyCommand2 = SharedMemory.EnemyCommands.Dequeue();
+        }
+
+        //Do Kicks First
+        UpdateStateGuestKick(PlayerCommand);
+        UpdateStateHostKick(EnemyCommand1);
+        UpdateStateHostKick(EnemyCommand2);
+
+        // Move Ball
+        Field.Ball.Move(Field);
+
+        // Do other actions
+        UpdateStateGuestNoKick(PlayerCommand);
+        UpdateStateHostNoKick(EnemyCommand1);
+        UpdateStateHostNoKick(EnemyCommand2);
+
+        // Draw current state
+        Field.Draw();
+
+        // Make Decision
+        //IntelligentAgent.MakeDecision(Field, Player);
+
+        SharedMemory.Decision = new Command(Player);
+
+        // Save it for next time
+        SharedMemory.PlayerCommands.Enqueue(SharedMemory.Decision);
+
+        // Send Decision
+        //Communication.Send_Command(SharedMemory.Decision, Communication.nwStream);
+
+        SharedMemory.NewStepReceived = false;
+    }
+
+    public void Draw()
+    {
         Field.Draw();
     }
 }

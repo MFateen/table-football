@@ -29,15 +29,17 @@ public class GameModel
         }
         if (decision.OffenceAction == ActionType.KICK)
         {
-            int direction = decision.OffenceActionParameters[0];
-            int power = decision.OffenceActionParameters[1];
+            int power = decision.OffenceActionParameters[0];
+            int direction = decision.OffenceActionParameters[1];
+            
 
             Field.OffenseRodHost.Kick(direction, power, Field.Ball);
         }
         if (decision.DefenseAction == ActionType.KICK)
         {
-            int direction = decision.DefenseActionParameters[0];
-            int power = decision.DefenseActionParameters[1];
+            int power = decision.DefenseActionParameters[0];
+            int direction = decision.DefenseActionParameters[1];
+            
 
             Field.DefenseRodHost.Kick(direction, power, Field.Ball);
         }
@@ -99,16 +101,18 @@ public class GameModel
         /// Offence Rod
         if (decision.OffenceAction == ActionType.KICK)
         {
-            int direction = decision.OffenceActionParameters[0];
-            int power = decision.OffenceActionParameters[1];
+            int power = decision.OffenceActionParameters[0];
+            int direction = decision.OffenceActionParameters[1];
+            
 
             Field.OffenseRodGuest.Kick(direction, power, Field.Ball);
         }
         /// Defense Rod
         if (decision.DefenseAction == ActionType.KICK)
         {
-            int direction = decision.DefenseActionParameters[0];
-            int power = decision.DefenseActionParameters[1];
+            int power = decision.DefenseActionParameters[0];
+            int direction = decision.DefenseActionParameters[1];
+            
 
             Field.DefenseRodGuest.Kick(direction, power, Field.Ball);
         }

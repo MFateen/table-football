@@ -68,10 +68,10 @@ public class Command {
     public void Kick(RodType Rod, DIRECTION KickDirection, int Power) {
         if (Rod == RodType.Defense) {
             DefenseAction = ActionType.KICK;
-            DefenseActionParameters = new List<int>(new int[] { (int)KickDirection, Power });
+            DefenseActionParameters = new List<int>(new int[] { Power, (int)KickDirection });
         } else {
             OffenceAction = ActionType.KICK;
-            OffenceActionParameters = new List<int>(new int[] { (int)KickDirection, Power });
+            OffenceActionParameters = new List<int>(new int[] { Power, (int)KickDirection });
         }
     }
 

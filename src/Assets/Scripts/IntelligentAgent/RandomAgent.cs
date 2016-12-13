@@ -80,8 +80,6 @@ public class RandomAgent
                 command.Kick(RodType.Offense, DIRECTION.LEFT, 5);// Command Kick left 
         }
 
-        SharedMemory.Decision = command;
-
-        // TODO: Send Cmnd !!!!!
+        SharedMemory.PlayerCommand = command;
     }
 }

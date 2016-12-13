@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="src.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CielaSpike\Thread Ninja\Example\ExampleScript.cs">
+    <Files>
+      <File FileName="Assets\CielaSpike\Thread Ninja\Example\ExampleScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

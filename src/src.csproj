@@ -83,6 +83,11 @@
   <ItemGroup>
     <Compile Include="Assets\Added\Scripts2\TimeCounter.cs" />
     <Compile Include="Assets\Added\Scripts2\UIManager.cs" />
+    <Compile Include="Assets\CielaSpike\Thread Ninja\Example\ExampleScript.cs" />
+    <Compile Include="Assets\CielaSpike\Thread Ninja\Ninja.cs" />
+    <Compile Include="Assets\CielaSpike\Thread Ninja\Task.cs" />
+    <Compile Include="Assets\CielaSpike\Thread Ninja\TaskState.cs" />
+    <Compile Include="Assets\CielaSpike\Thread Ninja\ThreadNinjaMonoBehaviourExtensions.cs" />
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO Assets\Toony Colors\Demo 2.0\TCF_Demo.cs" />
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
     <Compile Include="Assets\Environment\Others From Asset Store (Toon Shader)\JMO awdad\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />

@@ -5,24 +5,29 @@ using System.Text;
 using UnityEngine;
 
 public class IntelligentAgent {
-    public static void MakeDecision(FieldModel Field, PlayerType Player) {
+    public static void MakeDecision(FieldModel Field, PlayerType Player)
+    {
         // Insert agent's logic and save the command in the shared memory class
         Command Decision = new Command(Player);
 
-        if (ShouldPanic(Field, Player)) {
+        if (ShouldPanic(Field, Player))
+        {
             Decision.Kick(RodType.Defense, DIRECTION.FORWARD, 1);
         }
 
-        if (Player == PlayerType.Host) {
+        if (Player == PlayerType.Host)
+        {
             ControlRod(Player, Field, Field.DefenseRodHost, Decision);
             ControlRod(Player, Field, Field.OffenseRodHost, Decision);
 
-        } else {
+        }
+        else
+        {
             ControlRod(Player, Field, Field.DefenseRodGuest, Decision);
             ControlRod(Player, Field, Field.OffenseRodGuest, Decision);
         }
 
-        SharedMemory.Decision = Decision;
+        SharedMemory.PlayerCommand = Decision;
     }
 
     private static bool ShouldPanic(FieldModel Field, PlayerType Player) {

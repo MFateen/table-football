@@ -22,9 +22,9 @@ public class Command {
     public Command(PlayerType _Player = PlayerType.Host) {
         Player = _Player;
         OffenceAction = ActionType.NO_ACTION;
-        OffenceActionParameters = null;
+        OffenceActionParameters = new List<int>();
         DefenseAction = ActionType.NO_ACTION;
-        DefenseActionParameters = null;
+        DefenseActionParameters = new List<int>();
     }
 
     public void MoveUp(RodType Rod)

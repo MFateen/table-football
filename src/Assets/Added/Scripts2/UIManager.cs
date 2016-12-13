@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour {
 
         //
         // Wait for Client as Host
-        Communication.Host_Connect(Communication.ip);
+        Communication.HostConnect(Communication.ip);
         //
 
         //Start Game
@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour {
 
         //
         // Connect to Host as Client
-        Communication.Client_Connect(Communication.ip);
+        Communication.ClientConnect(Communication.ip);
         //
 
         //Start Game

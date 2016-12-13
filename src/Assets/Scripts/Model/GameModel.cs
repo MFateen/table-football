@@ -1,23 +1,23 @@
 using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using UnityEngine;
+using CielaSpike;
 
 public class GameModel
 {
     public PlayerType Player { private set; get; }
     public int HostScore { private set; get; }
     public int GuestScore { private set; get; }
-    public int TimeStep { private set; get; }
     public FieldModel Field { private set; get; }
 
-    public GameModel(PlayerType _Player, int _TimeStep)
+    public GameModel(PlayerType _Player)
     {
         Player = _Player;
         HostScore = GuestScore = 0;
-        TimeStep = _TimeStep;
         Field = new FieldModel();
     }
 
@@ -42,7 +42,6 @@ public class GameModel
             Field.DefenseRodHost.Kick(direction, power, Field.Ball);
         }
     }
-
     public void UpdateStateHostNoKick(Command decision)
     {
         if (decision == null)
@@ -160,129 +159,53 @@ public class GameModel
             }
         }
     }
-
-
-
-    /*
-     * The main infinite game loop
-     */
-    public void GameLoop()
+    public IEnumerator GameRoutine()
     {
-        if (Player == PlayerType.Host)
+        if(Player == PlayerType.Host)
         {
-            GameLoopHost();
+            Communication.SendNewStep(Communication.nwStream);
+        }
+
+        // 1- Perform previous commands
+        //// Do Kicks First
+        if (Player == PlayerType.Guest)
+        {
+            UpdateStateGuestKick(SharedMemory.PlayerCommand);
+            UpdateStateHostKick(SharedMemory.EnemyCommand1);
+            UpdateStateHostKick(SharedMemory.EnemyCommand2);
+            //// Move Ball
+            Field.Ball.Move(Field);
+            //// Do other actions
+            UpdateStateGuestNoKick(SharedMemory.PlayerCommand);
+            UpdateStateHostNoKick(SharedMemory.EnemyCommand1);
+            UpdateStateHostNoKick(SharedMemory.EnemyCommand2);
         }
         else
         {
-            GameLoopGuest();
-        }
-    }
-
-    public void GameLoopHost()
-    {
-        //Send new step
-        Communication.Send_New_Step(Communication.nwStream);
-
-        //Get previous commands
-        ////Player command
-        Command PlayerCommand = null;
-        Command EnemyCommand1 = null;
-        Command EnemyCommand2 = null;
-        if (SharedMemory.PlayerCommands.Count > 0)
-        {
-            PlayerCommand = SharedMemory.PlayerCommands.Dequeue();
-        }
-        ////Enemy commands
-        if (SharedMemory.EnemyCommands.Count > 0)
-        {
-            EnemyCommand1 = SharedMemory.EnemyCommands.Dequeue();
-        }
-        if (SharedMemory.EnemyCommands.Count > 0)
-        {
-            EnemyCommand2 = SharedMemory.EnemyCommands.Dequeue();
+            UpdateStateHostKick(SharedMemory.PlayerCommand);
+            UpdateStateGuestKick(SharedMemory.EnemyCommand1);
+            UpdateStateGuestKick(SharedMemory.EnemyCommand2);
+            //// Move Ball
+            Field.Ball.Move(Field);
+            //// Do other actions
+            UpdateStateHostNoKick(SharedMemory.PlayerCommand);
+            UpdateStateGuestNoKick(SharedMemory.EnemyCommand1);
+            UpdateStateGuestNoKick(SharedMemory.EnemyCommand2);
         }
 
-        //Do Kicks First
-        UpdateStateHostKick(PlayerCommand);
-        UpdateStateGuestKick(EnemyCommand1);
-        UpdateStateGuestKick(EnemyCommand2);
+        // 3- Make Decision
+        //// Make Decision
+        IntelligentAgent.MakeDecision(Field, Player);
+        ////// SharedMemory.PlayerCommand = new Command(Player);
 
-        // Move Ball
-        Field.Ball.Move(Field);
+        // 4- Send decision in background
+        Communication.SendCommand(SharedMemory.PlayerCommand, Communication.nwStream);
 
-        // Do other actions
-        UpdateStateHostNoKick(PlayerCommand);
-        UpdateStateGuestNoKick(EnemyCommand1);
-        UpdateStateGuestNoKick(EnemyCommand2);
-
-        // Draw current state
+        // 2- Draw current state
+        yield return Ninja.JumpToUnity;
         Field.Draw();
+        yield return Ninja.JumpBack;
 
-        // Make Decision
-        //IntelligentAgent.MakeDecision(Field, Player);
-        SharedMemory.Decision = new Command(Player);
-
-        // Save it for next time
-        SharedMemory.PlayerCommands.Enqueue(SharedMemory.Decision);
-
-        // Send Decision
-        //Communication.Send_Command(SharedMemory.Decision, Communication.nwStream);
-
-        Thread.Sleep(1000);
-    }
-
-    public void GameLoopGuest()
-    {
-        //Wait for new step to be received
-        while (!SharedMemory.NewStepReceived) ;
-
-        //Get previous commands
-        ////Player command
-        Command PlayerCommand = null;
-        Command EnemyCommand1 = null;
-        Command EnemyCommand2 = null;
-        if (SharedMemory.PlayerCommands.Count > 0)
-        {
-            PlayerCommand = SharedMemory.PlayerCommands.Dequeue();
-        }
-        ////Enemy commands
-        if (SharedMemory.EnemyCommands.Count > 0)
-        {
-            EnemyCommand1 = SharedMemory.EnemyCommands.Dequeue();
-        }
-        if (SharedMemory.EnemyCommands.Count > 0)
-        {
-            EnemyCommand2 = SharedMemory.EnemyCommands.Dequeue();
-        }
-
-        //Do Kicks First
-        UpdateStateGuestKick(PlayerCommand);
-        UpdateStateHostKick(EnemyCommand1);
-        UpdateStateHostKick(EnemyCommand2);
-
-        // Move Ball
-        Field.Ball.Move(Field);
-
-        // Do other actions
-        UpdateStateGuestNoKick(PlayerCommand);
-        UpdateStateHostNoKick(EnemyCommand1);
-        UpdateStateHostNoKick(EnemyCommand2);
-
-        // Draw current state
-        Field.Draw();
-
-        // Make Decision
-        //IntelligentAgent.MakeDecision(Field, Player);
-
-        SharedMemory.Decision = new Command(Player);
-
-        // Save it for next time
-        SharedMemory.PlayerCommands.Enqueue(SharedMemory.Decision);
-
-        // Send Decision
-        //Communication.Send_Command(SharedMemory.Decision, Communication.nwStream);
-
-        SharedMemory.NewStepReceived = false;
     }
 
     public void Draw()

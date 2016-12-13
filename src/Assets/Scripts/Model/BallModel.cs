@@ -27,8 +27,8 @@ public class BallModel {
     /*
      * Moves ball and returns:
      *  0 -> No goal
-     * -1 -> Goal in player
-     *  1 -> Goal in enemy
+     * -1 -> Goal in Host
+     *  1 -> Goal in Guest
     */
     public int Move(FieldModel field)
     {
@@ -61,8 +61,8 @@ public class BallModel {
 
     /*
      *  0 -> No goal
-     * -1 -> Goal in player
-     *  1 -> Goal in enemy
+     * -1 -> Goal in Host
+     *  1 -> Goal in Guest
     */
     public int isInGoal()
     {

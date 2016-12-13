@@ -41,7 +41,7 @@ static class Communication
         if (c.DefenseAction == ActionType.MOVEROD)
         {
 
-            defense_command += c.DefenseActionParameters[0];
+            defense_command += -1*c.DefenseActionParameters[0];
 
             if (c.Player == PlayerType.Guest)//guest
             {
@@ -70,7 +70,7 @@ static class Communication
 
             defense_command += " ";
             //direction
-            defense_command += c.DefenseActionParameters[1];
+            defense_command += -1*c.DefenseActionParameters[1];
 
         }
         else
@@ -92,7 +92,7 @@ static class Communication
         if (c.OffenceAction == ActionType.MOVEROD)
         {
 
-            offence_command += c.OffenceActionParameters[0];
+            offence_command += -1*c.OffenceActionParameters[0];
 
             if (c.Player == PlayerType.Guest)//guest
             {
@@ -121,7 +121,7 @@ static class Communication
 
             offence_command += " ";
             //direction
-            offence_command += c.OffenceActionParameters[1];
+            offence_command += -1*c.OffenceActionParameters[1];
 
         }
         else
@@ -136,14 +136,17 @@ static class Communication
                 offence_command += "3";
             }
         }
-
+        char character = (char)defense_command.Length;
+        defense_command = character + defense_command;
         byte[] x = ASCIIEncoding.ASCII.GetBytes(defense_command);
         N.Write(x, 0, x.Length);
-        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logss.txt", defense_command, LogType.Send);
+        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logss.txt", defense_command, LogType.Send);
 
+        character = (char)offence_command.Length;
+        offence_command = character + offence_command;
         x = ASCIIEncoding.ASCII.GetBytes(offence_command);
         N.Write(x, 0, x.Length);
-        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logss.txt", offence_command, LogType.Send);
+        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logss.txt", offence_command, LogType.Send);
     }
 
     static bool ParseMessage(string msg)
@@ -151,6 +154,8 @@ static class Communication
         bool newStepReceived = false;
         while (msg.Length > 0)
         {
+            msg = msg.Substring(1);
+            logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg, LogType.Receive);
             Command c = new Command();
 
             if (msg[0] == 'k')
@@ -164,14 +169,14 @@ static class Communication
                     c.DefenseActionParameters.Add((int)msg[7] - 48);
                     if (msg[9] == '-')
                     {
-                        c.DefenseActionParameters.Add(-1);
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 11), LogType.Receive);
+                        c.DefenseActionParameters.Add(1);
+                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 11), LogType.Receive);
                         msg = msg.Substring(11);
                     }
                     else
                     {
-                        c.DefenseActionParameters.Add((int)msg[9] - 48);
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 10), LogType.Receive);
+                        c.DefenseActionParameters.Add(-1*((int)msg[9] - 48));
+                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 10), LogType.Receive);
                         msg = msg.Substring(10);
                     }
                 }
@@ -181,14 +186,14 @@ static class Communication
                     c.OffenceActionParameters.Add((int)msg[7] - 48);
                     if (msg[9] == '-')
                     {
-                        c.OffenceActionParameters.Add(-1);
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 11), LogType.Receive);
+                        c.OffenceActionParameters.Add(1);
+                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 11), LogType.Receive);
                         msg = msg.Substring(11);
                     }
                     else
                     {
-                        c.OffenceActionParameters.Add((int)msg[9] - 48);
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 10), LogType.Receive);
+                        c.OffenceActionParameters.Add(-1*((int)msg[9] - 48));
+                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 10), LogType.Receive);
                         msg = msg.Substring(10);
                     }
                 }
@@ -203,9 +208,8 @@ static class Communication
                 {
                     c.OffenceAction = ActionType.NO_ACTION;
                 }
-                logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 11), LogType.Receive);
+                logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 11), LogType.Receive);
                 msg = msg.Substring(11);
-
             }
 
             else if (msg[0] != 'n') //not new time step move only
@@ -213,29 +217,29 @@ static class Communication
                 if (msg[2] == '1' || msg[2] == '4') //defense rod
                 {
                     c.DefenseAction = ActionType.MOVEROD;
-                    c.DefenseActionParameters.Add((int)msg[0] - 48);
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 3), LogType.Receive);
+                    c.DefenseActionParameters.Add(-1*((int)msg[0] - 48));
+                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 3), LogType.Receive);
                     msg = msg.Substring(3);
                 }
                 else if (msg[2] == ' ' && (msg[3] == '1' || msg[3] == '4'))
                 {
                     c.DefenseAction = ActionType.MOVEROD;
-                    c.DefenseActionParameters.Add(-1);
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 4), LogType.Receive);
+                    c.DefenseActionParameters.Add(1);
+                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 4), LogType.Receive);
                     msg = msg.Substring(4);
                 }
                 else if (msg[2] != ' ')
                 {
                     c.OffenceAction = ActionType.MOVEROD;
-                    c.OffenceActionParameters.Add((int)msg[0] - 48);
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 3), LogType.Receive);
+                    c.OffenceActionParameters.Add(-1*((int)msg[0] - 48));
+                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 3), LogType.Receive);
                     msg = msg.Substring(3);
                 }
                 else
                 {
                     c.OffenceAction = ActionType.MOVEROD;
-                    c.OffenceActionParameters.Add(-1);
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 4), LogType.Receive);
+                    c.OffenceActionParameters.Add(1);
+                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 4), LogType.Receive);
                     msg = msg.Substring(4);
                 }
 
@@ -243,15 +247,16 @@ static class Communication
 
             if (msg.Length > 0 && msg[0] == 'n' && msg[1] == 'e') //newstep...unblock!
             {
-                logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logs.txt", msg.Substring(0, 8), LogType.Receive);
                 newStepReceived = true;
+                logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 8), LogType.Receive);
                 msg = msg.Substring(8);
                 continue;
             }
             if (EnemyCommandIdx == 0)
             {
                 SharedMemory.EnemyCommand1 = c;
-            } else
+            }
+            else
             {
                 SharedMemory.EnemyCommand2 = c;
             }
@@ -271,15 +276,16 @@ static class Communication
 
     public static void SendNewStep(NetworkStream N)
     {
-        byte[] x = ASCIIEncoding.ASCII.GetBytes(new_step);
+        char character = (char)new_step.Length;
+        string n = character + new_step;
+        byte[] x = ASCIIEncoding.ASCII.GetBytes(n);
         N.Write(x, 0, x.Length);
-        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\logss.txt", new_step, LogType.Send);
+        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logss.txt", new_step, LogType.Send);
     }
 
     public static void HostConnect(string SERVER_IP)
     {
-        //IPAddress localAdd = IPAddress.Parse(SERVER_IP);
-        IPAddress localAdd = IPAddress.Parse("192.168.1.6");
+        IPAddress localAdd = IPAddress.Parse("192.168.1.3");
         TcpListener listener = new TcpListener(localAdd, 3000);
         listener.Start();
         client = listener.AcceptTcpClient();

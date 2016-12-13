@@ -12,7 +12,6 @@ public class RandomAgent
         System.Random RandomGenerator = new System.Random();
         double RndNumber;
         int ActionsNum = 6;
-        int randomPower;
         Command command = new Command(Player);
         // Insert agent's logic and save the command in the shared memory class
         if (Player == PlayerType.Host)
@@ -21,7 +20,6 @@ public class RandomAgent
             // Possible actions for deffense rod: no action - move up - down - kick front - left - RIGHT
             // Random number generation: min + (rng.NextDouble() * (max - min));
             RndNumber = RandomGenerator.NextDouble();// random number between 0 and 1
-            randomPower = RandomGenerator.Next(0, 5);
             // for DEFENSIVE ROD
             if (RndNumber >= (1.0 / ActionsNum) && RndNumber < (2.0 / ActionsNum))
                 command.MoveUp(RodType.Defense);// Command move up
@@ -36,7 +34,6 @@ public class RandomAgent
 
             // regenerate random number for OFFENSIVE ROD move
             RndNumber = RandomGenerator.NextDouble();
-            randomPower = RandomGenerator.Next(0, 5);
             if (RndNumber >= (1.0 / ActionsNum) && RndNumber < (2.0 / ActionsNum))
                 command.MoveUp(RodType.Offense);// Command move up
             if (RndNumber >= (2.0 / ActionsNum) && RndNumber < (3.0 / ActionsNum))
@@ -52,7 +49,6 @@ public class RandomAgent
         else if(Field.Ball.Column!=5)
         {// if guest
             RndNumber = RandomGenerator.NextDouble();// random number between 0 and 1
-            randomPower = RandomGenerator.Next(0, 5);
             // for DEFENSIVE ROD
             if (RndNumber >= (1.0 / ActionsNum) && RndNumber < (2.0 / ActionsNum))
                 command.MoveUp(RodType.Defense);// Command move up
@@ -67,7 +63,6 @@ public class RandomAgent
 
             // regenerate random number for OFFENSIVE ROD move
             RndNumber = RandomGenerator.NextDouble();
-            randomPower = RandomGenerator.Next(0, 5);
             if (RndNumber >= (1.0 / ActionsNum) && RndNumber < (2.0 / ActionsNum))
                 command.MoveUp(RodType.Offense);// Command move up
             if (RndNumber >= (2.0 / ActionsNum) && RndNumber < (3.0 / ActionsNum))

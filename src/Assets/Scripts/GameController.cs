@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour {
 
     private GameModel Model { get; set; }
     private DateTime PreviousTime { get; set; }
-    private Double TimeStep = 2000;
+    private Double TimeStep = 1000;
     private bool GameStarted = false;
 
     void start()
@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour {
 
     // Use this for initialization
     public void StartGame (PlayerType Player) {
-        Model = new GameModel(Player);
+        Model = new GameModel(Player, FindObjectOfType<ScoreBoardView>().GetComponent<ScoreBoardView>());
         GameStarted = true;
         this.StartCoroutineAsync(ReceivingRoutine());
     }

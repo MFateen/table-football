@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 using CielaSpike;
 
 public class GameModel
@@ -13,12 +14,14 @@ public class GameModel
     public int HostScore { private set; get; }
     public int GuestScore { private set; get; }
     public FieldModel Field { private set; get; }
+    ScoreBoardView scoreBoardView;
 
-    public GameModel(PlayerType _Player)
+    public GameModel(PlayerType _Player, ScoreBoardView _scoreBoardView)
     {
         Player = _Player;
         HostScore = GuestScore = 0;
         Field = new FieldModel();
+        scoreBoardView = _scoreBoardView;
     }
 
     public void UpdateStateHostKick(Command decision)
@@ -178,7 +181,15 @@ public class GameModel
             UpdateStateHostKick(SharedMemory.EnemyCommand1);
             UpdateStateHostKick(SharedMemory.EnemyCommand2);
             //// Move Ball
-            Field.Ball.Move(Field);
+            int goal = Field.Ball.Move(Field);
+            if(goal == -1)
+            {
+                //Goal in host
+                GuestScore++;
+            } else if(goal == 1)
+            {
+                HostScore++;
+            }
             //// Do other actions
             UpdateStateGuestNoKick(SharedMemory.PlayerCommand);
             UpdateStateHostNoKick(SharedMemory.EnemyCommand1);
@@ -190,7 +201,16 @@ public class GameModel
             UpdateStateGuestKick(SharedMemory.EnemyCommand1);
             UpdateStateGuestKick(SharedMemory.EnemyCommand2);
             //// Move Ball
-            Field.Ball.Move(Field);
+            int goal = Field.Ball.Move(Field);
+            if (goal == -1)
+            {
+                //Goal in host
+                GuestScore++;
+            }
+            else if (goal == 1)
+            {
+                HostScore++;
+            }
             //// Do other actions
             UpdateStateHostNoKick(SharedMemory.PlayerCommand);
             UpdateStateGuestNoKick(SharedMemory.EnemyCommand1);
@@ -207,7 +227,7 @@ public class GameModel
 
         // 2- Draw current state
         yield return Ninja.JumpToUnity;
-        Field.Draw();
+        Draw();
         yield return Ninja.JumpBack;
 
     }
@@ -215,5 +235,6 @@ public class GameModel
     public void Draw()
     {
         Field.Draw();
+        scoreBoardView.Draw(HostScore, GuestScore);
     }
 }

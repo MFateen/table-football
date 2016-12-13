@@ -5,8 +5,7 @@ using System.Text;
 using UnityEngine;
 
 public class IntelligentAgent {
-    public static void MakeDecision(FieldModel Field, PlayerType Player)
-    {
+    public static void MakeDecision(FieldModel Field, PlayerType Player) {
         // Insert agent's logic and save the command in the shared memory class
         Command Decision = new Command(Player);
 
@@ -97,12 +96,11 @@ public class IntelligentAgent {
     }
 
     public static DIRECTION getKickDirection(PlayerType Player, int Row, int Power) {
-        //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
-
+        System.Random RandomGenerator = new System.Random();
         DIRECTION Up = Player == PlayerType.Host ? DIRECTION.LEFT : DIRECTION.RIGHT;
         DIRECTION Down = Player == PlayerType.Host ? DIRECTION.RIGHT : DIRECTION.LEFT;
 
-
+        //Direction[0] : LEFT, Direction[1] : FORWARD, Direction[2] : RIGHT
         double[] KickDirection = { 0.0, 1.0, 0.0 };
         if (Power == 1) {
             if (Row >= 1) {
@@ -124,7 +122,7 @@ public class IntelligentAgent {
 
 
         double Sum = KickDirection.Sum();
-        double Probability = (new System.Random(0)).NextDouble() * Sum;
+        double Probability = RandomGenerator.NextDouble() * Sum;
 
         for (int i = 0; i < KickDirection.Length; i++) {
             Probability -= KickDirection[i];
@@ -148,4 +146,3 @@ public class IntelligentAgent {
         }
     }
 }
-

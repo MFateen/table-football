@@ -1,2 +1,4 @@
 src/.vs
-  
+*.meta
+src/Library
+src/Temp

@@ -20,6 +20,8 @@ public class RodModel
     // View object
     private RodView View { get; set; }
 
+    public bool shouldKick = false;
+
     public RodModel(PlayerType _Player, RodType _Type, string rodTag, int _Column, RodPosition _Position = RodPosition.Middle)
     {
         Player = _Player;
@@ -68,6 +70,11 @@ public class RodModel
     {
         //Draw Rod
         View.Draw((int)Position);
+        if (shouldKick)
+        {
+            shouldKick = false;
+            View.Kick();
+        }
     }
 
     /*
@@ -125,6 +132,7 @@ public class RodModel
             Ball.ColumnVelocity = -1;
         }
         Ball.Power = power;
+        shouldKick = true;
         return true;
     }
 

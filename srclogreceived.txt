@@ -5874,3 +5874,5755 @@
 
 03:44:34 rec >>> no_action 2
 
+04:35:05 rec >>> no_action 4
+
+04:35:05 rec >>> no_action 4
+
+04:35:05 rec >>> no_action 2
+
+04:35:05 rec >>> no_action 2
+
+04:35:06 rec >>> no_action 4
+
+04:35:06 rec >>> no_action 4
+
+04:35:06 rec >>> no_action 2
+
+04:35:06 rec >>> no_action 2
+
+04:35:07 rec >>> no_action 4
+
+04:35:07 rec >>> no_action 4
+
+04:35:07 rec >>> no_action 2
+
+04:35:07 rec >>> no_action 2
+
+04:35:08 rec >>> no_action 4
+
+04:35:08 rec >>> no_action 4
+
+04:35:08 rec >>> no_action 2
+
+04:35:08 rec >>> no_action 2
+
+04:35:09 rec >>> 1 4
+
+04:35:09 rec >>> 1 4
+
+04:35:09 rec >>> no_action 2
+
+04:35:09 rec >>> no_action 2
+
+04:35:10 rec >>> kick 4 1 -1
+
+04:35:10 rec >>> kick 4 1 -1
+
+04:35:10 rec >>> no_action 2
+
+04:35:10 rec >>> no_action 2
+
+04:35:11 rec >>> -1 4
+
+04:35:11 rec >>> -1 4
+
+04:35:11 rec >>> no_action 2
+
+04:35:11 rec >>> no_action 2
+
+04:35:12 rec >>> kick 4 5 -1
+
+04:35:12 rec >>> kick 4 5 -1
+
+04:35:12 rec >>> no_action 2
+
+04:35:12 rec >>> no_action 2
+
+04:35:13 rec >>> no_action 4
+
+04:35:13 rec >>> no_action 4
+
+04:35:13 rec >>> -1 2
+
+04:35:13 rec >>> -1 2
+
+04:35:14 rec >>> no_action 4
+
+04:35:14 rec >>> no_action 4
+
+04:35:14 rec >>> 1 2
+
+04:35:14 rec >>> 1 2
+
+04:35:15 rec >>> 1 4
+
+04:35:15 rec >>> 1 4
+
+04:35:15 rec >>> no_action 2
+
+04:35:15 rec >>> no_action 2
+
+04:35:16 rec >>> kick 4 1 -1
+
+04:35:16 rec >>> kick 4 1 -1
+
+04:35:16 rec >>> no_action 2
+
+04:35:16 rec >>> no_action 2
+
+04:35:17 rec >>> -1 4
+
+04:35:17 rec >>> -1 4
+
+04:35:17 rec >>> no_action 2
+
+04:35:17 rec >>> no_action 2
+
+04:35:18 rec >>> kick 4 5 -1
+
+04:35:18 rec >>> kick 4 5 -1
+
+04:35:18 rec >>> no_action 2
+
+04:35:18 rec >>> no_action 2
+
+04:35:19 rec >>> no_action 4
+
+04:35:19 rec >>> no_action 4
+
+04:35:19 rec >>> -1 2
+
+04:35:19 rec >>> -1 2
+
+04:35:20 rec >>> no_action 4
+
+04:35:20 rec >>> no_action 4
+
+04:35:20 rec >>> 1 2
+
+04:35:20 rec >>> 1 2
+
+04:35:21 rec >>> 1 4
+
+04:35:21 rec >>> 1 4
+
+04:35:21 rec >>> no_action 2
+
+04:35:21 rec >>> no_action 2
+
+04:35:22 rec >>> kick 4 1 0
+
+04:35:22 rec >>> kick 4 1 0
+
+04:35:22 rec >>> no_action 2
+
+04:35:22 rec >>> no_action 2
+
+04:35:23 rec >>> kick 4 5 -1
+
+04:35:23 rec >>> kick 4 5 -1
+
+04:35:23 rec >>> no_action 2
+
+04:35:23 rec >>> no_action 2
+
+04:35:24 rec >>> -1 4
+
+04:35:24 rec >>> -1 4
+
+04:35:24 rec >>> -1 2
+
+04:35:24 rec >>> -1 2
+
+04:35:25 rec >>> no_action 4
+
+04:35:25 rec >>> no_action 4
+
+04:35:25 rec >>> 1 2
+
+04:35:25 rec >>> 1 2
+
+04:35:26 rec >>> no_action 4
+
+04:35:26 rec >>> no_action 4
+
+04:35:26 rec >>> no_action 2
+
+04:35:26 rec >>> no_action 2
+
+04:35:27 rec >>> no_action 4
+
+04:35:27 rec >>> no_action 4
+
+04:35:27 rec >>> no_action 2
+
+04:35:27 rec >>> no_action 2
+
+04:35:28 rec >>> kick 4 1 -1
+
+04:35:28 rec >>> kick 4 1 -1
+
+04:35:28 rec >>> no_action 2
+
+04:35:28 rec >>> no_action 2
+
+04:35:29 rec >>> kick 4 1 1
+
+04:35:29 rec >>> kick 4 1 1
+
+04:35:29 rec >>> no_action 2
+
+04:35:29 rec >>> no_action 2
+
+04:35:30 rec >>> 1 4
+
+04:35:30 rec >>> 1 4
+
+04:35:30 rec >>> no_action 2
+
+04:35:30 rec >>> no_action 2
+
+04:35:31 rec >>> kick 4 5 1
+
+04:35:31 rec >>> kick 4 5 1
+
+04:35:31 rec >>> no_action 2
+
+04:35:31 rec >>> no_action 2
+
+04:35:32 rec >>> -1 4
+
+04:35:32 rec >>> -1 4
+
+04:35:32 rec >>> 1 2
+
+04:35:32 rec >>> 1 2
+
+04:35:33 rec >>> no_action 4
+
+04:35:33 rec >>> no_action 4
+
+04:35:33 rec >>> -1 2
+
+04:35:33 rec >>> -1 2
+
+04:35:34 rec >>> no_action 4
+
+04:35:34 rec >>> no_action 4
+
+04:35:34 rec >>> no_action 2
+
+04:35:34 rec >>> no_action 2
+
+04:35:35 rec >>> no_action 4
+
+04:35:35 rec >>> no_action 4
+
+04:35:35 rec >>> no_action 2
+
+04:35:35 rec >>> no_action 2
+
+04:35:36 rec >>> kick 4 1 0
+
+04:35:36 rec >>> kick 4 1 0
+
+04:35:36 rec >>> no_action 2
+
+04:35:36 rec >>> no_action 2
+
+04:35:37 rec >>> kick 4 1 -1
+
+04:35:37 rec >>> kick 4 1 -1
+
+04:35:37 rec >>> no_action 2
+
+04:35:37 rec >>> no_action 2
+
+04:35:38 rec >>> 1 4
+
+04:35:38 rec >>> 1 4
+
+04:35:38 rec >>> no_action 2
+
+04:35:38 rec >>> no_action 2
+
+04:35:39 rec >>> kick 4 5 0
+
+04:35:39 rec >>> kick 4 5 0
+
+04:35:39 rec >>> no_action 2
+
+04:35:39 rec >>> no_action 2
+
+04:35:40 rec >>> -1 4
+
+04:35:40 rec >>> -1 4
+
+04:35:40 rec >>> 1 2
+
+04:35:40 rec >>> 1 2
+
+04:35:41 rec >>> no_action 4
+
+04:35:41 rec >>> no_action 4
+
+04:35:41 rec >>> no_action 2
+
+04:35:41 rec >>> no_action 2
+
+04:35:42 rec >>> no_action 4
+
+04:35:42 rec >>> no_action 4
+
+04:35:42 rec >>> -1 2
+
+04:35:42 rec >>> -1 2
+
+04:35:43 rec >>> no_action 4
+
+04:35:43 rec >>> no_action 4
+
+04:35:43 rec >>> no_action 2
+
+04:35:43 rec >>> no_action 2
+
+04:35:44 rec >>> kick 4 1 1
+
+04:35:44 rec >>> kick 4 1 1
+
+04:35:44 rec >>> no_action 2
+
+04:35:44 rec >>> no_action 2
+
+04:35:45 rec >>> kick 4 1 -1
+
+04:35:45 rec >>> kick 4 1 -1
+
+04:35:45 rec >>> no_action 2
+
+04:35:45 rec >>> no_action 2
+
+04:35:46 rec >>> 1 4
+
+04:35:46 rec >>> 1 4
+
+04:35:46 rec >>> no_action 2
+
+04:35:46 rec >>> no_action 2
+
+04:35:47 rec >>> kick 4 5 -1
+
+04:35:47 rec >>> kick 4 5 -1
+
+04:35:47 rec >>> no_action 2
+
+04:35:47 rec >>> no_action 2
+
+04:35:48 rec >>> -1 4
+
+04:35:48 rec >>> -1 4
+
+04:35:48 rec >>> -1 2
+
+04:35:48 rec >>> -1 2
+
+04:35:49 rec >>> no_action 4
+
+04:35:49 rec >>> no_action 4
+
+04:35:49 rec >>> 1 2
+
+04:35:49 rec >>> 1 2
+
+04:35:50 rec >>> no_action 4
+
+04:35:50 rec >>> no_action 4
+
+04:35:50 rec >>> no_action 2
+
+04:35:50 rec >>> no_action 2
+
+04:35:51 rec >>> no_action 4
+
+04:35:51 rec >>> no_action 4
+
+04:35:51 rec >>> no_action 2
+
+04:35:51 rec >>> no_action 2
+
+04:35:52 rec >>> kick 4 1 -1
+
+04:35:52 rec >>> kick 4 1 -1
+
+04:35:52 rec >>> no_action 2
+
+04:35:52 rec >>> no_action 2
+
+04:35:53 rec >>> kick 4 1 0
+
+04:35:53 rec >>> kick 4 1 0
+
+04:35:53 rec >>> no_action 2
+
+04:35:53 rec >>> no_action 2
+
+04:35:54 rec >>> kick 4 5 -1
+
+04:35:54 rec >>> kick 4 5 -1
+
+04:35:54 rec >>> no_action 2
+
+04:35:54 rec >>> no_action 2
+
+04:35:55 rec >>> no_action 4
+
+04:35:55 rec >>> no_action 4
+
+04:35:56 rec >>> -1 2
+
+04:35:56 rec >>> -1 2
+
+04:35:56 rec >>> no_action 4
+
+04:35:56 rec >>> no_action 4
+
+04:35:57 rec >>> 1 2
+
+04:35:57 rec >>> 1 2
+
+04:35:58 rec >>> no_action 4
+
+04:35:58 rec >>> no_action 4
+
+04:35:58 rec >>> no_action 2
+
+04:35:58 rec >>> no_action 2
+
+04:35:59 rec >>> no_action 4
+
+04:35:59 rec >>> no_action 4
+
+04:35:59 rec >>> no_action 2
+
+04:35:59 rec >>> no_action 2
+
+04:36:00 rec >>> 1 4
+
+04:36:00 rec >>> 1 4
+
+04:36:00 rec >>> no_action 2
+
+04:36:00 rec >>> no_action 2
+
+04:36:01 rec >>> kick 4 1 0
+
+04:36:01 rec >>> kick 4 1 0
+
+04:36:01 rec >>> no_action 2
+
+04:36:01 rec >>> no_action 2
+
+04:36:02 rec >>> kick 4 5 0
+
+04:36:02 rec >>> kick 4 5 0
+
+04:36:02 rec >>> no_action 2
+
+04:36:02 rec >>> no_action 2
+
+04:36:03 rec >>> -1 4
+
+04:36:03 rec >>> -1 4
+
+04:36:03 rec >>> 1 2
+
+04:36:03 rec >>> 1 2
+
+04:36:04 rec >>> no_action 4
+
+04:36:04 rec >>> no_action 4
+
+04:36:04 rec >>> no_action 2
+
+04:36:04 rec >>> no_action 2
+
+04:36:05 rec >>> no_action 4
+
+04:36:05 rec >>> no_action 4
+
+04:36:05 rec >>> -1 2
+
+04:36:05 rec >>> -1 2
+
+04:36:06 rec >>> 1 4
+
+04:36:06 rec >>> 1 4
+
+04:36:06 rec >>> no_action 2
+
+04:36:06 rec >>> no_action 2
+
+04:36:07 rec >>> kick 4 1 0
+
+04:36:07 rec >>> kick 4 1 0
+
+04:36:07 rec >>> no_action 2
+
+04:36:07 rec >>> no_action 2
+
+04:36:08 rec >>> kick 4 5 0
+
+04:36:08 rec >>> kick 4 5 0
+
+04:36:08 rec >>> no_action 2
+
+04:36:08 rec >>> no_action 2
+
+04:36:09 rec >>> -1 4
+
+04:36:09 rec >>> -1 4
+
+04:36:09 rec >>> 1 2
+
+04:36:09 rec >>> 1 2
+
+04:36:10 rec >>> no_action 4
+
+04:36:10 rec >>> no_action 4
+
+04:36:10 rec >>> no_action 2
+
+04:36:10 rec >>> no_action 2
+
+04:36:11 rec >>> no_action 4
+
+04:36:11 rec >>> no_action 4
+
+04:36:11 rec >>> -1 2
+
+04:36:11 rec >>> -1 2
+
+04:36:12 rec >>> 1 4
+
+04:36:12 rec >>> 1 4
+
+04:36:12 rec >>> no_action 2
+
+04:36:12 rec >>> no_action 2
+
+04:36:13 rec >>> kick 4 1 1
+
+04:36:13 rec >>> kick 4 1 1
+
+04:36:13 rec >>> no_action 2
+
+04:36:13 rec >>> no_action 2
+
+04:36:14 rec >>> -1 4
+
+04:36:14 rec >>> -1 4
+
+04:36:14 rec >>> no_action 2
+
+04:36:14 rec >>> no_action 2
+
+04:36:15 rec >>> kick 4 5 1
+
+04:36:15 rec >>> kick 4 5 1
+
+04:36:15 rec >>> no_action 2
+
+04:36:15 rec >>> no_action 2
+
+04:36:16 rec >>> no_action 4
+
+04:36:16 rec >>> no_action 4
+
+04:36:16 rec >>> no_action 2
+
+04:36:16 rec >>> no_action 2
+
+04:36:17 rec >>> no_action 4
+
+04:36:17 rec >>> no_action 4
+
+04:36:17 rec >>> no_action 2
+
+04:36:17 rec >>> no_action 2
+
+04:36:18 rec >>> no_action 4
+
+04:36:18 rec >>> no_action 4
+
+04:36:18 rec >>> no_action 2
+
+04:36:18 rec >>> no_action 2
+
+04:36:19 rec >>> no_action 4
+
+04:36:19 rec >>> no_action 4
+
+04:36:19 rec >>> no_action 2
+
+04:36:19 rec >>> no_action 2
+
+04:36:20 rec >>> 1 4
+
+04:36:20 rec >>> 1 4
+
+04:36:20 rec >>> no_action 2
+
+04:36:20 rec >>> no_action 2
+
+04:36:21 rec >>> kick 4 1 0
+
+04:36:21 rec >>> kick 4 1 0
+
+04:36:21 rec >>> no_action 2
+
+04:36:21 rec >>> no_action 2
+
+04:36:22 rec >>> kick 4 5 0
+
+04:36:22 rec >>> kick 4 5 0
+
+04:36:22 rec >>> no_action 2
+
+04:36:22 rec >>> no_action 2
+
+04:36:23 rec >>> -1 4
+
+04:36:23 rec >>> -1 4
+
+04:36:23 rec >>> 1 2
+
+04:36:23 rec >>> 1 2
+
+04:36:24 rec >>> no_action 4
+
+04:36:24 rec >>> no_action 4
+
+04:36:24 rec >>> no_action 2
+
+04:36:24 rec >>> no_action 2
+
+04:36:25 rec >>> no_action 4
+
+04:36:25 rec >>> no_action 4
+
+04:36:25 rec >>> -1 2
+
+04:36:25 rec >>> -1 2
+
+04:36:26 rec >>> 1 4
+
+04:36:26 rec >>> 1 4
+
+04:36:26 rec >>> no_action 2
+
+04:36:26 rec >>> no_action 2
+
+04:36:27 rec >>> kick 4 1 0
+
+04:36:27 rec >>> kick 4 1 0
+
+04:36:27 rec >>> no_action 2
+
+04:36:27 rec >>> no_action 2
+
+04:36:28 rec >>> kick 4 5 1
+
+04:36:28 rec >>> kick 4 5 1
+
+04:36:28 rec >>> no_action 2
+
+04:36:28 rec >>> no_action 2
+
+04:36:29 rec >>> -1 4
+
+04:36:29 rec >>> -1 4
+
+04:36:29 rec >>> 1 2
+
+04:36:29 rec >>> 1 2
+
+04:36:30 rec >>> no_action 4
+
+04:36:30 rec >>> no_action 4
+
+04:36:30 rec >>> -1 2
+
+04:36:30 rec >>> -1 2
+
+04:36:31 rec >>> no_action 4
+
+04:36:31 rec >>> no_action 4
+
+04:36:31 rec >>> no_action 2
+
+04:36:31 rec >>> no_action 2
+
+04:36:32 rec >>> no_action 4
+
+04:36:32 rec >>> no_action 4
+
+04:36:32 rec >>> no_action 2
+
+04:36:32 rec >>> no_action 2
+
+04:36:33 rec >>> kick 4 1 -1
+
+04:36:33 rec >>> kick 4 1 -1
+
+04:36:33 rec >>> no_action 2
+
+04:36:33 rec >>> no_action 2
+
+04:36:34 rec >>> kick 4 1 0
+
+04:36:34 rec >>> kick 4 1 0
+
+04:36:34 rec >>> no_action 2
+
+04:36:34 rec >>> no_action 2
+
+04:36:35 rec >>> kick 4 5 0
+
+04:36:35 rec >>> kick 4 5 0
+
+04:36:35 rec >>> no_action 2
+
+04:36:35 rec >>> no_action 2
+
+04:36:36 rec >>> no_action 4
+
+04:36:36 rec >>> no_action 4
+
+04:36:36 rec >>> no_action 2
+
+04:36:36 rec >>> no_action 2
+
+04:36:37 rec >>> 1 4
+
+04:36:37 rec >>> 1 4
+
+04:36:37 rec >>> no_action 2
+
+04:36:37 rec >>> no_action 2
+
+04:36:38 rec >>> kick 4 5 -1
+
+04:36:38 rec >>> kick 4 5 -1
+
+04:36:38 rec >>> no_action 2
+
+04:36:38 rec >>> no_action 2
+
+04:36:39 rec >>> -1 4
+
+04:36:39 rec >>> -1 4
+
+04:36:39 rec >>> -1 2
+
+04:36:39 rec >>> -1 2
+
+04:36:40 rec >>> no_action 4
+
+04:36:40 rec >>> no_action 4
+
+04:36:40 rec >>> 1 2
+
+04:36:40 rec >>> 1 2
+
+04:36:41 rec >>> no_action 4
+
+04:36:41 rec >>> no_action 4
+
+04:36:41 rec >>> no_action 2
+
+04:36:41 rec >>> no_action 2
+
+04:36:42 rec >>> 1 4
+
+04:36:42 rec >>> 1 4
+
+04:36:42 rec >>> no_action 2
+
+04:36:42 rec >>> no_action 2
+
+04:36:43 rec >>> kick 4 1 -1
+
+04:36:43 rec >>> kick 4 1 -1
+
+04:36:43 rec >>> no_action 2
+
+04:36:43 rec >>> no_action 2
+
+04:36:44 rec >>> -1 4
+
+04:36:44 rec >>> -1 4
+
+04:36:44 rec >>> no_action 2
+
+04:36:44 rec >>> no_action 2
+
+04:36:45 rec >>> kick 4 5 0
+
+04:36:45 rec >>> kick 4 5 0
+
+04:36:45 rec >>> no_action 2
+
+04:36:45 rec >>> no_action 2
+
+04:36:46 rec >>> no_action 4
+
+04:36:46 rec >>> no_action 4
+
+04:36:46 rec >>> no_action 2
+
+04:36:46 rec >>> no_action 2
+
+04:36:47 rec >>> kick 4 5 0
+
+04:36:47 rec >>> kick 4 5 0
+
+04:36:47 rec >>> no_action 2
+
+04:36:47 rec >>> no_action 2
+
+04:36:48 rec >>> no_action 4
+
+04:36:48 rec >>> no_action 4
+
+04:36:48 rec >>> no_action 2
+
+04:36:48 rec >>> no_action 2
+
+04:36:49 rec >>> kick 4 5 -1
+
+04:36:49 rec >>> kick 4 5 -1
+
+04:36:49 rec >>> no_action 2
+
+04:36:49 rec >>> no_action 2
+
+04:36:50 rec >>> no_action 4
+
+04:36:50 rec >>> no_action 4
+
+04:36:50 rec >>> -1 2
+
+04:36:50 rec >>> -1 2
+
+04:36:51 rec >>> no_action 4
+
+04:36:51 rec >>> no_action 4
+
+04:36:51 rec >>> 1 2
+
+04:36:51 rec >>> 1 2
+
+04:36:52 rec >>> 1 4
+
+04:36:52 rec >>> 1 4
+
+04:36:52 rec >>> no_action 2
+
+04:36:52 rec >>> no_action 2
+
+04:36:53 rec >>> kick 4 1 1
+
+04:36:53 rec >>> kick 4 1 1
+
+04:36:53 rec >>> no_action 2
+
+04:36:53 rec >>> no_action 2
+
+04:36:54 rec >>> -1 4
+
+04:36:54 rec >>> -1 4
+
+04:36:54 rec >>> no_action 2
+
+04:36:54 rec >>> no_action 2
+
+04:36:55 rec >>> kick 4 5 -1
+
+04:36:55 rec >>> kick 4 5 -1
+
+04:36:55 rec >>> no_action 2
+
+04:36:55 rec >>> no_action 2
+
+04:36:56 rec >>> no_action 4
+
+04:36:56 rec >>> no_action 4
+
+04:36:56 rec >>> -1 2
+
+04:36:56 rec >>> -1 2
+
+04:36:57 rec >>> no_action 4
+
+04:36:57 rec >>> no_action 4
+
+04:36:57 rec >>> 1 2
+
+04:36:57 rec >>> 1 2
+
+04:36:58 rec >>> no_action 4
+
+04:36:58 rec >>> no_action 4
+
+04:36:58 rec >>> no_action 2
+
+04:36:58 rec >>> no_action 2
+
+04:36:59 rec >>> kick 4 1 0
+
+04:36:59 rec >>> kick 4 1 0
+
+04:36:59 rec >>> no_action 2
+
+04:36:59 rec >>> no_action 2
+
+04:37:00 rec >>> kick 4 1 0
+
+04:37:00 rec >>> kick 4 1 0
+
+04:37:00 rec >>> no_action 2
+
+04:37:00 rec >>> no_action 2
+
+04:37:01 rec >>> kick 4 5 1
+
+04:37:01 rec >>> kick 4 5 1
+
+04:37:01 rec >>> no_action 2
+
+04:37:01 rec >>> no_action 2
+
+04:37:02 rec >>> no_action 4
+
+04:37:02 rec >>> no_action 4
+
+04:37:02 rec >>> no_action 2
+
+04:37:02 rec >>> no_action 2
+
+04:37:03 rec >>> no_action 4
+
+04:37:03 rec >>> no_action 4
+
+04:37:03 rec >>> no_action 2
+
+04:37:03 rec >>> no_action 2
+
+04:37:04 rec >>> no_action 4
+
+04:37:04 rec >>> no_action 4
+
+04:37:04 rec >>> no_action 2
+
+04:37:04 rec >>> no_action 2
+
+04:37:05 rec >>> kick 4 1 -1
+
+04:37:05 rec >>> kick 4 1 -1
+
+04:37:05 rec >>> no_action 2
+
+04:37:05 rec >>> no_action 2
+
+04:37:06 rec >>> kick 4 1 1
+
+04:37:06 rec >>> kick 4 1 1
+
+04:37:06 rec >>> no_action 2
+
+04:37:06 rec >>> no_action 2
+
+04:37:07 rec >>> 1 4
+
+04:37:07 rec >>> 1 4
+
+04:37:07 rec >>> no_action 2
+
+04:37:07 rec >>> no_action 2
+
+04:37:08 rec >>> kick 4 5 0
+
+04:37:08 rec >>> kick 4 5 0
+
+04:37:08 rec >>> no_action 2
+
+04:37:08 rec >>> no_action 2
+
+04:37:09 rec >>> -1 4
+
+04:37:09 rec >>> -1 4
+
+04:37:09 rec >>> 1 2
+
+04:37:09 rec >>> 1 2
+
+04:37:10 rec >>> no_action 4
+
+04:37:10 rec >>> no_action 4
+
+04:37:10 rec >>> no_action 2
+
+04:37:10 rec >>> no_action 2
+
+04:37:11 rec >>> no_action 4
+
+04:37:11 rec >>> no_action 4
+
+04:37:11 rec >>> -1 2
+
+04:37:11 rec >>> -1 2
+
+04:37:12 rec >>> no_action 4
+
+04:37:12 rec >>> no_action 4
+
+04:37:12 rec >>> no_action 2
+
+04:37:12 rec >>> no_action 2
+
+04:37:13 rec >>> kick 4 1 -1
+
+04:37:13 rec >>> kick 4 1 -1
+
+04:37:13 rec >>> no_action 2
+
+04:37:13 rec >>> no_action 2
+
+04:37:14 rec >>> no_action 4
+
+04:37:14 rec >>> no_action 4
+
+04:37:14 rec >>> no_action 2
+
+04:37:14 rec >>> no_action 2
+
+04:37:15 rec >>> no_action 4
+
+04:37:15 rec >>> no_action 4
+
+04:37:15 rec >>> no_action 2
+
+04:37:15 rec >>> no_action 2
+
+04:37:16 rec >>> 1 4
+
+04:37:16 rec >>> 1 4
+
+04:37:16 rec >>> no_action 2
+
+04:37:16 rec >>> no_action 2
+
+04:37:17 rec >>> kick 4 1 0
+
+04:37:17 rec >>> kick 4 1 0
+
+04:37:17 rec >>> no_action 2
+
+04:37:17 rec >>> no_action 2
+
+04:37:18 rec >>> kick 4 5 -1
+
+04:37:18 rec >>> kick 4 5 -1
+
+04:37:18 rec >>> no_action 2
+
+04:37:18 rec >>> no_action 2
+
+04:37:19 rec >>> -1 4
+
+04:37:19 rec >>> -1 4
+
+04:37:19 rec >>> -1 2
+
+04:37:19 rec >>> -1 2
+
+04:37:20 rec >>> no_action 4
+
+04:37:20 rec >>> no_action 4
+
+04:37:20 rec >>> 1 2
+
+04:37:20 rec >>> 1 2
+
+04:37:21 rec >>> no_action 4
+
+04:37:21 rec >>> no_action 4
+
+04:37:21 rec >>> no_action 2
+
+04:37:21 rec >>> no_action 2
+
+04:37:22 rec >>> no_action 4
+
+04:37:22 rec >>> no_action 4
+
+04:37:22 rec >>> no_action 2
+
+04:37:22 rec >>> no_action 2
+
+04:37:23 rec >>> kick 4 1 1
+
+04:37:23 rec >>> kick 4 1 1
+
+04:37:23 rec >>> no_action 2
+
+04:37:23 rec >>> no_action 2
+
+04:37:24 rec >>> kick 4 1 0
+
+04:37:24 rec >>> kick 4 1 0
+
+04:37:24 rec >>> no_action 2
+
+04:37:24 rec >>> no_action 2
+
+04:37:25 rec >>> kick 4 5 0
+
+04:37:25 rec >>> kick 4 5 0
+
+04:37:25 rec >>> no_action 2
+
+04:37:25 rec >>> no_action 2
+
+04:37:26 rec >>> no_action 4
+
+04:37:26 rec >>> no_action 4
+
+04:37:26 rec >>> no_action 2
+
+04:37:26 rec >>> no_action 2
+
+04:37:27 rec >>> kick 4 5 0
+
+04:37:27 rec >>> kick 4 5 0
+
+04:37:27 rec >>> no_action 2
+
+04:37:27 rec >>> no_action 2
+
+04:37:28 rec >>> no_action 4
+
+04:37:28 rec >>> no_action 4
+
+04:37:28 rec >>> no_action 2
+
+04:37:28 rec >>> no_action 2
+
+04:37:29 rec >>> 1 4
+
+04:37:29 rec >>> 1 4
+
+04:37:29 rec >>> no_action 2
+
+04:37:29 rec >>> no_action 2
+
+04:37:30 rec >>> kick 4 5 1
+
+04:37:30 rec >>> kick 4 5 1
+
+04:37:30 rec >>> no_action 2
+
+04:37:30 rec >>> no_action 2
+
+04:37:31 rec >>> -1 4
+
+04:37:31 rec >>> -1 4
+
+04:37:31 rec >>> 1 2
+
+04:37:31 rec >>> 1 2
+
+04:37:32 rec >>> no_action 4
+
+04:37:32 rec >>> no_action 4
+
+04:37:32 rec >>> -1 2
+
+04:37:32 rec >>> -1 2
+
+04:37:33 rec >>> no_action 4
+
+04:37:33 rec >>> no_action 4
+
+04:37:33 rec >>> no_action 2
+
+04:37:33 rec >>> no_action 2
+
+04:37:34 rec >>> 1 4
+
+04:37:34 rec >>> 1 4
+
+04:37:34 rec >>> no_action 2
+
+04:37:34 rec >>> no_action 2
+
+04:37:35 rec >>> kick 4 1 1
+
+04:37:35 rec >>> kick 4 1 1
+
+04:37:35 rec >>> no_action 2
+
+04:37:35 rec >>> no_action 2
+
+04:37:36 rec >>> -1 4
+
+04:37:36 rec >>> -1 4
+
+04:37:36 rec >>> no_action 2
+
+04:37:36 rec >>> no_action 2
+
+04:37:37 rec >>> kick 4 5 0
+
+04:37:37 rec >>> kick 4 5 0
+
+04:37:37 rec >>> no_action 2
+
+04:37:37 rec >>> no_action 2
+
+04:37:38 rec >>> no_action 4
+
+04:37:38 rec >>> no_action 4
+
+04:37:38 rec >>> no_action 2
+
+04:37:38 rec >>> no_action 2
+
+04:37:39 rec >>> 1 4
+
+04:37:39 rec >>> 1 4
+
+04:37:39 rec >>> no_action 2
+
+04:37:39 rec >>> no_action 2
+
+04:37:40 rec >>> kick 4 5 1
+
+04:37:40 rec >>> kick 4 5 1
+
+04:37:40 rec >>> no_action 2
+
+04:37:40 rec >>> no_action 2
+
+04:37:41 rec >>> -1 4
+
+04:37:41 rec >>> -1 4
+
+04:37:41 rec >>> 1 2
+
+04:37:41 rec >>> 1 2
+
+04:37:42 rec >>> no_action 4
+
+04:37:42 rec >>> no_action 4
+
+04:37:43 rec >>> -1 2
+
+04:37:43 rec >>> -1 2
+
+04:37:44 rec >>> no_action 4
+
+04:37:44 rec >>> no_action 4
+
+04:37:44 rec >>> no_action 2
+
+04:37:44 rec >>> no_action 2
+
+04:37:45 rec >>> no_action 4
+
+04:37:45 rec >>> no_action 4
+
+04:37:45 rec >>> no_action 2
+
+04:37:45 rec >>> no_action 2
+
+04:37:46 rec >>> kick 4 1 1
+
+04:37:46 rec >>> kick 4 1 1
+
+04:37:46 rec >>> no_action 2
+
+04:37:46 rec >>> no_action 2
+
+04:37:47 rec >>> kick 4 1 -1
+
+04:37:47 rec >>> kick 4 1 -1
+
+04:37:47 rec >>> no_action 2
+
+04:37:47 rec >>> no_action 2
+
+04:37:48 rec >>> 1 4
+
+04:37:48 rec >>> 1 4
+
+04:37:48 rec >>> no_action 2
+
+04:37:48 rec >>> no_action 2
+
+04:37:49 rec >>> kick 4 5 -1
+
+04:37:49 rec >>> kick 4 5 -1
+
+04:37:49 rec >>> no_action 2
+
+04:37:49 rec >>> no_action 2
+
+04:37:51 rec >>> -1 4
+
+04:37:51 rec >>> -1 4
+
+04:37:51 rec >>> -1 21 41 2
+
+04:37:51 rec >>> -1 2
+
+04:37:51 rec >>> 1 41 2
+
+04:37:51 rec >>> 1 4
+
+04:37:51 rec >>> 1 2
+
+04:37:51 rec >>> 1 2
+
+04:37:52 rec >>> kick 4 5 0
+
+04:37:52 rec >>> kick 4 5 0
+
+04:37:52 rec >>> no_action 2
+
+04:37:52 rec >>> no_action 2
+
+04:37:53 rec >>> -1 4
+
+04:37:53 rec >>> -1 4
+
+04:37:53 rec >>> 1 2
+
+04:37:53 rec >>> 1 2
+
+04:37:54 rec >>> 1 4
+
+04:37:54 rec >>> 1 4
+
+04:37:54 rec >>> -1 2
+
+04:37:54 rec >>> -1 2
+
+04:37:55 rec >>> kick 4 1 1
+
+04:37:55 rec >>> kick 4 1 1
+
+04:37:55 rec >>> no_action 2
+
+04:37:55 rec >>> no_action 2
+
+04:37:56 rec >>> -1 4
+
+04:37:56 rec >>> -1 4
+
+04:37:56 rec >>> no_action 2
+
+04:37:56 rec >>> no_action 2
+
+04:37:57 rec >>> kick 4 5 1
+
+04:37:57 rec >>> kick 4 5 1
+
+04:37:57 rec >>> no_action 2
+
+04:37:57 rec >>> no_action 2
+
+04:38:05 rec >>> no_action 4
+
+04:38:05 rec >>> no_action 4
+
+04:38:05 rec >>> 1 2
+
+04:38:05 rec >>> 1 2
+
+04:38:05 rec >>> no_action 4-1 2
+
+04:38:06 rec >>> no_action 4
+
+04:38:06 rec >>> -1 2
+
+04:38:06 rec >>> -1 2
+
+04:38:06 rec >>> no_action 4
+
+04:38:06 rec >>> no_action 4
+
+04:38:06 rec >>> no_action 2
+
+04:38:06 rec >>> no_action 2
+
+04:38:07 rec >>> no_action 4
+
+04:38:07 rec >>> no_action 4
+
+04:38:07 rec >>> no_action 2
+
+04:38:07 rec >>> no_action 2
+
+04:38:08 rec >>> 1 4
+
+04:38:08 rec >>> 1 4
+
+04:38:08 rec >>> no_action 2
+
+04:38:08 rec >>> no_action 2
+
+04:38:09 rec >>> kick 4 5 1
+
+04:38:09 rec >>> kick 4 5 1
+
+04:38:09 rec >>> no_action 2
+
+04:38:09 rec >>> no_action 2
+
+04:38:10 rec >>> kick 4 5 1
+
+04:38:10 rec >>> kick 4 5 1
+
+04:38:10 rec >>> no_action 2
+
+04:38:10 rec >>> no_action 2
+
+04:38:11 rec >>> kick 4 5 1
+
+04:38:11 rec >>> kick 4 5 1
+
+04:38:11 rec >>> no_action 2
+
+04:38:11 rec >>> no_action 2
+
+04:38:12 rec >>> kick 4 5 1
+
+04:38:12 rec >>> kick 4 5 1
+
+04:38:12 rec >>> no_action 2
+
+04:38:12 rec >>> no_action 2
+
+04:38:13 rec >>> kick 4 5 0
+
+04:38:13 rec >>> kick 4 5 0
+
+04:38:13 rec >>> no_action 2
+
+04:38:13 rec >>> no_action 2
+
+04:38:14 rec >>> -1 4
+
+04:38:14 rec >>> -1 4
+
+04:38:14 rec >>> 1 2
+
+04:38:14 rec >>> 1 2
+
+04:38:15 rec >>> kick 4 5 1
+
+04:38:15 rec >>> kick 4 5 1
+
+04:38:15 rec >>> -1 2
+
+04:38:15 rec >>> -1 2
+
+04:38:16 rec >>> no_action 4
+
+04:38:16 rec >>> no_action 4
+
+04:38:16 rec >>> 1 2
+
+04:38:16 rec >>> 1 2
+
+04:38:17 rec >>> 1 4
+
+04:38:17 rec >>> 1 4
+
+04:38:17 rec >>> -1 2
+
+04:38:17 rec >>> -1 2
+
+04:38:18 rec >>> kick 4 1 1
+
+04:38:18 rec >>> kick 4 1 1
+
+04:38:18 rec >>> no_action 2
+
+04:38:18 rec >>> no_action 2
+
+04:38:19 rec >>> kick 4 1 0
+
+04:38:19 rec >>> kick 4 1 0
+
+04:38:19 rec >>> no_action 2
+
+04:38:19 rec >>> no_action 2
+
+04:38:20 rec >>> kick 4 5 0
+
+04:38:20 rec >>> kick 4 5 0
+
+04:38:20 rec >>> no_action 2
+
+04:38:20 rec >>> no_action 2
+
+04:38:21 rec >>> -1 4
+
+04:38:21 rec >>> -1 4
+
+04:38:21 rec >>> 1 2
+
+04:38:21 rec >>> 1 2
+
+04:38:22 rec >>> no_action 4
+
+04:38:22 rec >>> no_action 4
+
+04:38:22 rec >>> no_action 2
+
+04:38:22 rec >>> no_action 2
+
+04:38:23 rec >>> no_action 4
+
+04:38:23 rec >>> no_action 4
+
+04:38:23 rec >>> kick 2 1 0
+
+04:38:23 rec >>> kick 2 1 0
+
+04:38:24 rec >>> no_action 4
+
+04:38:24 rec >>> no_action 4
+
+04:38:24 rec >>> kick 2 1 1
+
+04:38:24 rec >>> kick 2 1 1
+
+04:38:25 rec >>> no_action 4
+
+04:38:25 rec >>> no_action 4
+
+04:38:25 rec >>> kick 2 1 1
+
+04:38:25 rec >>> kick 2 1 1
+
+04:38:26 rec >>> no_action 4
+
+04:38:26 rec >>> no_action 4
+
+04:38:26 rec >>> kick 2 1 1
+
+04:38:26 rec >>> kick 2 1 1
+
+04:38:27 rec >>> no_action 4
+
+04:38:27 rec >>> no_action 4
+
+04:38:27 rec >>> kick 2 1 1
+
+04:38:27 rec >>> kick 2 1 1
+
+04:38:28 rec >>> no_action 4
+
+04:38:28 rec >>> no_action 4
+
+04:38:28 rec >>> kick 2 1 1
+
+04:38:28 rec >>> kick 2 1 1
+
+04:38:29 rec >>> no_action 4
+
+04:38:29 rec >>> no_action 4
+
+04:38:29 rec >>> kick 2 1 0
+
+04:38:29 rec >>> kick 2 1 0
+
+04:38:30 rec >>> no_action 4
+
+04:38:30 rec >>> no_action 4
+
+04:38:30 rec >>> kick 2 5 1
+
+04:38:30 rec >>> kick 2 5 1
+
+04:38:31 rec >>> no_action 4
+
+04:38:31 rec >>> no_action 4
+
+04:38:31 rec >>> kick 2 5 1
+
+04:38:31 rec >>> kick 2 5 1
+
+04:38:32 rec >>> no_action 4
+
+04:38:32 rec >>> no_action 4
+
+04:38:32 rec >>> kick 2 5 1
+
+04:38:32 rec >>> kick 2 5 1
+
+04:38:33 rec >>> no_action 4
+
+04:38:33 rec >>> no_action 4
+
+04:38:33 rec >>> kick 2 5 1
+
+04:38:33 rec >>> kick 2 5 1
+
+04:38:34 rec >>> no_action 4
+
+04:38:34 rec >>> no_action 4
+
+04:38:34 rec >>> kick 2 5 1
+
+04:38:34 rec >>> kick 2 5 1
+
+04:38:35 rec >>> no_action 4
+
+04:38:35 rec >>> no_action 4
+
+04:38:35 rec >>> kick 2 5 1
+
+04:38:35 rec >>> kick 2 5 1
+
+04:38:36 rec >>> no_action 4
+
+04:38:36 rec >>> no_action 4
+
+04:38:36 rec >>> kick 2 5 1
+
+04:38:36 rec >>> kick 2 5 1
+
+04:38:37 rec >>> no_action 4
+
+04:38:37 rec >>> no_action 4
+
+04:38:37 rec >>> kick 2 5 1
+
+04:38:37 rec >>> kick 2 5 1
+
+04:38:38 rec >>> no_action 4
+
+04:38:38 rec >>> no_action 4
+
+04:38:38 rec >>> kick 2 5 1
+
+04:38:38 rec >>> kick 2 5 1
+
+04:38:39 rec >>> no_action 4
+
+04:38:39 rec >>> no_action 4
+
+04:38:39 rec >>> kick 2 5 1
+
+04:38:39 rec >>> kick 2 5 1
+
+04:38:40 rec >>> no_action 4
+
+04:38:40 rec >>> no_action 4
+
+04:38:40 rec >>> kick 2 5 1
+
+04:38:40 rec >>> kick 2 5 1
+
+04:38:41 rec >>> no_action 4
+
+04:38:41 rec >>> no_action 4
+
+04:38:41 rec >>> kick 2 5 1
+
+04:38:41 rec >>> kick 2 5 1
+
+04:38:42 rec >>> no_action 4
+
+04:38:42 rec >>> no_action 4
+
+04:38:42 rec >>> kick 2 5 1
+
+04:38:42 rec >>> kick 2 5 1
+
+04:38:43 rec >>> no_action 4
+
+04:38:43 rec >>> no_action 4
+
+04:38:43 rec >>> kick 2 5 1
+
+04:38:43 rec >>> kick 2 5 1
+
+04:38:44 rec >>> no_action 4
+
+04:38:44 rec >>> no_action 4
+
+04:38:44 rec >>> kick 2 5 1
+
+04:38:44 rec >>> kick 2 5 1
+
+04:38:45 rec >>> no_action 4
+
+04:38:45 rec >>> no_action 4
+
+04:38:45 rec >>> kick 2 5 1
+
+04:38:45 rec >>> kick 2 5 1
+
+04:38:46 rec >>> no_action 4
+
+04:38:46 rec >>> no_action 4
+
+04:38:46 rec >>> kick 2 5 1
+
+04:38:46 rec >>> kick 2 5 1
+
+04:38:47 rec >>> no_action 4
+
+04:38:47 rec >>> no_action 4
+
+04:38:47 rec >>> kick 2 5 1
+
+04:38:47 rec >>> kick 2 5 1
+
+04:38:48 rec >>> no_action 4
+
+04:38:48 rec >>> no_action 4
+
+04:38:48 rec >>> kick 2 5 1
+
+04:38:48 rec >>> kick 2 5 1
+
+04:38:49 rec >>> no_action 4
+
+04:38:49 rec >>> no_action 4
+
+04:38:49 rec >>> kick 2 5 1
+
+04:38:49 rec >>> kick 2 5 1
+
+04:38:50 rec >>> no_action 4
+
+04:38:50 rec >>> no_action 4
+
+04:38:50 rec >>> kick 2 5 1
+
+04:38:50 rec >>> kick 2 5 1
+
+04:38:51 rec >>> no_action 4
+
+04:38:51 rec >>> no_action 4
+
+04:38:51 rec >>> kick 2 5 1
+
+04:38:51 rec >>> kick 2 5 1
+
+04:38:52 rec >>> no_action 4
+
+04:38:52 rec >>> no_action 4
+
+04:38:52 rec >>> kick 2 5 1
+
+04:38:52 rec >>> kick 2 5 1
+
+04:38:53 rec >>> no_action 4
+
+04:38:53 rec >>> no_action 4
+
+04:38:53 rec >>> kick 2 5 1
+
+04:38:53 rec >>> kick 2 5 1
+
+04:38:54 rec >>> no_action 4
+
+04:38:54 rec >>> no_action 4
+
+04:38:54 rec >>> kick 2 5 1
+
+04:38:54 rec >>> kick 2 5 1
+
+04:38:55 rec >>> no_action 4
+
+04:38:55 rec >>> no_action 4
+
+04:38:55 rec >>> kick 2 5 1
+
+04:38:55 rec >>> kick 2 5 1
+
+04:38:56 rec >>> no_action 4
+
+04:38:56 rec >>> no_action 4
+
+04:38:56 rec >>> kick 2 5 1
+
+04:38:56 rec >>> kick 2 5 1
+
+04:38:57 rec >>> no_action 4
+
+04:38:57 rec >>> no_action 4
+
+04:38:57 rec >>> kick 2 5 1
+
+04:38:57 rec >>> kick 2 5 1
+
+04:38:58 rec >>> no_action 4
+
+04:38:58 rec >>> no_action 4
+
+04:38:58 rec >>> kick 2 5 1
+
+04:38:58 rec >>> kick 2 5 1
+
+04:38:59 rec >>> no_action 4
+
+04:38:59 rec >>> no_action 4
+
+04:38:59 rec >>> kick 2 5 1
+
+04:38:59 rec >>> kick 2 5 1
+
+04:39:00 rec >>> no_action 4
+
+04:39:00 rec >>> no_action 4
+
+04:39:00 rec >>> kick 2 5 1
+
+04:39:00 rec >>> kick 2 5 1
+
+04:39:01 rec >>> no_action 4
+
+04:39:01 rec >>> no_action 4
+
+04:39:01 rec >>> kick 2 5 1
+
+04:39:01 rec >>> kick 2 5 1
+
+04:39:02 rec >>> no_action 4
+
+04:39:02 rec >>> no_action 4
+
+04:39:02 rec >>> kick 2 5 1
+
+04:39:02 rec >>> kick 2 5 1
+
+04:39:03 rec >>> no_action 4
+
+04:39:03 rec >>> no_action 4
+
+04:39:03 rec >>> kick 2 5 1
+
+04:39:03 rec >>> kick 2 5 1
+
+04:39:04 rec >>> no_action 4
+
+04:39:04 rec >>> no_action 4
+
+04:39:04 rec >>> kick 2 5 1
+
+04:39:04 rec >>> kick 2 5 1
+
+04:39:05 rec >>> no_action 4
+
+04:39:05 rec >>> no_action 4
+
+04:39:05 rec >>> kick 2 5 1
+
+04:39:05 rec >>> kick 2 5 1
+
+04:39:06 rec >>> no_action 4
+
+04:39:06 rec >>> no_action 4
+
+04:39:06 rec >>> kick 2 5 1
+
+04:39:06 rec >>> kick 2 5 1
+
+04:39:07 rec >>> no_action 4
+
+04:39:07 rec >>> no_action 4
+
+04:39:07 rec >>> kick 2 5 1
+
+04:39:07 rec >>> kick 2 5 1
+
+04:39:08 rec >>> no_action 4
+
+04:39:08 rec >>> no_action 4
+
+04:39:08 rec >>> kick 2 5 1
+
+04:39:08 rec >>> kick 2 5 1
+
+04:39:09 rec >>> no_action 4
+
+04:39:09 rec >>> no_action 4
+
+04:39:09 rec >>> kick 2 5 1
+
+04:39:09 rec >>> kick 2 5 1
+
+04:39:10 rec >>> no_action 4
+
+04:39:10 rec >>> no_action 4
+
+04:39:10 rec >>> kick 2 5 1
+
+04:39:10 rec >>> kick 2 5 1
+
+04:39:11 rec >>> no_action 4
+
+04:39:11 rec >>> no_action 4
+
+04:39:11 rec >>> kick 2 5 1
+
+04:39:11 rec >>> kick 2 5 1
+
+04:39:12 rec >>> no_action 4
+
+04:39:12 rec >>> no_action 4
+
+04:39:12 rec >>> kick 2 5 1
+
+04:39:12 rec >>> kick 2 5 1
+
+04:39:13 rec >>> no_action 4
+
+04:39:13 rec >>> no_action 4
+
+04:39:13 rec >>> kick 2 5 1
+
+04:39:13 rec >>> kick 2 5 1
+
+04:39:14 rec >>> no_action 4
+
+04:39:14 rec >>> no_action 4
+
+04:39:14 rec >>> kick 2 5 1
+
+04:39:14 rec >>> kick 2 5 1
+
+04:39:15 rec >>> no_action 4
+
+04:39:15 rec >>> no_action 4
+
+04:39:15 rec >>> kick 2 5 1
+
+04:39:15 rec >>> kick 2 5 1
+
+04:39:16 rec >>> no_action 4
+
+04:39:16 rec >>> no_action 4
+
+04:39:16 rec >>> kick 2 5 1
+
+04:39:16 rec >>> kick 2 5 1
+
+04:39:17 rec >>> no_action 4
+
+04:39:17 rec >>> no_action 4
+
+04:39:17 rec >>> kick 2 5 1
+
+04:39:17 rec >>> kick 2 5 1
+
+04:39:18 rec >>> no_action 4
+
+04:39:18 rec >>> no_action 4
+
+04:39:18 rec >>> kick 2 5 1
+
+04:39:18 rec >>> kick 2 5 1
+
+04:39:19 rec >>> no_action 4
+
+04:39:19 rec >>> no_action 4
+
+04:39:19 rec >>> kick 2 5 1
+
+04:39:19 rec >>> kick 2 5 1
+
+04:39:20 rec >>> no_action 4
+
+04:39:20 rec >>> no_action 4
+
+04:39:20 rec >>> kick 2 5 1
+
+04:39:20 rec >>> kick 2 5 1
+
+04:39:21 rec >>> no_action 4
+
+04:39:21 rec >>> no_action 4
+
+04:39:21 rec >>> kick 2 5 1
+
+04:39:21 rec >>> kick 2 5 1
+
+04:39:22 rec >>> no_action 4
+
+04:39:22 rec >>> no_action 4
+
+04:39:22 rec >>> kick 2 5 1
+
+04:39:22 rec >>> kick 2 5 1
+
+04:39:23 rec >>> no_action 4
+
+04:39:23 rec >>> no_action 4
+
+04:39:23 rec >>> kick 2 5 1
+
+04:39:23 rec >>> kick 2 5 1
+
+04:39:24 rec >>> no_action 4
+
+04:39:24 rec >>> no_action 4
+
+04:39:24 rec >>> kick 2 5 1
+
+04:39:24 rec >>> kick 2 5 1
+
+04:39:25 rec >>> no_action 4
+
+04:39:25 rec >>> no_action 4
+
+04:39:25 rec >>> kick 2 5 1
+
+04:39:25 rec >>> kick 2 5 1
+
+04:39:26 rec >>> no_action 4
+
+04:39:26 rec >>> no_action 4
+
+04:39:26 rec >>> kick 2 5 1
+
+04:39:26 rec >>> kick 2 5 1
+
+04:39:27 rec >>> no_action 4
+
+04:39:27 rec >>> no_action 4
+
+04:39:27 rec >>> kick 2 5 1
+
+04:39:27 rec >>> kick 2 5 1
+
+04:39:28 rec >>> no_action 4
+
+04:39:28 rec >>> no_action 4
+
+04:39:28 rec >>> kick 2 5 1
+
+04:39:28 rec >>> kick 2 5 1
+
+04:39:29 rec >>> no_action 4
+
+04:39:29 rec >>> no_action 4
+
+04:39:29 rec >>> kick 2 5 1
+
+04:39:29 rec >>> kick 2 5 1
+
+04:39:30 rec >>> no_action 4
+
+04:39:30 rec >>> no_action 4
+
+04:39:30 rec >>> kick 2 5 1
+
+04:39:30 rec >>> kick 2 5 1
+
+04:39:31 rec >>> no_action 4
+
+04:39:31 rec >>> no_action 4
+
+04:39:31 rec >>> kick 2 5 1
+
+04:39:31 rec >>> kick 2 5 1
+
+04:39:32 rec >>> no_action 4
+
+04:39:32 rec >>> no_action 4
+
+04:39:32 rec >>> kick 2 5 1
+
+04:39:32 rec >>> kick 2 5 1
+
+04:39:33 rec >>> no_action 4
+
+04:39:33 rec >>> no_action 4
+
+04:39:33 rec >>> kick 2 5 1
+
+04:39:33 rec >>> kick 2 5 1
+
+04:39:34 rec >>> no_action 4
+
+04:39:34 rec >>> no_action 4
+
+04:39:35 rec >>> kick 2 5 1
+
+04:39:35 rec >>> kick 2 5 1
+
+04:39:35 rec >>> no_action 4
+
+04:39:35 rec >>> no_action 4
+
+04:39:36 rec >>> kick 2 5 1
+
+04:39:36 rec >>> kick 2 5 1
+
+04:39:37 rec >>> no_action 4
+
+04:39:37 rec >>> no_action 4
+
+04:39:37 rec >>> kick 2 5 1
+
+04:39:37 rec >>> kick 2 5 1
+
+04:39:38 rec >>> no_action 4
+
+04:39:38 rec >>> no_action 4
+
+04:39:38 rec >>> kick 2 5 1
+
+04:39:38 rec >>> kick 2 5 1
+
+04:39:39 rec >>> no_action 4
+
+04:39:39 rec >>> no_action 4
+
+04:39:39 rec >>> kick 2 5 1
+
+04:39:39 rec >>> kick 2 5 1
+
+04:39:40 rec >>> no_action 4
+
+04:39:40 rec >>> no_action 4
+
+04:39:40 rec >>> kick 2 5 1
+
+04:39:40 rec >>> kick 2 5 1
+
+04:39:41 rec >>> no_action 4
+
+04:39:41 rec >>> no_action 4
+
+04:39:41 rec >>> kick 2 5 1
+
+04:39:41 rec >>> kick 2 5 1
+
+04:49:55 rec >>> no_action 4
+
+04:49:55 rec >>> no_action 4
+
+04:49:55 rec >>> no_action 2
+
+04:49:55 rec >>> no_action 2
+
+04:49:56 rec >>> no_action 4
+
+04:49:56 rec >>> no_action 4
+
+04:49:56 rec >>> no_action 2
+
+04:49:56 rec >>> no_action 2
+
+04:49:57 rec >>> no_action 4
+
+04:49:57 rec >>> no_action 4
+
+04:49:57 rec >>> no_action 2
+
+04:49:57 rec >>> no_action 2
+
+04:49:58 rec >>> no_action 4
+
+04:49:58 rec >>> no_action 4
+
+04:49:58 rec >>> no_action 2
+
+04:49:58 rec >>> no_action 2
+
+04:49:59 rec >>> 1 4
+
+04:49:59 rec >>> 1 4
+
+04:49:59 rec >>> no_action 2
+
+04:49:59 rec >>> no_action 2
+
+04:50:00 rec >>> kick 4 1 0
+
+04:50:00 rec >>> kick 4 1 0
+
+04:50:00 rec >>> no_action 2
+
+04:50:00 rec >>> no_action 2
+
+04:50:01 rec >>> kick 4 5 0
+
+04:50:01 rec >>> kick 4 5 0
+
+04:50:01 rec >>> no_action 2
+
+04:50:01 rec >>> no_action 2
+
+04:50:02 rec >>> -1 4
+
+04:50:02 rec >>> -1 4
+
+04:50:02 rec >>> 1 2
+
+04:50:02 rec >>> 1 2
+
+04:50:03 rec >>> no_action 4
+
+04:50:03 rec >>> no_action 4
+
+04:50:03 rec >>> no_action 2
+
+04:50:03 rec >>> no_action 2
+
+04:50:04 rec >>> no_action 4
+
+04:50:04 rec >>> no_action 4
+
+04:50:04 rec >>> -1 2
+
+04:50:04 rec >>> -1 2
+
+04:50:05 rec >>> no_action 4
+
+04:50:05 rec >>> no_action 4
+
+04:50:05 rec >>> no_action 2
+
+04:50:05 rec >>> no_action 2
+
+04:50:06 rec >>> kick 4 1 1
+
+04:50:06 rec >>> kick 4 1 1
+
+04:50:06 rec >>> no_action 2
+
+04:50:06 rec >>> no_action 2
+
+04:50:07 rec >>> no_action 4
+
+04:50:07 rec >>> no_action 4
+
+04:50:07 rec >>> no_action 2
+
+04:50:07 rec >>> no_action 2
+
+04:50:08 rec >>> no_action 4
+
+04:50:08 rec >>> no_action 4
+
+04:50:08 rec >>> no_action 2
+
+04:50:08 rec >>> no_action 2
+
+04:50:09 rec >>> 1 4
+
+04:50:09 rec >>> 1 4
+
+04:50:09 rec >>> no_action 2
+
+04:50:09 rec >>> no_action 2
+
+04:50:10 rec >>> kick 4 1 -1
+
+04:50:10 rec >>> kick 4 1 -1
+
+04:50:10 rec >>> no_action 2
+
+04:50:10 rec >>> no_action 2
+
+04:50:11 rec >>> -1 4
+
+04:50:11 rec >>> -1 4
+
+04:50:11 rec >>> no_action 2
+
+04:50:11 rec >>> no_action 2
+
+04:50:12 rec >>> kick 4 5 0
+
+04:50:12 rec >>> kick 4 5 0
+
+04:50:12 rec >>> no_action 2
+
+04:50:12 rec >>> no_action 2
+
+04:50:13 rec >>> no_action 4
+
+04:50:13 rec >>> no_action 4
+
+04:50:13 rec >>> no_action 2
+
+04:50:13 rec >>> no_action 2
+
+04:50:14 rec >>> 1 4
+
+04:50:14 rec >>> 1 4
+
+04:50:14 rec >>> no_action 2
+
+04:50:14 rec >>> no_action 2
+
+04:50:15 rec >>> kick 4 5 0
+
+04:50:15 rec >>> kick 4 5 0
+
+04:50:15 rec >>> no_action 2
+
+04:50:15 rec >>> no_action 2
+
+04:50:16 rec >>> -1 4
+
+04:50:16 rec >>> -1 4
+
+04:50:16 rec >>> 1 2
+
+04:50:16 rec >>> 1 2
+
+04:50:17 rec >>> no_action 4
+
+04:50:17 rec >>> no_action 4
+
+04:50:17 rec >>> no_action 2
+
+04:50:17 rec >>> no_action 2
+
+04:50:18 rec >>> no_action 4
+
+04:50:18 rec >>> no_action 4
+
+04:50:18 rec >>> -1 2
+
+04:50:18 rec >>> -1 2
+
+04:50:19 rec >>> 1 4
+
+04:50:19 rec >>> 1 4
+
+04:50:19 rec >>> no_action 2
+
+04:50:19 rec >>> no_action 2
+
+04:50:20 rec >>> kick 4 1 0
+
+04:50:20 rec >>> kick 4 1 0
+
+04:50:20 rec >>> no_action 2
+
+04:50:20 rec >>> no_action 2
+
+04:50:21 rec >>> kick 4 5 -1
+
+04:50:21 rec >>> kick 4 5 -1
+
+04:50:21 rec >>> no_action 2
+
+04:50:21 rec >>> no_action 2
+
+04:50:22 rec >>> -1 4
+
+04:50:22 rec >>> -1 4
+
+04:50:22 rec >>> -1 2
+
+04:50:22 rec >>> -1 2
+
+04:50:23 rec >>> no_action 4
+
+04:50:23 rec >>> no_action 4
+
+04:50:23 rec >>> 1 2
+
+04:50:23 rec >>> 1 2
+
+04:50:24 rec >>> no_action 4
+
+04:50:24 rec >>> no_action 4
+
+04:50:24 rec >>> no_action 2
+
+04:50:24 rec >>> no_action 2
+
+04:50:25 rec >>> no_action 4
+
+04:50:25 rec >>> no_action 4
+
+04:50:25 rec >>> no_action 2
+
+04:50:25 rec >>> no_action 2
+
+04:50:26 rec >>> kick 4 1 0
+
+04:50:26 rec >>> kick 4 1 0
+
+04:50:26 rec >>> no_action 2
+
+04:50:26 rec >>> no_action 2
+
+04:50:27 rec >>> kick 4 1 -1
+
+04:50:27 rec >>> kick 4 1 -1
+
+04:50:27 rec >>> no_action 2
+
+04:50:27 rec >>> no_action 2
+
+04:50:28 rec >>> 1 4
+
+04:50:28 rec >>> 1 4
+
+04:50:28 rec >>> no_action 2
+
+04:50:28 rec >>> no_action 2
+
+04:50:29 rec >>> kick 4 5 -1
+
+04:50:29 rec >>> kick 4 5 -1
+
+04:50:29 rec >>> no_action 2
+
+04:50:29 rec >>> no_action 2
+
+04:50:30 rec >>> -1 4
+
+04:50:30 rec >>> -1 4
+
+04:50:30 rec >>> -1 2
+
+04:50:30 rec >>> -1 2
+
+04:50:31 rec >>> no_action 4
+
+04:50:31 rec >>> no_action 4
+
+04:50:31 rec >>> 1 2
+
+04:50:31 rec >>> 1 2
+
+04:50:32 rec >>> no_action 4
+
+04:50:32 rec >>> no_action 4
+
+04:50:32 rec >>> no_action 2
+
+04:50:32 rec >>> no_action 2
+
+04:50:33 rec >>> no_action 4
+
+04:50:33 rec >>> no_action 4
+
+04:50:33 rec >>> no_action 2
+
+04:50:33 rec >>> no_action 2
+
+04:53:44 rec >>> no_action 4
+
+04:53:44 rec >>> no_action 4
+
+04:53:44 rec >>> no_action 2
+
+04:53:44 rec >>> no_action 2
+
+04:53:45 rec >>> no_action 4
+
+04:53:45 rec >>> no_action 4
+
+04:53:45 rec >>> no_action 2
+
+04:53:45 rec >>> no_action 2
+
+04:53:46 rec >>> no_action 4
+
+04:53:46 rec >>> no_action 4
+
+04:53:46 rec >>> no_action 2
+
+04:53:46 rec >>> no_action 2
+
+04:53:47 rec >>> no_action 4
+
+04:53:47 rec >>> no_action 4
+
+04:53:47 rec >>> no_action 2
+
+04:53:47 rec >>> no_action 2
+
+04:53:48 rec >>> 1 4
+
+04:53:48 rec >>> 1 4
+
+04:53:48 rec >>> no_action 2
+
+04:53:48 rec >>> no_action 2
+
+04:53:49 rec >>> kick 4 1 1
+
+04:53:49 rec >>> kick 4 1 1
+
+04:53:49 rec >>> no_action 2
+
+04:53:49 rec >>> no_action 2
+
+04:53:50 rec >>> -1 4
+
+04:53:50 rec >>> -1 4
+
+04:53:50 rec >>> no_action 2
+
+04:53:50 rec >>> no_action 2
+
+04:53:51 rec >>> kick 4 5 1
+
+04:53:51 rec >>> kick 4 5 1
+
+04:53:51 rec >>> no_action 2
+
+04:53:51 rec >>> no_action 2
+
+04:53:52 rec >>> no_action 4
+
+04:53:52 rec >>> no_action 4
+
+04:53:52 rec >>> 1 2
+
+04:53:52 rec >>> 1 2
+
+04:53:53 rec >>> no_action 4
+
+04:53:53 rec >>> no_action 4
+
+04:53:53 rec >>> -1 2
+
+04:53:53 rec >>> -1 2
+
+04:53:54 rec >>> no_action 4
+
+04:53:54 rec >>> no_action 4
+
+04:53:54 rec >>> no_action 2
+
+04:53:54 rec >>> no_action 2
+
+04:53:55 rec >>> 1 4
+
+04:53:55 rec >>> 1 4
+
+04:53:55 rec >>> no_action 2
+
+04:53:55 rec >>> no_action 2
+
+04:53:56 rec >>> kick 4 1 1
+
+04:53:56 rec >>> kick 4 1 1
+
+04:53:56 rec >>> no_action 2
+
+04:53:56 rec >>> no_action 2
+
+04:53:57 rec >>> -1 4
+
+04:53:57 rec >>> -1 4
+
+04:53:57 rec >>> no_action 2
+
+04:53:57 rec >>> no_action 2
+
+04:53:58 rec >>> kick 4 5 1
+
+04:53:58 rec >>> kick 4 5 1
+
+04:53:58 rec >>> no_action 2
+
+04:53:58 rec >>> no_action 2
+
+04:53:59 rec >>> no_action 4
+
+04:53:59 rec >>> no_action 4
+
+04:54:00 rec >>> 1 2
+
+04:54:00 rec >>> 1 2
+
+04:54:01 rec >>> no_action 4
+
+04:54:01 rec >>> no_action 4
+
+04:54:01 rec >>> -1 2
+
+04:54:01 rec >>> -1 2
+
+04:54:02 rec >>> no_action 4
+
+04:54:02 rec >>> no_action 4
+
+04:54:02 rec >>> no_action 2
+
+04:54:02 rec >>> no_action 2
+
+04:54:03 rec >>> 1 4
+
+04:54:03 rec >>> 1 4
+
+04:54:03 rec >>> no_action 2
+
+04:54:03 rec >>> no_action 2
+
+04:54:04 rec >>> kick 4 1 1
+
+04:54:04 rec >>> kick 4 1 1
+
+04:54:04 rec >>> no_action 2
+
+04:54:04 rec >>> no_action 2
+
+04:54:05 rec >>> -1 4
+
+04:54:05 rec >>> -1 4
+
+04:54:05 rec >>> no_action 2
+
+04:54:05 rec >>> no_action 2
+
+04:54:06 rec >>> kick 4 5 1
+
+04:54:06 rec >>> kick 4 5 1
+
+04:54:06 rec >>> no_action 2
+
+04:54:06 rec >>> no_action 2
+
+04:54:07 rec >>> no_action 4
+
+04:54:07 rec >>> no_action 4
+
+04:54:07 rec >>> 1 2
+
+04:54:07 rec >>> 1 2
+
+04:54:08 rec >>> no_action 4
+
+04:54:08 rec >>> no_action 4
+
+04:54:08 rec >>> -1 2
+
+04:54:08 rec >>> -1 2
+
+04:54:09 rec >>> no_action 4
+
+04:54:09 rec >>> no_action 4
+
+04:54:09 rec >>> no_action 2
+
+04:54:09 rec >>> no_action 2
+
+04:54:10 rec >>> 1 4
+
+04:54:10 rec >>> 1 4
+
+04:54:10 rec >>> no_action 2
+
+04:54:10 rec >>> no_action 2
+
+04:54:11 rec >>> kick 4 1 0
+
+04:54:11 rec >>> kick 4 1 0
+
+04:54:11 rec >>> no_action 2
+
+04:54:11 rec >>> no_action 2
+
+04:54:12 rec >>> kick 4 5 0
+
+04:54:12 rec >>> kick 4 5 0
+
+04:54:12 rec >>> no_action 2
+
+04:54:12 rec >>> no_action 2
+
+04:54:13 rec >>> -1 4
+
+04:54:13 rec >>> -1 4
+
+04:54:13 rec >>> 1 2
+
+04:54:13 rec >>> 1 2
+
+04:54:14 rec >>> no_action 4
+
+04:54:14 rec >>> no_action 4
+
+04:54:14 rec >>> no_action 2
+
+04:54:14 rec >>> no_action 2
+
+04:54:15 rec >>> no_action 4
+
+04:54:15 rec >>> no_action 4
+
+04:54:15 rec >>> -1 2
+
+04:54:15 rec >>> -1 2
+
+04:54:16 rec >>> no_action 4
+
+04:54:16 rec >>> no_action 4
+
+04:54:16 rec >>> no_action 2
+
+04:54:16 rec >>> no_action 2
+
+04:54:17 rec >>> kick 4 1 -1
+
+04:54:17 rec >>> kick 4 1 -1
+
+04:54:17 rec >>> no_action 2
+
+04:54:17 rec >>> no_action 2
+
+04:54:18 rec >>> kick 4 1 -1
+
+04:54:18 rec >>> kick 4 1 -1
+
+04:54:18 rec >>> no_action 2
+
+04:54:18 rec >>> no_action 2
+
+04:54:19 rec >>> 1 4
+
+04:54:19 rec >>> 1 4
+
+04:54:19 rec >>> no_action 2
+
+04:54:19 rec >>> no_action 2
+
+04:54:20 rec >>> kick 4 5 0
+
+04:54:20 rec >>> kick 4 5 0
+
+04:54:20 rec >>> no_action 2
+
+04:54:20 rec >>> no_action 2
+
+04:54:21 rec >>> -1 4
+
+04:54:21 rec >>> -1 4
+
+04:54:21 rec >>> 1 2
+
+04:54:21 rec >>> 1 2
+
+04:54:22 rec >>> no_action 4
+
+04:54:22 rec >>> no_action 4
+
+04:54:22 rec >>> no_action 2
+
+04:54:22 rec >>> no_action 2
+
+04:54:23 rec >>> no_action 4
+
+04:54:23 rec >>> no_action 4
+
+04:54:23 rec >>> -1 2
+
+04:54:23 rec >>> -1 2
+
+04:54:24 rec >>> no_action 4
+
+04:54:24 rec >>> no_action 4
+
+04:54:24 rec >>> no_action 2
+
+04:54:24 rec >>> no_action 2
+
+04:54:25 rec >>> kick 4 1 -1
+
+04:54:25 rec >>> kick 4 1 -1
+
+04:54:25 rec >>> no_action 2
+
+04:54:25 rec >>> no_action 2
+
+04:54:26 rec >>> kick 4 1 0
+
+04:54:26 rec >>> kick 4 1 0
+
+04:54:26 rec >>> no_action 2
+
+04:54:26 rec >>> no_action 2
+
+04:54:27 rec >>> kick 4 5 0
+
+04:54:27 rec >>> kick 4 5 0
+
+04:54:27 rec >>> no_action 2
+
+04:54:27 rec >>> no_action 2
+
+04:54:28 rec >>> no_action 4
+
+04:54:28 rec >>> no_action 4
+
+04:54:28 rec >>> no_action 2
+
+04:54:28 rec >>> no_action 2
+
+04:54:29 rec >>> 1 4
+
+04:54:29 rec >>> 1 4
+
+04:54:29 rec >>> no_action 2
+
+04:54:29 rec >>> no_action 2
+
+04:54:30 rec >>> kick 4 5 1
+
+04:54:30 rec >>> kick 4 5 1
+
+04:54:30 rec >>> no_action 2
+
+04:54:30 rec >>> no_action 2
+
+04:54:31 rec >>> -1 4
+
+04:54:31 rec >>> -1 4
+
+04:54:31 rec >>> 1 2
+
+04:54:31 rec >>> 1 2
+
+04:54:32 rec >>> no_action 4
+
+04:54:32 rec >>> no_action 4
+
+04:54:32 rec >>> -1 2
+
+04:54:32 rec >>> -1 2
+
+04:54:33 rec >>> no_action 4
+
+04:54:33 rec >>> no_action 4
+
+04:54:33 rec >>> no_action 2
+
+04:54:33 rec >>> no_action 2
+
+04:54:34 rec >>> 1 4
+
+04:54:34 rec >>> 1 4
+
+04:54:34 rec >>> no_action 2
+
+04:54:34 rec >>> no_action 2
+
+04:54:35 rec >>> kick 4 1 1
+
+04:54:35 rec >>> kick 4 1 1
+
+04:54:35 rec >>> no_action 2
+
+04:54:35 rec >>> no_action 2
+
+04:54:36 rec >>> -1 4
+
+04:54:36 rec >>> -1 4
+
+04:54:36 rec >>> no_action 2
+
+04:54:36 rec >>> no_action 2
+
+04:54:37 rec >>> kick 4 5 0
+
+04:54:37 rec >>> kick 4 5 0
+
+04:54:37 rec >>> no_action 2
+
+04:54:37 rec >>> no_action 2
+
+04:54:38 rec >>> no_action 4
+
+04:54:38 rec >>> no_action 4
+
+04:54:38 rec >>> no_action 2
+
+04:54:38 rec >>> no_action 2
+
+04:54:39 rec >>> kick 4 5 1
+
+04:54:39 rec >>> kick 4 5 1
+
+04:54:39 rec >>> no_action 2
+
+04:54:39 rec >>> no_action 2
+
+04:54:40 rec >>> no_action 4
+
+04:54:40 rec >>> no_action 4
+
+04:54:40 rec >>> 1 2
+
+04:54:40 rec >>> 1 2
+
+04:54:41 rec >>> no_action 4
+
+04:54:41 rec >>> no_action 4
+
+04:54:41 rec >>> -1 2
+
+04:54:41 rec >>> -1 2
+
+04:54:42 rec >>> no_action 4
+
+04:54:42 rec >>> no_action 4
+
+04:54:42 rec >>> no_action 2
+
+04:54:42 rec >>> no_action 2
+
+04:54:43 rec >>> 1 4
+
+04:54:43 rec >>> 1 4
+
+04:54:43 rec >>> no_action 2
+
+04:54:43 rec >>> no_action 2
+
+04:54:44 rec >>> kick 4 1 0
+
+04:54:44 rec >>> kick 4 1 0
+
+04:54:44 rec >>> no_action 2
+
+04:54:44 rec >>> no_action 2
+
+04:54:45 rec >>> kick 4 5 1
+
+04:54:45 rec >>> kick 4 5 1
+
+04:54:45 rec >>> no_action 2
+
+04:54:45 rec >>> no_action 2
+
+04:54:46 rec >>> -1 4
+
+04:54:46 rec >>> -1 4
+
+04:54:46 rec >>> 1 2
+
+04:54:46 rec >>> 1 2
+
+04:54:47 rec >>> no_action 4
+
+04:54:47 rec >>> no_action 4
+
+04:54:47 rec >>> -1 2
+
+04:54:47 rec >>> -1 2
+
+04:54:48 rec >>> no_action 4
+
+04:54:48 rec >>> no_action 4
+
+04:54:48 rec >>> no_action 2
+
+04:54:48 rec >>> no_action 2
+
+04:54:49 rec >>> no_action 4
+
+04:54:49 rec >>> no_action 4
+
+04:54:49 rec >>> no_action 2
+
+04:54:49 rec >>> no_action 2
+
+04:54:50 rec >>> kick 4 1 1
+
+04:54:50 rec >>> kick 4 1 1
+
+04:54:50 rec >>> no_action 2
+
+04:54:50 rec >>> no_action 2
+
+04:54:51 rec >>> kick 4 1 -1
+
+04:54:51 rec >>> kick 4 1 -1
+
+04:54:51 rec >>> no_action 2
+
+04:54:51 rec >>> no_action 2
+
+04:54:52 rec >>> 1 4
+
+04:54:52 rec >>> 1 4
+
+04:54:52 rec >>> no_action 2
+
+04:54:52 rec >>> no_action 2
+
+04:54:53 rec >>> kick 4 5 -1
+
+04:54:53 rec >>> kick 4 5 -1
+
+04:54:53 rec >>> no_action 2
+
+04:54:53 rec >>> no_action 2
+
+04:54:54 rec >>> -1 4
+
+04:54:54 rec >>> -1 4
+
+04:54:54 rec >>> -1 2
+
+04:54:54 rec >>> -1 2
+
+04:54:55 rec >>> no_action 4
+
+04:54:55 rec >>> no_action 4
+
+04:54:55 rec >>> 1 2
+
+04:54:55 rec >>> 1 2
+
+04:54:56 rec >>> no_action 4
+
+04:54:56 rec >>> no_action 4
+
+04:54:56 rec >>> no_action 2
+
+04:54:56 rec >>> no_action 2
+
+04:54:57 rec >>> no_action 4
+
+04:54:57 rec >>> no_action 4
+
+04:54:57 rec >>> no_action 2
+
+04:54:57 rec >>> no_action 2
+
+04:54:58 rec >>> kick 4 1 -1
+
+04:54:58 rec >>> kick 4 1 -1
+
+04:54:58 rec >>> no_action 2
+
+04:54:58 rec >>> no_action 2
+
+04:54:59 rec >>> kick 4 1 0
+
+04:54:59 rec >>> kick 4 1 0
+
+04:54:59 rec >>> no_action 2
+
+04:54:59 rec >>> no_action 2
+
+04:55:00 rec >>> kick 4 5 -1
+
+04:55:00 rec >>> kick 4 5 -1
+
+04:55:00 rec >>> no_action 2
+
+04:55:00 rec >>> no_action 2
+
+04:55:01 rec >>> no_action 4
+
+04:55:01 rec >>> no_action 4
+
+04:55:01 rec >>> -1 2
+
+04:55:01 rec >>> -1 2
+
+04:55:02 rec >>> no_action 4
+
+04:55:02 rec >>> no_action 4
+
+04:55:02 rec >>> 1 2
+
+04:55:02 rec >>> 1 2
+
+04:55:03 rec >>> no_action 4
+
+04:55:03 rec >>> no_action 4
+
+04:55:03 rec >>> no_action 2
+
+04:55:03 rec >>> no_action 2
+
+04:55:04 rec >>> kick 4 1 -1
+
+04:55:04 rec >>> kick 4 1 -1
+
+04:55:04 rec >>> no_action 2
+
+04:55:04 rec >>> no_action 2
+
+04:55:05 rec >>> kick 4 1 -1
+
+04:55:05 rec >>> kick 4 1 -1
+
+04:55:05 rec >>> no_action 2
+
+04:55:05 rec >>> no_action 2
+
+04:55:06 rec >>> 1 4
+
+04:55:06 rec >>> 1 4
+
+04:55:06 rec >>> no_action 2
+
+04:55:06 rec >>> no_action 2
+
+04:55:07 rec >>> kick 4 5 0
+
+04:55:07 rec >>> kick 4 5 0
+
+04:55:07 rec >>> no_action 2
+
+04:55:07 rec >>> no_action 2
+
+04:55:08 rec >>> -1 4
+
+04:55:08 rec >>> -1 4
+
+04:55:08 rec >>> 1 2
+
+04:55:08 rec >>> 1 2
+
+04:55:09 rec >>> no_action 4
+
+04:55:09 rec >>> no_action 4
+
+04:55:09 rec >>> no_action 2
+
+04:55:09 rec >>> no_action 2
+
+04:55:10 rec >>> no_action 4
+
+04:55:10 rec >>> no_action 4
+
+04:55:10 rec >>> -1 2
+
+04:55:10 rec >>> -1 2
+
+04:55:11 rec >>> no_action 4
+
+04:55:11 rec >>> no_action 4
+
+04:55:11 rec >>> no_action 2
+
+04:55:11 rec >>> no_action 2
+
+04:55:12 rec >>> kick 4 1 -1
+
+04:55:12 rec >>> kick 4 1 -1
+
+04:55:12 rec >>> no_action 2
+
+04:55:12 rec >>> no_action 2
+
+04:55:13 rec >>> kick 4 1 -1
+
+04:55:13 rec >>> kick 4 1 -1
+
+04:55:13 rec >>> no_action 2
+
+04:55:13 rec >>> no_action 2
+
+04:55:14 rec >>> 1 4
+
+04:55:14 rec >>> 1 4
+
+04:55:14 rec >>> no_action 2
+
+04:55:14 rec >>> no_action 2
+
+04:55:15 rec >>> kick 4 5 0
+
+04:55:15 rec >>> kick 4 5 0
+
+04:55:15 rec >>> no_action 2
+
+04:55:15 rec >>> no_action 2
+
+04:55:16 rec >>> -1 4
+
+04:55:16 rec >>> -1 4
+
+04:55:16 rec >>> 1 2
+
+04:55:16 rec >>> 1 2
+
+04:55:17 rec >>> no_action 4
+
+04:55:17 rec >>> no_action 4
+
+04:55:17 rec >>> no_action 2
+
+04:55:17 rec >>> no_action 2
+
+04:55:18 rec >>> no_action 4
+
+04:55:18 rec >>> no_action 4
+
+04:55:18 rec >>> -1 2
+
+04:55:18 rec >>> -1 2
+
+04:55:19 rec >>> no_action 4
+
+04:55:19 rec >>> no_action 4
+
+04:55:19 rec >>> no_action 2
+
+04:55:19 rec >>> no_action 2
+
+04:55:20 rec >>> kick 4 1 -1
+
+04:55:20 rec >>> kick 4 1 -1
+
+04:55:20 rec >>> no_action 2
+
+04:55:20 rec >>> no_action 2
+
+04:55:21 rec >>> kick 4 1 0
+
+04:55:21 rec >>> kick 4 1 0
+
+04:55:21 rec >>> no_action 2
+
+04:55:21 rec >>> no_action 2
+
+04:55:22 rec >>> kick 4 5 0
+
+04:55:22 rec >>> kick 4 5 0
+
+04:55:22 rec >>> no_action 2
+
+04:55:22 rec >>> no_action 2
+
+04:55:23 rec >>> no_action 4
+
+04:55:23 rec >>> no_action 4
+
+04:55:23 rec >>> no_action 2
+
+04:55:23 rec >>> no_action 2
+
+04:55:24 rec >>> 1 4
+
+04:55:24 rec >>> 1 4
+
+04:55:24 rec >>> no_action 2
+
+04:55:24 rec >>> no_action 2
+
+04:55:25 rec >>> kick 4 5 0
+
+04:55:25 rec >>> kick 4 5 0
+
+04:55:25 rec >>> no_action 2
+
+04:55:25 rec >>> no_action 2
+
+04:55:26 rec >>> -1 4
+
+04:55:26 rec >>> -1 4
+
+04:55:26 rec >>> 1 2
+
+04:55:26 rec >>> 1 2
+
+04:55:27 rec >>> no_action 4
+
+04:55:27 rec >>> no_action 4
+
+04:55:27 rec >>> no_action 2
+
+04:55:27 rec >>> no_action 2
+
+04:55:28 rec >>> no_action 4
+
+04:55:28 rec >>> no_action 4
+
+04:55:28 rec >>> -1 2
+
+04:55:28 rec >>> -1 2
+
+04:55:29 rec >>> no_action 4
+
+04:55:29 rec >>> no_action 4
+
+04:55:29 rec >>> no_action 2
+
+04:55:29 rec >>> no_action 2
+
+04:55:30 rec >>> kick 4 1 0
+
+04:55:30 rec >>> kick 4 1 0
+
+04:55:30 rec >>> no_action 2
+
+04:55:30 rec >>> no_action 2
+
+04:55:31 rec >>> kick 4 1 -1
+
+04:55:31 rec >>> kick 4 1 -1
+
+04:55:31 rec >>> no_action 2
+
+04:55:31 rec >>> no_action 2
+
+04:55:32 rec >>> 1 4
+
+04:55:32 rec >>> 1 4
+
+04:55:32 rec >>> no_action 2
+
+04:55:32 rec >>> no_action 2
+
+04:55:33 rec >>> kick 4 5 0
+
+04:55:33 rec >>> kick 4 5 0
+
+04:55:33 rec >>> no_action 2
+
+04:55:33 rec >>> no_action 2
+
+04:55:34 rec >>> -1 4
+
+04:55:34 rec >>> -1 4
+
+04:55:34 rec >>> 1 2
+
+04:55:34 rec >>> 1 2
+
+04:58:44 rec >>> no_action 4
+
+04:58:44 rec >>> no_action 4
+
+04:58:44 rec >>> no_action 2
+
+04:58:44 rec >>> no_action 2
+
+04:58:45 rec >>> no_action 4
+
+04:58:45 rec >>> no_action 4
+
+04:58:45 rec >>> no_action 2
+
+04:58:45 rec >>> no_action 2
+
+04:58:46 rec >>> no_action 4
+
+04:58:46 rec >>> no_action 4
+
+04:58:46 rec >>> no_action 2
+
+04:58:46 rec >>> no_action 2
+
+04:58:47 rec >>> no_action 4
+
+04:58:47 rec >>> no_action 4
+
+04:58:47 rec >>> no_action 2
+
+04:58:47 rec >>> no_action 2
+
+04:58:48 rec >>> 1 4
+
+04:58:48 rec >>> 1 4
+
+04:58:48 rec >>> no_action 2
+
+04:58:48 rec >>> no_action 2
+
+04:58:49 rec >>> kick 4 1 1
+
+04:58:49 rec >>> kick 4 1 1
+
+04:58:49 rec >>> no_action 2
+
+04:58:49 rec >>> no_action 2
+
+04:58:50 rec >>> -1 4
+
+04:58:50 rec >>> -1 4
+
+04:58:50 rec >>> no_action 2
+
+04:58:50 rec >>> no_action 2
+
+04:58:51 rec >>> kick 4 5 1
+
+04:58:51 rec >>> kick 4 5 1
+
+04:58:51 rec >>> no_action 2
+
+04:58:51 rec >>> no_action 2
+
+04:58:52 rec >>> no_action 4
+
+04:58:52 rec >>> no_action 4
+
+04:58:52 rec >>> no_action 2
+
+04:58:52 rec >>> no_action 2
+
+04:58:53 rec >>> no_action 4
+
+04:58:53 rec >>> no_action 4
+
+04:58:53 rec >>> no_action 2
+
+04:58:53 rec >>> no_action 2
+
+04:58:54 rec >>> no_action 4
+
+04:58:54 rec >>> no_action 4
+
+04:58:54 rec >>> no_action 2
+
+04:58:54 rec >>> no_action 2
+
+04:58:55 rec >>> no_action 4
+
+04:58:55 rec >>> no_action 4
+
+04:58:55 rec >>> no_action 2
+
+04:58:55 rec >>> no_action 2
+
+04:58:56 rec >>> 1 4
+
+04:58:56 rec >>> 1 4
+
+04:58:56 rec >>> no_action 2
+
+04:58:56 rec >>> no_action 2
+
+04:58:57 rec >>> kick 4 1 0
+
+04:58:57 rec >>> kick 4 1 0
+
+04:58:57 rec >>> no_action 2
+
+04:58:57 rec >>> no_action 2
+
+04:58:58 rec >>> kick 4 5 1
+
+04:58:58 rec >>> kick 4 5 1
+
+04:58:58 rec >>> no_action 2
+
+04:58:58 rec >>> no_action 2
+
+04:58:59 rec >>> -1 4
+
+04:58:59 rec >>> -1 4
+
+04:58:59 rec >>> 1 2
+
+04:58:59 rec >>> 1 2
+
+04:59:00 rec >>> no_action 4
+
+04:59:00 rec >>> no_action 4
+
+04:59:00 rec >>> -1 2
+
+04:59:00 rec >>> -1 2
+
+04:59:01 rec >>> no_action 4
+
+04:59:01 rec >>> no_action 4
+
+04:59:01 rec >>> no_action 2
+
+04:59:01 rec >>> no_action 2
+
+04:59:02 rec >>> no_action 4
+
+04:59:02 rec >>> no_action 4
+
+04:59:02 rec >>> no_action 2
+
+04:59:02 rec >>> no_action 2
+
+04:59:03 rec >>> kick 4 1 1
+
+04:59:03 rec >>> kick 4 1 1
+
+04:59:03 rec >>> no_action 2
+
+04:59:03 rec >>> no_action 2
+
+04:59:04 rec >>> kick 4 1 -1
+
+04:59:04 rec >>> kick 4 1 -1
+
+04:59:04 rec >>> no_action 2
+
+04:59:04 rec >>> no_action 2
+
+04:59:05 rec >>> 1 4
+
+04:59:05 rec >>> 1 4
+
+04:59:05 rec >>> no_action 2
+
+04:59:05 rec >>> no_action 2
+
+04:59:06 rec >>> kick 4 5 0
+
+04:59:06 rec >>> kick 4 5 0
+
+04:59:06 rec >>> no_action 2
+
+04:59:06 rec >>> no_action 2
+
+04:59:07 rec >>> -1 4
+
+04:59:07 rec >>> -1 4
+
+04:59:07 rec >>> 1 2
+
+04:59:07 rec >>> 1 2
+
+04:59:08 rec >>> no_action 4
+
+04:59:08 rec >>> no_action 4
+
+04:59:08 rec >>> no_action 2
+
+04:59:08 rec >>> no_action 2
+
+04:59:09 rec >>> no_action 4
+
+04:59:09 rec >>> no_action 4
+
+04:59:09 rec >>> -1 2
+
+04:59:09 rec >>> -1 2
+
+04:59:10 rec >>> no_action 4
+
+04:59:10 rec >>> no_action 4
+
+04:59:10 rec >>> no_action 2
+
+04:59:10 rec >>> no_action 2
+
+04:59:11 rec >>> kick 4 1 1
+
+04:59:11 rec >>> kick 4 1 1
+
+04:59:11 rec >>> no_action 2
+
+04:59:11 rec >>> no_action 2
+
+04:59:12 rec >>> kick 4 1 -1
+
+04:59:12 rec >>> kick 4 1 -1
+
+04:59:12 rec >>> no_action 2
+
+04:59:12 rec >>> no_action 2
+
+04:59:13 rec >>> 1 4
+
+04:59:13 rec >>> 1 4
+
+04:59:13 rec >>> no_action 2
+
+04:59:13 rec >>> no_action 2
+
+04:59:14 rec >>> kick 4 5 0
+
+04:59:14 rec >>> kick 4 5 0
+
+04:59:14 rec >>> no_action 2
+
+04:59:14 rec >>> no_action 2
+
+04:59:15 rec >>> -1 4
+
+04:59:15 rec >>> -1 4
+
+04:59:15 rec >>> 1 2
+
+04:59:15 rec >>> 1 2
+
+04:59:16 rec >>> no_action 4
+
+04:59:16 rec >>> no_action 4
+
+04:59:16 rec >>> no_action 2
+
+04:59:16 rec >>> no_action 2
+
+04:59:17 rec >>> no_action 4
+
+04:59:17 rec >>> no_action 4
+
+04:59:17 rec >>> -1 2
+
+04:59:17 rec >>> -1 2
+
+04:59:18 rec >>> no_action 4
+
+04:59:18 rec >>> no_action 4
+
+04:59:18 rec >>> no_action 2
+
+04:59:18 rec >>> no_action 2
+
+04:59:19 rec >>> kick 4 1 1
+
+04:59:19 rec >>> kick 4 1 1
+
+04:59:19 rec >>> no_action 2
+
+04:59:19 rec >>> no_action 2
+
+04:59:20 rec >>> no_action 4
+
+04:59:20 rec >>> no_action 4
+
+04:59:20 rec >>> no_action 2
+
+04:59:20 rec >>> no_action 2
+
+04:59:21 rec >>> no_action 4
+
+04:59:21 rec >>> no_action 4
+
+04:59:21 rec >>> no_action 2
+
+04:59:21 rec >>> no_action 2
+
+04:59:22 rec >>> 1 4
+
+04:59:22 rec >>> 1 4
+
+04:59:22 rec >>> no_action 2
+
+04:59:22 rec >>> no_action 2
+
+04:59:23 rec >>> kick 4 1 1
+
+04:59:23 rec >>> kick 4 1 1
+
+04:59:23 rec >>> no_action 2
+
+04:59:23 rec >>> no_action 2
+
+04:59:24 rec >>> -1 4
+
+04:59:24 rec >>> -1 4
+
+04:59:24 rec >>> no_action 2
+
+04:59:24 rec >>> no_action 2
+
+04:59:25 rec >>> kick 4 5 1
+
+04:59:25 rec >>> kick 4 5 1
+
+04:59:25 rec >>> no_action 2
+
+04:59:25 rec >>> no_action 2
+
+04:59:26 rec >>> no_action 4
+
+04:59:26 rec >>> no_action 4
+
+04:59:26 rec >>> 1 2
+
+04:59:26 rec >>> 1 2
+
+04:59:27 rec >>> no_action 4
+
+04:59:27 rec >>> no_action 4
+
+04:59:27 rec >>> -1 2
+
+04:59:27 rec >>> -1 2
+
+04:59:28 rec >>> no_action 4
+
+04:59:28 rec >>> no_action 4
+
+04:59:28 rec >>> no_action 2
+
+04:59:28 rec >>> no_action 2
+
+04:59:29 rec >>> 1 4
+
+04:59:29 rec >>> 1 4
+
+04:59:29 rec >>> no_action 2
+
+04:59:29 rec >>> no_action 2
+
+04:59:30 rec >>> kick 4 1 0
+
+04:59:30 rec >>> kick 4 1 0
+
+04:59:30 rec >>> no_action 2
+
+04:59:30 rec >>> no_action 2
+
+04:59:31 rec >>> kick 4 5 0
+
+04:59:31 rec >>> kick 4 5 0
+
+04:59:31 rec >>> no_action 2
+
+04:59:31 rec >>> no_action 2
+
+04:59:32 rec >>> -1 4
+
+04:59:32 rec >>> -1 4
+
+04:59:32 rec >>> 1 2
+
+04:59:32 rec >>> 1 2
+
+04:59:33 rec >>> no_action 4
+
+04:59:33 rec >>> no_action 4
+
+04:59:33 rec >>> no_action 2
+
+04:59:33 rec >>> no_action 2
+
+04:59:34 rec >>> no_action 4
+
+04:59:34 rec >>> no_action 4
+
+04:59:34 rec >>> -1 2
+
+04:59:34 rec >>> -1 2
+
+04:59:35 rec >>> no_action 4
+
+04:59:35 rec >>> no_action 4
+
+04:59:35 rec >>> no_action 2
+
+04:59:35 rec >>> no_action 2
+
+04:59:36 rec >>> kick 4 1 0
+
+04:59:36 rec >>> kick 4 1 0
+
+04:59:36 rec >>> no_action 2
+
+04:59:36 rec >>> no_action 2
+
+04:59:37 rec >>> kick 4 1 1
+
+04:59:37 rec >>> kick 4 1 1
+
+04:59:37 rec >>> no_action 2
+
+04:59:37 rec >>> no_action 2
+
+04:59:38 rec >>> 1 4
+
+04:59:38 rec >>> 1 4
+
+04:59:38 rec >>> no_action 2
+
+04:59:38 rec >>> no_action 2
+
+04:59:39 rec >>> kick 4 5 1
+
+04:59:39 rec >>> kick 4 5 1
+
+04:59:39 rec >>> no_action 2
+
+04:59:39 rec >>> no_action 2
+
+04:59:40 rec >>> -1 4
+
+04:59:40 rec >>> -1 4
+
+04:59:40 rec >>> 1 2
+
+04:59:40 rec >>> 1 2
+
+04:59:41 rec >>> no_action 4
+
+04:59:41 rec >>> no_action 4
+
+04:59:41 rec >>> -1 2
+
+04:59:41 rec >>> -1 2
+
+04:59:42 rec >>> no_action 4
+
+04:59:42 rec >>> no_action 4
+
+04:59:42 rec >>> no_action 2
+
+04:59:42 rec >>> no_action 2
+
+04:59:43 rec >>> 1 4
+
+04:59:43 rec >>> 1 4
+
+04:59:43 rec >>> no_action 2
+
+04:59:43 rec >>> no_action 2
+
+04:59:44 rec >>> kick 4 1 0
+
+04:59:44 rec >>> kick 4 1 0
+
+04:59:44 rec >>> no_action 2
+
+04:59:44 rec >>> no_action 2
+
+04:59:45 rec >>> kick 4 5 1
+
+04:59:45 rec >>> kick 4 5 1
+
+04:59:45 rec >>> no_action 2
+
+04:59:45 rec >>> no_action 2
+
+04:59:46 rec >>> -1 4
+
+04:59:46 rec >>> -1 4
+
+04:59:46 rec >>> 1 2
+
+04:59:46 rec >>> 1 2
+
+04:59:47 rec >>> no_action 4
+
+04:59:47 rec >>> no_action 4
+
+04:59:47 rec >>> -1 2
+
+04:59:47 rec >>> -1 2
+
+04:59:48 rec >>> no_action 4
+
+04:59:48 rec >>> no_action 4
+
+04:59:48 rec >>> no_action 2
+
+04:59:48 rec >>> no_action 2
+
+04:59:49 rec >>> 1 4
+
+04:59:49 rec >>> 1 4
+
+04:59:49 rec >>> no_action 2
+
+04:59:49 rec >>> no_action 2
+
+04:59:50 rec >>> kick 4 1 1
+
+04:59:50 rec >>> kick 4 1 1
+
+04:59:51 rec >>> no_action 2
+
+04:59:51 rec >>> no_action 2
+
+04:59:51 rec >>> -1 4
+
+04:59:51 rec >>> -1 4
+
+04:59:52 rec >>> no_action 2
+
+04:59:52 rec >>> no_action 2
+
+04:59:52 rec >>> kick 4 5 1
+
+04:59:52 rec >>> kick 4 5 1
+
+04:59:53 rec >>> no_action 2
+
+04:59:53 rec >>> no_action 2
+
+04:59:53 rec >>> no_action 4
+
+04:59:53 rec >>> no_action 4
+
+04:59:54 rec >>> 1 2
+
+04:59:54 rec >>> 1 2
+
+04:59:55 rec >>> no_action 4
+
+04:59:55 rec >>> no_action 4
+
+04:59:55 rec >>> -1 2
+
+04:59:55 rec >>> -1 2
+
+04:59:56 rec >>> no_action 4
+
+04:59:56 rec >>> no_action 4
+
+04:59:56 rec >>> no_action 2
+
+04:59:56 rec >>> no_action 2
+
+04:59:57 rec >>> 1 4
+
+04:59:57 rec >>> 1 4
+
+04:59:57 rec >>> no_action 2
+
+04:59:57 rec >>> no_action 2
+
+04:59:58 rec >>> kick 4 1 0
+
+04:59:58 rec >>> kick 4 1 0
+
+04:59:58 rec >>> no_action 2
+
+04:59:58 rec >>> no_action 2
+
+04:59:59 rec >>> kick 4 5 1
+
+04:59:59 rec >>> kick 4 5 1
+
+04:59:59 rec >>> no_action 2
+
+04:59:59 rec >>> no_action 2
+
+05:00:00 rec >>> -1 4
+
+05:00:00 rec >>> -1 4
+
+05:00:00 rec >>> 1 2
+
+05:00:00 rec >>> 1 2
+
+05:00:01 rec >>> no_action 4
+
+05:00:01 rec >>> no_action 4
+
+05:00:01 rec >>> -1 2
+
+05:00:01 rec >>> -1 2
+
+05:00:02 rec >>> no_action 4
+
+05:00:02 rec >>> no_action 4
+
+05:00:02 rec >>> no_action 2
+
+05:00:02 rec >>> no_action 2
+
+05:00:03 rec >>> no_action 4
+
+05:00:03 rec >>> no_action 4
+
+05:00:03 rec >>> no_action 2
+
+05:00:03 rec >>> no_action 2
+
+05:00:04 rec >>> kick 4 1 1
+
+05:00:04 rec >>> kick 4 1 1
+
+05:00:04 rec >>> no_action 2
+
+05:00:04 rec >>> no_action 2
+
+05:00:05 rec >>> kick 4 1 -1
+
+05:00:05 rec >>> kick 4 1 -1
+
+05:00:05 rec >>> no_action 2
+
+05:00:05 rec >>> no_action 2
+
+05:00:06 rec >>> 1 4
+
+05:00:06 rec >>> 1 4
+
+05:00:06 rec >>> no_action 2
+
+05:00:06 rec >>> no_action 2
+
+05:00:07 rec >>> kick 4 5 0
+
+05:00:07 rec >>> kick 4 5 0
+
+05:00:07 rec >>> no_action 2
+
+05:00:07 rec >>> no_action 2
+
+05:00:08 rec >>> -1 4
+
+05:00:08 rec >>> -1 4
+
+05:00:08 rec >>> 1 2
+
+05:00:08 rec >>> 1 2
+
+05:00:09 rec >>> no_action 4
+
+05:00:09 rec >>> no_action 4
+
+05:00:09 rec >>> no_action 2
+
+05:00:09 rec >>> no_action 2
+
+05:00:10 rec >>> no_action 4
+
+05:00:10 rec >>> no_action 4
+
+05:00:10 rec >>> -1 2
+
+05:00:10 rec >>> -1 2
+
+05:00:11 rec >>> 1 4
+
+05:00:11 rec >>> 1 4
+
+05:00:11 rec >>> no_action 2
+
+05:00:11 rec >>> no_action 2
+
+05:00:12 rec >>> kick 4 1 -1
+
+05:00:12 rec >>> kick 4 1 -1
+
+05:00:12 rec >>> no_action 2
+
+05:00:12 rec >>> no_action 2
+
+05:00:13 rec >>> -1 4
+
+05:00:13 rec >>> -1 4
+
+05:00:13 rec >>> no_action 2
+
+05:00:13 rec >>> no_action 2
+
+05:00:14 rec >>> kick 4 5 0
+
+05:00:14 rec >>> kick 4 5 0
+
+05:00:14 rec >>> no_action 2
+
+05:00:14 rec >>> no_action 2
+
+05:00:15 rec >>> no_action 4
+
+05:00:15 rec >>> no_action 4
+
+05:00:15 rec >>> no_action 2
+
+05:00:15 rec >>> no_action 2
+
+05:00:16 rec >>> kick 4 5 -1
+
+05:00:16 rec >>> kick 4 5 -1
+
+05:00:16 rec >>> no_action 2
+
+05:00:16 rec >>> no_action 2
+
+05:00:17 rec >>> no_action 4
+
+05:00:17 rec >>> no_action 4
+
+05:00:17 rec >>> -1 2
+
+05:00:17 rec >>> -1 2
+
+05:00:18 rec >>> no_action 4
+
+05:00:18 rec >>> no_action 4
+
+05:00:18 rec >>> 1 2
+
+05:00:18 rec >>> 1 2
+
+05:00:19 rec >>> 1 4
+
+05:00:19 rec >>> 1 4
+
+05:00:19 rec >>> no_action 2
+
+05:00:19 rec >>> no_action 2
+
+05:00:20 rec >>> kick 4 1 0
+
+05:00:20 rec >>> kick 4 1 0
+
+05:00:20 rec >>> no_action 2
+
+05:00:20 rec >>> no_action 2
+
+05:00:21 rec >>> kick 4 5 0
+
+05:00:21 rec >>> kick 4 5 0
+
+05:00:21 rec >>> no_action 2
+
+05:00:21 rec >>> no_action 2
+
+05:00:22 rec >>> -1 4
+
+05:00:22 rec >>> -1 4
+
+05:00:22 rec >>> 1 2
+
+05:00:22 rec >>> 1 2
+
+05:00:23 rec >>> no_action 4
+
+05:00:23 rec >>> no_action 4
+
+05:00:23 rec >>> no_action 2
+
+05:00:23 rec >>> no_action 2
+
+05:00:24 rec >>> no_action 4
+
+05:00:24 rec >>> no_action 4
+
+05:00:24 rec >>> -1 2
+
+05:00:24 rec >>> -1 2
+
+05:00:25 rec >>> 1 4
+
+05:00:25 rec >>> 1 4
+
+05:00:25 rec >>> no_action 2
+
+05:00:25 rec >>> no_action 2
+
+05:00:26 rec >>> kick 4 1 1
+
+05:00:26 rec >>> kick 4 1 1
+
+05:00:26 rec >>> no_action 2
+
+05:00:26 rec >>> no_action 2
+
+05:00:27 rec >>> -1 4
+
+05:00:27 rec >>> -1 4
+
+05:00:27 rec >>> no_action 2
+
+05:00:27 rec >>> no_action 2
+
+05:00:28 rec >>> kick 4 5 0
+
+05:00:28 rec >>> kick 4 5 0
+
+05:00:28 rec >>> no_action 2
+
+05:00:28 rec >>> no_action 2
+
+05:00:29 rec >>> no_action 4
+
+05:00:29 rec >>> no_action 4
+
+05:00:29 rec >>> no_action 2
+
+05:00:29 rec >>> no_action 2
+
+05:00:30 rec >>> kick 4 5 -1
+
+05:00:30 rec >>> kick 4 5 -1
+
+05:00:30 rec >>> no_action 2
+
+05:00:30 rec >>> no_action 2
+
+05:00:31 rec >>> no_action 4
+
+05:00:31 rec >>> no_action 4
+
+05:00:31 rec >>> -1 2
+
+05:00:31 rec >>> -1 2
+
+05:00:32 rec >>> no_action 4
+
+05:00:32 rec >>> no_action 4
+
+05:00:32 rec >>> 1 2
+
+05:00:32 rec >>> 1 2
+
+05:00:33 rec >>> no_action 4
+
+05:00:33 rec >>> no_action 4
+
+05:00:33 rec >>> no_action 2
+
+05:00:33 rec >>> no_action 2
+
+05:00:34 rec >>> no_action 4
+
+05:00:34 rec >>> no_action 4
+
+05:00:34 rec >>> no_action 2
+
+05:00:34 rec >>> no_action 2
+
+05:00:35 rec >>> 1 4
+
+05:00:35 rec >>> 1 4
+
+05:00:35 rec >>> no_action 2
+
+05:00:35 rec >>> no_action 2
+
+05:00:36 rec >>> kick 4 1 0
+
+05:00:36 rec >>> kick 4 1 0
+
+05:00:36 rec >>> no_action 2
+
+05:00:36 rec >>> no_action 2
+
+05:00:37 rec >>> kick 4 5 -1
+
+05:00:37 rec >>> kick 4 5 -1
+
+05:00:37 rec >>> no_action 2
+
+05:00:37 rec >>> no_action 2
+
+05:00:38 rec >>> -1 4
+
+05:00:38 rec >>> -1 4
+
+05:00:38 rec >>> -1 2
+
+05:00:38 rec >>> -1 2
+
+05:00:39 rec >>> no_action 4
+
+05:00:39 rec >>> no_action 4
+
+05:00:39 rec >>> 1 2
+
+05:00:39 rec >>> 1 2
+
+05:00:40 rec >>> no_action 4
+
+05:00:40 rec >>> no_action 4
+
+05:00:40 rec >>> no_action 2
+
+05:00:40 rec >>> no_action 2
+
+05:00:41 rec >>> no_action 4
+
+05:00:41 rec >>> no_action 4
+
+05:00:41 rec >>> no_action 2
+
+05:00:41 rec >>> no_action 2
+
+05:00:42 rec >>> kick 4 1 0
+
+05:00:42 rec >>> kick 4 1 0
+
+05:00:42 rec >>> no_action 2
+
+05:00:42 rec >>> no_action 2
+
+05:00:43 rec >>> kick 4 1 0
+
+05:00:43 rec >>> kick 4 1 0
+
+05:00:43 rec >>> no_action 2
+
+05:00:43 rec >>> no_action 2
+
+05:00:44 rec >>> kick 4 5 0
+
+05:00:44 rec >>> kick 4 5 0
+
+05:00:44 rec >>> no_action 2
+
+05:00:44 rec >>> no_action 2
+
+05:00:45 rec >>> no_action 4
+
+05:00:45 rec >>> no_action 4
+
+05:00:45 rec >>> no_action 2
+
+05:00:45 rec >>> no_action 2
+
+05:00:46 rec >>> kick 4 5 0
+
+05:00:46 rec >>> kick 4 5 0
+
+05:00:46 rec >>> no_action 2
+
+05:00:46 rec >>> no_action 2
+
+05:00:47 rec >>> no_action 4
+
+05:00:47 rec >>> no_action 4
+
+05:00:47 rec >>> no_action 2
+
+05:00:47 rec >>> no_action 2
+
+05:00:48 rec >>> 1 4
+
+05:00:48 rec >>> 1 4
+
+05:00:48 rec >>> no_action 2
+
+05:00:48 rec >>> no_action 2
+
+05:00:49 rec >>> kick 4 5 -1
+
+05:00:49 rec >>> kick 4 5 -1
+
+05:00:49 rec >>> no_action 2
+
+05:00:49 rec >>> no_action 2
+
+05:00:50 rec >>> -1 4
+
+05:00:50 rec >>> -1 4
+
+05:00:50 rec >>> -1 2
+
+05:00:50 rec >>> -1 2
+
+05:00:51 rec >>> no_action 4
+
+05:00:51 rec >>> no_action 4
+
+05:00:51 rec >>> 1 2
+
+05:00:51 rec >>> 1 2
+
+05:00:52 rec >>> no_action 4
+
+05:00:52 rec >>> no_action 4
+
+05:00:52 rec >>> no_action 2
+
+05:00:52 rec >>> no_action 2
+
+05:00:53 rec >>> 1 4
+
+05:00:53 rec >>> 1 4
+
+05:00:53 rec >>> no_action 2
+
+05:00:53 rec >>> no_action 2
+
+05:00:54 rec >>> kick 4 1 1
+
+05:00:54 rec >>> kick 4 1 1
+
+05:00:54 rec >>> no_action 2
+
+05:00:54 rec >>> no_action 2
+
+05:00:55 rec >>> -1 4
+
+05:00:55 rec >>> -1 4
+
+05:00:55 rec >>> no_action 2
+
+05:00:55 rec >>> no_action 2
+
+05:00:56 rec >>> kick 4 5 0
+
+05:00:56 rec >>> kick 4 5 0
+
+05:00:56 rec >>> no_action 2
+
+05:00:56 rec >>> no_action 2
+
+05:00:57 rec >>> no_action 4
+
+05:00:57 rec >>> no_action 4
+
+05:00:57 rec >>> no_action 2
+
+05:00:57 rec >>> no_action 2
+
+05:00:58 rec >>> 1 4
+
+05:00:58 rec >>> 1 4
+
+05:00:58 rec >>> no_action 2
+
+05:00:58 rec >>> no_action 2
+
+05:00:59 rec >>> kick 4 5 0
+
+05:00:59 rec >>> kick 4 5 0
+
+05:00:59 rec >>> no_action 2
+
+05:00:59 rec >>> no_action 2
+
+05:01:00 rec >>> -1 4
+
+05:01:00 rec >>> -1 4
+
+05:01:00 rec >>> 1 2
+
+05:01:00 rec >>> 1 2
+
+05:01:01 rec >>> no_action 4
+
+05:01:01 rec >>> no_action 4
+
+05:01:01 rec >>> no_action 2
+
+05:01:01 rec >>> no_action 2
+
+05:01:02 rec >>> no_action 4
+
+05:01:02 rec >>> no_action 4
+
+05:01:02 rec >>> -1 2
+
+05:01:02 rec >>> -1 2
+
+05:01:03 rec >>> no_action 4
+
+05:01:03 rec >>> no_action 4
+
+05:01:03 rec >>> no_action 2
+
+05:01:03 rec >>> no_action 2
+
+05:01:04 rec >>> kick 4 1 1
+
+05:01:04 rec >>> kick 4 1 1
+
+05:01:04 rec >>> no_action 2
+
+05:01:04 rec >>> no_action 2
+
+05:01:05 rec >>> kick 4 1 -1
+
+05:01:05 rec >>> kick 4 1 -1
+
+05:01:05 rec >>> no_action 2
+
+05:01:05 rec >>> no_action 2
+
+05:01:06 rec >>> 1 4
+
+05:01:06 rec >>> 1 4
+
+05:01:06 rec >>> no_action 2
+
+05:01:06 rec >>> no_action 2
+
+05:01:07 rec >>> kick 4 5 0
+
+05:01:07 rec >>> kick 4 5 0
+
+05:01:07 rec >>> no_action 2
+
+05:01:07 rec >>> no_action 2
+
+05:01:08 rec >>> -1 4
+
+05:01:08 rec >>> -1 4
+
+05:01:08 rec >>> 1 2
+
+05:01:08 rec >>> 1 2
+
+05:01:09 rec >>> no_action 4
+
+05:01:09 rec >>> no_action 4
+
+05:01:09 rec >>> no_action 2
+
+05:01:09 rec >>> no_action 2
+
+05:01:10 rec >>> no_action 4
+
+05:01:10 rec >>> no_action 4
+
+05:01:10 rec >>> -1 2
+
+05:01:10 rec >>> -1 2
+
+05:01:11 rec >>> no_action 4
+
+05:01:11 rec >>> no_action 4
+
+05:01:11 rec >>> no_action 2
+
+05:01:11 rec >>> no_action 2
+
+05:01:12 rec >>> kick 4 1 1
+
+05:01:12 rec >>> kick 4 1 1
+
+05:01:12 rec >>> no_action 2
+
+05:01:12 rec >>> no_action 2
+
+05:01:13 rec >>> kick 4 1 0
+
+05:01:13 rec >>> kick 4 1 0
+
+05:01:13 rec >>> no_action 2
+
+05:01:13 rec >>> no_action 2
+
+05:01:14 rec >>> kick 4 5 0
+
+05:01:14 rec >>> kick 4 5 0
+
+05:01:14 rec >>> no_action 2
+
+05:01:14 rec >>> no_action 2
+
+05:01:15 rec >>> no_action 4
+
+05:01:15 rec >>> no_action 4
+
+05:01:15 rec >>> no_action 2
+
+05:01:15 rec >>> no_action 2
+
+05:01:16 rec >>> kick 4 5 -1
+
+05:01:16 rec >>> kick 4 5 -1
+
+05:01:16 rec >>> no_action 2
+
+05:01:16 rec >>> no_action 2
+
+05:01:17 rec >>> no_action 4
+
+05:01:17 rec >>> no_action 4
+
+05:01:17 rec >>> -1 2
+
+05:01:17 rec >>> -1 2
+
+05:01:18 rec >>> no_action 4
+
+05:01:18 rec >>> no_action 4
+
+05:01:18 rec >>> 1 2
+
+05:01:18 rec >>> 1 2
+
+05:01:19 rec >>> no_action 4
+
+05:01:19 rec >>> no_action 4
+
+05:01:19 rec >>> no_action 2
+
+05:01:19 rec >>> no_action 2
+
+05:01:20 rec >>> kick 4 1 -1
+
+05:01:20 rec >>> kick 4 1 -1
+
+05:01:20 rec >>> no_action 2
+
+05:01:20 rec >>> no_action 2
+
+05:01:21 rec >>> kick 4 1 -1
+
+05:01:21 rec >>> kick 4 1 -1
+
+05:01:21 rec >>> no_action 2
+
+05:01:21 rec >>> no_action 2
+
+05:01:22 rec >>> 1 4
+
+05:01:22 rec >>> 1 4
+
+05:01:22 rec >>> no_action 2
+
+05:01:22 rec >>> no_action 2
+
+05:01:23 rec >>> kick 4 5 0
+
+05:01:23 rec >>> kick 4 5 0
+
+05:01:23 rec >>> no_action 2
+
+05:01:23 rec >>> no_action 2
+
+05:01:24 rec >>> -1 4
+
+05:01:24 rec >>> -1 4
+
+05:01:24 rec >>> 1 2
+
+05:01:24 rec >>> 1 2
+
+05:01:25 rec >>> no_action 4
+
+05:01:25 rec >>> no_action 4
+
+05:01:25 rec >>> no_action 2
+
+05:01:25 rec >>> no_action 2
+
+05:01:26 rec >>> no_action 4
+
+05:01:26 rec >>> no_action 4
+
+05:01:26 rec >>> -1 2
+
+05:01:26 rec >>> -1 2
+
+05:01:27 rec >>> 1 4
+
+05:01:27 rec >>> 1 4
+
+05:01:27 rec >>> no_action 2
+
+05:01:27 rec >>> no_action 2
+
+05:01:28 rec >>> kick 4 1 -1
+
+05:01:28 rec >>> kick 4 1 -1
+
+05:01:28 rec >>> no_action 2
+
+05:01:28 rec >>> no_action 2
+
+05:01:29 rec >>> -1 4
+
+05:01:29 rec >>> -1 4
+
+05:01:29 rec >>> no_action 2
+
+05:01:29 rec >>> no_action 2
+
+05:01:30 rec >>> kick 4 5 -1
+
+05:01:30 rec >>> kick 4 5 -1
+
+05:01:30 rec >>> no_action 2
+
+05:01:30 rec >>> no_action 2
+
+05:01:31 rec >>> no_action 4
+
+05:01:31 rec >>> no_action 4
+
+05:01:31 rec >>> -1 2
+
+05:01:31 rec >>> -1 2
+
+05:01:32 rec >>> no_action 4
+
+05:01:32 rec >>> no_action 4
+
+05:01:32 rec >>> 1 2
+
+05:01:32 rec >>> 1 2
+
+05:01:33 rec >>> 1 4
+
+05:01:33 rec >>> 1 4
+
+05:01:33 rec >>> no_action 2
+
+05:01:33 rec >>> no_action 2
+
+05:01:34 rec >>> kick 4 1 1
+
+05:01:34 rec >>> kick 4 1 1
+
+05:01:34 rec >>> no_action 2
+
+05:01:34 rec >>> no_action 2
+
+05:01:35 rec >>> -1 4
+
+05:01:35 rec >>> -1 4
+
+05:01:35 rec >>> no_action 2
+
+05:01:35 rec >>> no_action 2
+
+05:01:36 rec >>> kick 4 5 0
+
+05:01:36 rec >>> kick 4 5 0
+
+05:01:37 rec >>> no_action 2
+
+05:01:37 rec >>> no_action 2
+
+05:01:37 rec >>> no_action 4
+
+05:01:37 rec >>> no_action 4
+
+05:01:38 rec >>> no_action 2
+
+05:01:38 rec >>> no_action 2
+
+05:01:39 rec >>> kick 4 5 0
+
+05:01:39 rec >>> kick 4 5 0
+
+05:01:39 rec >>> no_action 2
+
+05:01:39 rec >>> no_action 2
+
+05:01:40 rec >>> no_action 4
+
+05:01:40 rec >>> no_action 4
+
+05:01:40 rec >>> no_action 2
+
+05:01:40 rec >>> no_action 2
+
+05:01:41 rec >>> 1 4
+
+05:01:41 rec >>> 1 4
+
+05:01:41 rec >>> no_action 2
+
+05:01:41 rec >>> no_action 2
+
+05:01:42 rec >>> kick 4 5 -1
+
+05:01:42 rec >>> kick 4 5 -1
+
+05:01:42 rec >>> no_action 2
+
+05:01:42 rec >>> no_action 2
+
+05:01:43 rec >>> -1 4
+
+05:01:43 rec >>> -1 4
+
+05:01:43 rec >>> -1 2
+
+05:01:43 rec >>> -1 2
+
+05:01:44 rec >>> no_action 4
+
+05:01:44 rec >>> no_action 4
+
+05:01:44 rec >>> 1 2
+
+05:01:44 rec >>> 1 2
+
+05:01:45 rec >>> no_action 4
+
+05:01:45 rec >>> no_action 4
+
+05:01:45 rec >>> no_action 2
+
+05:01:45 rec >>> no_action 2
+
+05:01:46 rec >>> 1 4
+
+05:01:46 rec >>> 1 4
+
+05:01:46 rec >>> no_action 2
+
+05:01:46 rec >>> no_action 2
+
+05:01:47 rec >>> kick 4 1 -1
+
+05:01:47 rec >>> kick 4 1 -1
+
+05:01:47 rec >>> no_action 2
+
+05:01:47 rec >>> no_action 2
+
+05:01:48 rec >>> -1 4
+
+05:01:48 rec >>> -1 4
+
+05:01:48 rec >>> no_action 2
+
+05:01:48 rec >>> no_action 2
+
+05:01:49 rec >>> kick 4 5 -1
+
+05:01:49 rec >>> kick 4 5 -1
+
+05:01:49 rec >>> no_action 2
+
+05:01:49 rec >>> no_action 2
+
+05:01:50 rec >>> no_action 4
+
+05:01:50 rec >>> no_action 4
+
+05:01:50 rec >>> -1 2
+
+05:01:50 rec >>> -1 2
+
+05:01:51 rec >>> no_action 4
+
+05:01:51 rec >>> no_action 4
+
+05:01:51 rec >>> 1 2
+
+05:01:51 rec >>> 1 2
+
+05:01:52 rec >>> 1 4
+
+05:01:52 rec >>> 1 4
+
+05:01:52 rec >>> no_action 2
+
+05:01:52 rec >>> no_action 2
+
+05:01:53 rec >>> kick 4 1 1
+
+05:01:53 rec >>> kick 4 1 1
+
+05:01:53 rec >>> no_action 2
+
+05:01:53 rec >>> no_action 2
+
+05:01:54 rec >>> -1 4
+
+05:01:54 rec >>> -1 4
+
+05:01:54 rec >>> no_action 2
+
+05:01:54 rec >>> no_action 2
+
+05:01:55 rec >>> kick 4 5 -1
+
+05:01:55 rec >>> kick 4 5 -1
+
+05:01:55 rec >>> no_action 2
+
+05:01:55 rec >>> no_action 2
+
+05:01:56 rec >>> no_action 4
+
+05:01:56 rec >>> no_action 4
+
+05:01:56 rec >>> -1 2
+
+05:01:56 rec >>> -1 2
+
+05:01:57 rec >>> no_action 4
+
+05:01:57 rec >>> no_action 4
+
+05:01:57 rec >>> 1 2
+
+05:01:57 rec >>> 1 2
+
+05:01:58 rec >>> no_action 4
+
+05:01:58 rec >>> no_action 4
+
+05:01:58 rec >>> no_action 2
+
+05:01:58 rec >>> no_action 2
+
+05:01:59 rec >>> no_action 4
+
+05:01:59 rec >>> no_action 4
+
+05:01:59 rec >>> no_action 2
+
+05:01:59 rec >>> no_action 2
+
+05:02:00 rec >>> 1 4
+
+05:02:00 rec >>> 1 4
+
+05:02:00 rec >>> no_action 2
+
+05:02:00 rec >>> no_action 2
+
+05:02:01 rec >>> kick 4 1 0
+
+05:02:01 rec >>> kick 4 1 0
+
+05:02:01 rec >>> no_action 2
+
+05:02:01 rec >>> no_action 2
+
+05:02:02 rec >>> kick 4 5 -1
+
+05:02:02 rec >>> kick 4 5 -1
+
+05:02:02 rec >>> no_action 2
+
+05:02:02 rec >>> no_action 2
+
+05:02:03 rec >>> -1 4
+
+05:02:03 rec >>> -1 4
+
+05:02:03 rec >>> -1 2
+
+05:02:03 rec >>> -1 2
+
+05:02:04 rec >>> no_action 4
+
+05:02:04 rec >>> no_action 4
+
+05:02:04 rec >>> 1 2
+
+05:02:04 rec >>> 1 2
+
+05:02:05 rec >>> no_action 4
+
+05:02:05 rec >>> no_action 4
+
+05:02:05 rec >>> no_action 2
+
+05:02:05 rec >>> no_action 2
+
+05:02:06 rec >>> 1 4
+
+05:02:06 rec >>> 1 4
+
+05:02:06 rec >>> no_action 2
+
+05:02:06 rec >>> no_action 2
+
+05:02:07 rec >>> kick 4 1 0
+
+05:02:07 rec >>> kick 4 1 0
+
+05:02:07 rec >>> no_action 2
+
+05:02:07 rec >>> no_action 2
+
+05:02:08 rec >>> kick 4 5 -1
+
+05:02:08 rec >>> kick 4 5 -1
+
+05:02:08 rec >>> no_action 2
+
+05:02:08 rec >>> no_action 2
+
+05:02:09 rec >>> -1 4
+
+05:02:09 rec >>> -1 4
+
+05:02:09 rec >>> -1 2
+
+05:02:09 rec >>> -1 2
+
+05:02:10 rec >>> no_action 4
+
+05:02:10 rec >>> no_action 4
+
+05:02:10 rec >>> 1 2
+
+05:02:10 rec >>> 1 2
+
+05:02:11 rec >>> no_action 4
+
+05:02:11 rec >>> no_action 4
+
+05:02:11 rec >>> no_action 2
+
+05:02:11 rec >>> no_action 2
+
+05:02:12 rec >>> 1 4
+
+05:02:12 rec >>> 1 4
+
+05:02:12 rec >>> no_action 2
+
+05:02:12 rec >>> no_action 2
+
+05:02:13 rec >>> kick 4 1 -1
+
+05:02:13 rec >>> kick 4 1 -1
+
+05:02:13 rec >>> no_action 2
+
+05:02:13 rec >>> no_action 2
+
+05:02:14 rec >>> -1 4
+
+05:02:14 rec >>> -1 4
+
+05:02:14 rec >>> no_action 2
+
+05:02:14 rec >>> no_action 2
+
+05:02:15 rec >>> kick 4 5 -1
+
+05:02:15 rec >>> kick 4 5 -1
+
+05:02:15 rec >>> no_action 2
+
+05:02:15 rec >>> no_action 2
+
+05:02:16 rec >>> no_action 4
+
+05:02:16 rec >>> no_action 4
+
+05:02:16 rec >>> -1 2
+
+05:02:16 rec >>> -1 2
+
+05:02:17 rec >>> no_action 4
+
+05:02:17 rec >>> no_action 4
+
+05:02:17 rec >>> 1 2
+
+05:02:17 rec >>> 1 2
+
+05:02:18 rec >>> 1 4
+
+05:02:18 rec >>> 1 4
+
+05:02:18 rec >>> no_action 2
+
+05:02:18 rec >>> no_action 2
+
+05:02:19 rec >>> kick 4 1 -1
+
+05:02:19 rec >>> kick 4 1 -1
+
+05:02:19 rec >>> no_action 2
+
+05:02:19 rec >>> no_action 2
+
+05:02:20 rec >>> -1 4
+
+05:02:20 rec >>> -1 4
+
+05:02:20 rec >>> no_action 2
+
+05:02:20 rec >>> no_action 2
+
+05:02:21 rec >>> kick 4 5 -1
+
+05:02:21 rec >>> kick 4 5 -1
+
+05:02:21 rec >>> no_action 2
+
+05:02:21 rec >>> no_action 2
+
+05:02:22 rec >>> no_action 4
+
+05:02:22 rec >>> no_action 4
+
+05:02:22 rec >>> -1 2
+
+05:02:22 rec >>> -1 2
+
+05:02:23 rec >>> no_action 4
+
+05:02:23 rec >>> no_action 4
+
+05:02:23 rec >>> 1 2
+
+05:02:23 rec >>> 1 2
+
+05:02:24 rec >>> 1 4
+
+05:02:24 rec >>> 1 4
+
+05:02:24 rec >>> no_action 2
+
+05:02:24 rec >>> no_action 2
+
+05:02:25 rec >>> kick 4 1 -1
+
+05:02:25 rec >>> kick 4 1 -1
+
+05:02:25 rec >>> no_action 2
+
+05:02:25 rec >>> no_action 2
+
+05:02:26 rec >>> -1 4
+
+05:02:26 rec >>> -1 4
+
+05:02:26 rec >>> no_action 2
+
+05:02:26 rec >>> no_action 2
+
+05:02:27 rec >>> kick 4 5 -1
+
+05:02:27 rec >>> kick 4 5 -1
+
+05:02:27 rec >>> no_action 2
+
+05:02:27 rec >>> no_action 2
+
+05:02:28 rec >>> no_action 4
+
+05:02:28 rec >>> no_action 4
+
+05:02:28 rec >>> -1 2
+
+05:02:28 rec >>> -1 2
+
+05:02:29 rec >>> no_action 4
+
+05:02:29 rec >>> no_action 4
+
+05:02:29 rec >>> 1 2
+
+05:02:29 rec >>> 1 2
+
+05:02:30 rec >>> 1 4
+
+05:02:30 rec >>> 1 4
+
+05:02:30 rec >>> no_action 2
+
+05:02:30 rec >>> no_action 2
+
+05:02:31 rec >>> kick 4 1 1
+
+05:02:31 rec >>> kick 4 1 1
+
+05:02:31 rec >>> no_action 2
+
+05:02:31 rec >>> no_action 2
+
+05:02:32 rec >>> -1 4
+
+05:02:32 rec >>> -1 4
+
+05:02:32 rec >>> no_action 2
+
+05:02:32 rec >>> no_action 2
+
+05:02:33 rec >>> kick 4 5 0
+
+05:02:33 rec >>> kick 4 5 0
+
+05:02:33 rec >>> no_action 2
+
+05:02:33 rec >>> no_action 2
+
+05:02:34 rec >>> no_action 4
+
+05:02:34 rec >>> no_action 4
+
+05:02:34 rec >>> no_action 2
+
+05:02:34 rec >>> no_action 2
+
+05:02:35 rec >>> kick 4 5 -1
+
+05:02:35 rec >>> kick 4 5 -1
+
+05:02:35 rec >>> no_action 2
+
+05:02:35 rec >>> no_action 2
+
+05:02:36 rec >>> no_action 4
+
+05:02:36 rec >>> no_action 4
+
+05:02:36 rec >>> -1 2
+
+05:02:36 rec >>> -1 2
+
+05:02:37 rec >>> no_action 4
+
+05:02:37 rec >>> no_action 4
+
+05:02:37 rec >>> 1 2
+
+05:02:37 rec >>> 1 2
+
+05:02:38 rec >>> no_action 4
+
+05:02:38 rec >>> no_action 4
+
+05:02:38 rec >>> no_action 2
+
+05:02:38 rec >>> no_action 2
+
+05:02:39 rec >>> no_action 4
+
+05:02:39 rec >>> no_action 4
+
+05:02:39 rec >>> no_action 2
+
+05:02:39 rec >>> no_action 2
+
+05:02:40 rec >>> 1 4
+
+05:02:40 rec >>> 1 4
+
+05:02:40 rec >>> no_action 2
+
+05:02:40 rec >>> no_action 2
+
+05:02:41 rec >>> kick 4 1 1
+
+05:02:41 rec >>> kick 4 1 1
+
+05:02:41 rec >>> no_action 2
+
+05:02:41 rec >>> no_action 2
+
+05:02:42 rec >>> -1 4
+
+05:02:42 rec >>> -1 4
+
+05:02:42 rec >>> no_action 2
+
+05:02:42 rec >>> no_action 2
+
+05:02:43 rec >>> kick 4 5 0
+
+05:02:43 rec >>> kick 4 5 0
+
+05:02:43 rec >>> no_action 2
+
+05:02:43 rec >>> no_action 2
+
+05:02:44 rec >>> no_action 4
+
+05:02:44 rec >>> no_action 4
+
+05:02:44 rec >>> no_action 2
+
+05:02:44 rec >>> no_action 2
+
+05:02:45 rec >>> kick 4 5 -1
+
+05:02:45 rec >>> kick 4 5 -1
+
+05:02:45 rec >>> no_action 2
+
+05:02:45 rec >>> no_action 2
+
+05:02:46 rec >>> no_action 4
+
+05:02:46 rec >>> no_action 4
+
+05:02:46 rec >>> -1 2
+
+05:02:46 rec >>> -1 2
+
+05:02:47 rec >>> no_action 4
+
+05:02:47 rec >>> no_action 4
+
+05:02:47 rec >>> 1 2
+
+05:02:47 rec >>> 1 2
+
+05:02:48 rec >>> no_action 4
+
+05:02:48 rec >>> no_action 4
+
+05:02:48 rec >>> no_action 2
+
+05:02:48 rec >>> no_action 2
+
+05:02:49 rec >>> no_action 4
+
+05:02:49 rec >>> no_action 4
+
+05:02:49 rec >>> no_action 2
+
+05:02:49 rec >>> no_action 2
+
+05:02:50 rec >>> 1 4
+
+05:02:50 rec >>> 1 4
+
+05:02:50 rec >>> no_action 2
+
+05:02:50 rec >>> no_action 2
+
+05:02:51 rec >>> kick 4 1 0
+
+05:02:51 rec >>> kick 4 1 0
+
+05:02:51 rec >>> no_action 2
+
+05:02:51 rec >>> no_action 2
+
+05:02:52 rec >>> kick 4 5 0
+
+05:02:52 rec >>> kick 4 5 0
+
+05:02:52 rec >>> no_action 2
+
+05:02:52 rec >>> no_action 2
+
+05:02:53 rec >>> -1 4
+
+05:02:53 rec >>> -1 4
+
+05:02:53 rec >>> 1 2
+
+05:02:53 rec >>> 1 2
+
+05:02:54 rec >>> no_action 4
+
+05:02:54 rec >>> no_action 4
+
+05:02:54 rec >>> no_action 2
+
+05:02:54 rec >>> no_action 2
+
+05:02:55 rec >>> no_action 4
+
+05:02:55 rec >>> no_action 4
+
+05:02:55 rec >>> -1 2
+
+05:02:55 rec >>> -1 2
+
+05:02:56 rec >>> no_action 4
+
+05:02:56 rec >>> no_action 4
+
+05:02:56 rec >>> no_action 2
+
+05:02:56 rec >>> no_action 2
+
+05:02:57 rec >>> kick 4 1 0
+
+05:02:57 rec >>> kick 4 1 0
+
+05:02:57 rec >>> no_action 2
+
+05:02:57 rec >>> no_action 2
+
+05:02:58 rec >>> no_action 4
+
+05:02:58 rec >>> no_action 4
+
+05:02:58 rec >>> no_action 2
+
+05:02:58 rec >>> no_action 2
+
+05:02:59 rec >>> kick 4 1 -1
+
+05:02:59 rec >>> kick 4 1 -1
+
+05:02:59 rec >>> no_action 2
+
+05:02:59 rec >>> no_action 2
+
+05:03:00 rec >>> no_action 4
+
+05:03:00 rec >>> no_action 4
+
+05:03:00 rec >>> no_action 2
+
+05:03:00 rec >>> no_action 2
+
+05:03:01 rec >>> no_action 4
+
+05:03:01 rec >>> no_action 4
+
+05:03:01 rec >>> no_action 2
+
+05:03:01 rec >>> no_action 2
+
+05:03:02 rec >>> 1 4
+
+05:03:02 rec >>> 1 4
+
+05:03:02 rec >>> no_action 2
+
+05:03:02 rec >>> no_action 2
+
+05:03:03 rec >>> kick 4 1 -1
+
+05:03:03 rec >>> kick 4 1 -1
+
+05:03:03 rec >>> no_action 2
+
+05:03:03 rec >>> no_action 2
+
+05:03:04 rec >>> -1 4
+
+05:03:04 rec >>> -1 4
+
+05:03:04 rec >>> no_action 2
+
+05:03:04 rec >>> no_action 2
+
+05:03:05 rec >>> kick 4 5 -1
+
+05:03:05 rec >>> kick 4 5 -1
+
+05:03:05 rec >>> no_action 2
+
+05:03:05 rec >>> no_action 2
+
+05:03:06 rec >>> no_action 4
+
+05:03:06 rec >>> no_action 4
+
+05:03:06 rec >>> -1 2
+
+05:03:06 rec >>> -1 2
+
+05:03:07 rec >>> no_action 4
+
+05:03:07 rec >>> no_action 4
+
+05:03:07 rec >>> 1 2
+
+05:03:07 rec >>> 1 2
+
+05:03:08 rec >>> 1 4
+
+05:03:08 rec >>> 1 4
+
+05:03:08 rec >>> no_action 2
+
+05:03:08 rec >>> no_action 2
+
+05:03:09 rec >>> kick 4 1 -1
+
+05:03:09 rec >>> kick 4 1 -1
+
+05:03:09 rec >>> no_action 2
+
+05:03:09 rec >>> no_action 2
+
+05:03:10 rec >>> -1 4
+
+05:03:10 rec >>> -1 4
+
+05:03:10 rec >>> no_action 2
+
+05:03:10 rec >>> no_action 2
+
+05:03:11 rec >>> kick 4 5 -1
+
+05:03:11 rec >>> kick 4 5 -1
+
+05:03:11 rec >>> no_action 2
+
+05:03:11 rec >>> no_action 2
+
+05:03:12 rec >>> no_action 4
+
+05:03:12 rec >>> no_action 4
+
+05:03:12 rec >>> -1 2
+
+05:03:12 rec >>> -1 2
+
+05:03:13 rec >>> no_action 4
+
+05:03:13 rec >>> no_action 4
+
+05:03:13 rec >>> 1 2
+
+05:03:13 rec >>> 1 2
+
+05:03:14 rec >>> 1 4
+
+05:03:14 rec >>> 1 4
+
+05:03:14 rec >>> no_action 2
+
+05:03:14 rec >>> no_action 2
+
+05:03:15 rec >>> kick 4 1 1
+
+05:03:15 rec >>> kick 4 1 1
+
+05:03:15 rec >>> no_action 2
+
+05:03:15 rec >>> no_action 2
+
+05:03:16 rec >>> -1 4
+
+05:03:16 rec >>> -1 4
+
+05:03:16 rec >>> no_action 2
+
+05:03:16 rec >>> no_action 2
+
+05:03:17 rec >>> kick 4 5 0
+
+05:03:17 rec >>> kick 4 5 0
+
+05:03:17 rec >>> no_action 2
+
+05:03:17 rec >>> no_action 2
+
+05:03:18 rec >>> no_action 4
+
+05:03:18 rec >>> no_action 4
+
+05:03:18 rec >>> no_action 2
+
+05:03:18 rec >>> no_action 2
+
+05:03:19 rec >>> 1 4
+
+05:03:19 rec >>> 1 4
+
+05:03:19 rec >>> no_action 2
+
+05:03:19 rec >>> no_action 2
+
+05:03:20 rec >>> kick 4 5 0
+
+05:03:20 rec >>> kick 4 5 0
+
+05:03:20 rec >>> no_action 2
+
+05:03:20 rec >>> no_action 2
+
+05:03:21 rec >>> -1 4
+
+05:03:21 rec >>> -1 4
+
+05:03:21 rec >>> 1 2
+
+05:03:21 rec >>> 1 2
+
+05:03:22 rec >>> no_action 4
+
+05:03:22 rec >>> no_action 4
+
+05:03:22 rec >>> no_action 2
+
+05:03:22 rec >>> no_action 2
+
+05:03:23 rec >>> no_action 4
+
+05:03:23 rec >>> no_action 4
+
+05:03:24 rec >>> -1 2
+
+05:03:24 rec >>> -1 2
+
+05:03:25 rec >>> no_action 4
+
+05:03:25 rec >>> no_action 4
+
+05:03:25 rec >>> no_action 2
+
+05:03:25 rec >>> no_action 2
+
+05:03:26 rec >>> kick 4 1 -1
+
+05:03:26 rec >>> kick 4 1 -1
+
+05:03:26 rec >>> no_action 2
+
+05:03:26 rec >>> no_action 2
+
+05:03:27 rec >>> no_action 4
+
+05:03:27 rec >>> no_action 4
+
+05:03:27 rec >>> no_action 2
+
+05:03:27 rec >>> no_action 2
+
+05:03:28 rec >>> no_action 4
+
+05:03:28 rec >>> no_action 4
+
+05:03:28 rec >>> no_action 2
+
+05:03:28 rec >>> no_action 2
+
+05:03:29 rec >>> 1 4
+
+05:03:29 rec >>> 1 4
+
+05:03:29 rec >>> no_action 2
+
+05:03:29 rec >>> no_action 2
+
+05:03:30 rec >>> kick 4 1 -1
+
+05:03:30 rec >>> kick 4 1 -1
+
+05:03:30 rec >>> no_action 2
+
+05:03:30 rec >>> no_action 2
+
+05:03:31 rec >>> -1 4
+
+05:03:31 rec >>> -1 4
+
+05:03:31 rec >>> no_action 2
+
+05:03:31 rec >>> no_action 2
+
+05:03:32 rec >>> kick 4 5 -1
+
+05:03:32 rec >>> kick 4 5 -1
+
+05:03:32 rec >>> no_action 2
+
+05:03:32 rec >>> no_action 2
+
+05:03:33 rec >>> no_action 4
+
+05:03:33 rec >>> no_action 4
+
+05:03:33 rec >>> -1 2
+
+05:03:33 rec >>> -1 2
+
+05:03:34 rec >>> no_action 4
+
+05:03:34 rec >>> no_action 4
+
+05:03:34 rec >>> 1 2
+
+05:03:34 rec >>> 1 2
+
+05:03:35 rec >>> 1 4
+
+05:03:35 rec >>> 1 4
+
+05:03:35 rec >>> no_action 2
+
+05:03:35 rec >>> no_action 2
+
+05:03:36 rec >>> kick 4 1 0
+
+05:03:36 rec >>> kick 4 1 0
+
+05:03:36 rec >>> no_action 2
+
+05:03:36 rec >>> no_action 2
+
+05:03:37 rec >>> kick 4 5 -1
+
+05:03:37 rec >>> kick 4 5 -1
+
+05:03:37 rec >>> no_action 2
+
+05:03:37 rec >>> no_action 2
+
+05:03:38 rec >>> -1 4
+
+05:03:38 rec >>> -1 4
+
+05:03:38 rec >>> -1 2
+
+05:03:38 rec >>> -1 2
+
+05:03:39 rec >>> no_action 4
+
+05:03:39 rec >>> no_action 4
+
+05:03:39 rec >>> 1 2
+
+05:03:39 rec >>> 1 2
+
+05:03:40 rec >>> no_action 4
+
+05:03:40 rec >>> no_action 4
+
+05:03:40 rec >>> no_action 2
+
+05:03:40 rec >>> no_action 2
+
+05:03:41 rec >>> no_action 4
+
+05:03:41 rec >>> no_action 4
+
+05:03:41 rec >>> no_action 2
+
+05:03:41 rec >>> no_action 2
+
+05:03:42 rec >>> kick 4 1 1
+
+05:03:42 rec >>> kick 4 1 1
+
+05:03:42 rec >>> no_action 2
+
+05:03:42 rec >>> no_action 2
+
+05:03:43 rec >>> kick 4 1 1
+
+05:03:43 rec >>> kick 4 1 1
+
+05:03:43 rec >>> no_action 2
+
+05:03:43 rec >>> no_action 2
+
+05:03:44 rec >>> 1 4
+
+05:03:44 rec >>> 1 4
+
+05:03:44 rec >>> no_action 2
+
+05:03:44 rec >>> no_action 2
+
+05:03:45 rec >>> kick 4 5 0
+
+05:03:45 rec >>> kick 4 5 0
+
+05:03:45 rec >>> no_action 2
+
+05:03:45 rec >>> no_action 2
+
+05:03:46 rec >>> -1 4
+
+05:03:46 rec >>> -1 4
+
+05:03:46 rec >>> 1 2
+
+05:03:46 rec >>> 1 2
+
+05:03:47 rec >>> no_action 4
+
+05:03:47 rec >>> no_action 4
+
+05:03:47 rec >>> no_action 2
+
+05:03:47 rec >>> no_action 2
+
+05:03:48 rec >>> no_action 4
+
+05:03:48 rec >>> no_action 4
+
+05:03:48 rec >>> -1 2
+
+05:03:48 rec >>> -1 2
+

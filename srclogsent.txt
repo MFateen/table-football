@@ -4607,3 +4607,4495 @@ kick 3 5 0
 
 03:44:34 sent >>> -1 3
 
+04:35:05 sent >>> new_step
+
+04:35:05 sent >>> no_action 1
+
+04:35:05 sent >>> 
+kick 3 1 0
+
+04:35:06 sent >>> new_step
+
+04:35:06 sent >>> no_action 1
+
+04:35:06 sent >>> kick 3 1 -1
+
+04:35:07 sent >>> new_step
+
+04:35:07 sent >>> no_action 1
+
+04:35:07 sent >>> 1 3
+
+04:35:08 sent >>> new_step
+
+04:35:08 sent >>> no_action 1
+
+04:35:08 sent >>> 
+kick 3 5 0
+
+04:35:09 sent >>> new_step
+
+04:35:09 sent >>> no_action 1
+
+04:35:09 sent >>> -1 3
+
+04:35:10 sent >>> new_step
+
+04:35:10 sent >>> no_action 1
+
+04:35:10 sent >>> no_action 3
+
+04:35:11 sent >>> new_step
+
+04:35:11 sent >>> no_action 1
+
+04:35:11 sent >>> no_action 3
+
+04:35:12 sent >>> new_step
+
+04:35:12 sent >>> no_action 1
+
+04:35:12 sent >>> no_action 3
+
+04:35:13 sent >>> new_step
+
+04:35:13 sent >>> no_action 1
+
+04:35:13 sent >>> -1 3
+
+04:35:14 sent >>> new_step
+
+04:35:14 sent >>> no_action 1
+
+04:35:14 sent >>> 
+kick 3 5 1
+
+04:35:15 sent >>> new_step
+
+04:35:15 sent >>> no_action 1
+
+04:35:15 sent >>> 1 3
+
+04:35:16 sent >>> new_step
+
+04:35:16 sent >>> no_action 1
+
+04:35:16 sent >>> no_action 3
+
+04:35:17 sent >>> new_step
+
+04:35:17 sent >>> no_action 1
+
+04:35:17 sent >>> no_action 3
+
+04:35:18 sent >>> new_step
+
+04:35:18 sent >>> no_action 1
+
+04:35:18 sent >>> no_action 3
+
+04:35:19 sent >>> new_step
+
+04:35:19 sent >>> no_action 1
+
+04:35:19 sent >>> -1 3
+
+04:35:20 sent >>> new_step
+
+04:35:20 sent >>> no_action 1
+
+04:35:20 sent >>> 
+kick 3 5 1
+
+04:35:21 sent >>> new_step
+
+04:35:21 sent >>> no_action 1
+
+04:35:21 sent >>> 1 3
+
+04:35:22 sent >>> new_step
+
+04:35:22 sent >>> no_action 1
+
+04:35:22 sent >>> no_action 3
+
+04:35:23 sent >>> new_step
+
+04:35:23 sent >>> no_action 1
+
+04:35:23 sent >>> no_action 3
+
+04:35:24 sent >>> new_step
+
+04:35:24 sent >>> no_action 1
+
+04:35:24 sent >>> -1 3
+
+04:35:25 sent >>> new_step
+
+04:35:25 sent >>> no_action 1
+
+04:35:25 sent >>> 
+kick 3 1 1
+
+04:35:26 sent >>> new_step
+
+04:35:26 sent >>> no_action 1
+
+04:35:26 sent >>> 1 3
+
+04:35:27 sent >>> new_step
+
+04:35:27 sent >>> no_action 1
+
+04:35:27 sent >>> 
+kick 3 5 1
+
+04:35:28 sent >>> new_step
+
+04:35:28 sent >>> no_action 1
+
+04:35:28 sent >>> no_action 3
+
+04:35:29 sent >>> new_step
+
+04:35:29 sent >>> no_action 1
+
+04:35:29 sent >>> no_action 3
+
+04:35:30 sent >>> new_step
+
+04:35:30 sent >>> no_action 1
+
+04:35:30 sent >>> no_action 3
+
+04:35:31 sent >>> new_step
+
+04:35:31 sent >>> no_action 1
+
+04:35:31 sent >>> no_action 3
+
+04:35:32 sent >>> new_step
+
+04:35:32 sent >>> no_action 1
+
+04:35:32 sent >>> 1 3
+
+04:35:33 sent >>> new_step
+
+04:35:33 sent >>> no_action 1
+
+04:35:33 sent >>> kick 3 1 -1
+
+04:35:34 sent >>> new_step
+
+04:35:34 sent >>> no_action 1
+
+04:35:34 sent >>> -1 3
+
+04:35:35 sent >>> new_step
+
+04:35:35 sent >>> no_action 1
+
+04:35:35 sent >>> kick 3 5 -1
+
+04:35:36 sent >>> new_step
+
+04:35:36 sent >>> no_action 1
+
+04:35:36 sent >>> no_action 3
+
+04:35:37 sent >>> new_step
+
+04:35:37 sent >>> no_action 1
+
+04:35:37 sent >>> no_action 3
+
+04:35:38 sent >>> new_step
+
+04:35:38 sent >>> no_action 1
+
+04:35:38 sent >>> no_action 3
+
+04:35:39 sent >>> new_step
+
+04:35:39 sent >>> no_action 1
+
+04:35:39 sent >>> no_action 3
+
+04:35:40 sent >>> new_step
+
+04:35:40 sent >>> no_action 1
+
+04:35:40 sent >>> 1 3
+
+04:35:41 sent >>> new_step
+
+04:35:41 sent >>> no_action 1
+
+04:35:41 sent >>> kick 3 1 -1
+
+04:35:42 sent >>> new_step
+
+04:35:42 sent >>> no_action 1
+
+04:35:42 sent >>> -1 3
+
+04:35:43 sent >>> new_step
+
+04:35:43 sent >>> no_action 1
+
+04:35:43 sent >>> 
+kick 3 5 1
+
+04:35:44 sent >>> new_step
+
+04:35:44 sent >>> no_action 1
+
+04:35:44 sent >>> no_action 3
+
+04:35:45 sent >>> new_step
+
+04:35:45 sent >>> no_action 1
+
+04:35:45 sent >>> no_action 3
+
+04:35:46 sent >>> new_step
+
+04:35:46 sent >>> no_action 1
+
+04:35:46 sent >>> no_action 3
+
+04:35:47 sent >>> new_step
+
+04:35:47 sent >>> no_action 1
+
+04:35:47 sent >>> no_action 3
+
+04:35:48 sent >>> new_step
+
+04:35:48 sent >>> no_action 1
+
+04:35:48 sent >>> -1 3
+
+04:35:49 sent >>> new_step
+
+04:35:49 sent >>> no_action 1
+
+04:35:49 sent >>> 
+kick 3 1 1
+
+04:35:50 sent >>> new_step
+
+04:35:50 sent >>> no_action 1
+
+04:35:50 sent >>> 1 3
+
+04:35:51 sent >>> new_step
+
+04:35:51 sent >>> no_action 1
+
+04:35:51 sent >>> 
+kick 3 5 1
+
+04:35:52 sent >>> new_step
+
+04:35:52 sent >>> no_action 1
+
+04:35:52 sent >>> no_action 3
+
+04:35:53 sent >>> new_step
+
+04:35:53 sent >>> no_action 1
+
+04:35:53 sent >>> no_action 3
+
+04:35:54 sent >>> new_step
+
+04:35:54 sent >>> no_action 1
+
+04:35:54 sent >>> no_action 3
+
+04:35:55 sent >>> new_step
+
+04:35:55 sent >>> no_action 1
+
+04:35:55 sent >>> kick 3 1 -1
+
+04:35:56 sent >>> new_step
+
+04:35:56 sent >>> no_action 1
+
+04:35:56 sent >>> 
+kick 3 1 1
+
+04:35:57 sent >>> new_step
+
+04:35:57 sent >>> no_action 1
+
+04:35:57 sent >>> 1 3
+
+04:35:58 sent >>> new_step
+
+04:35:58 sent >>> no_action 1
+
+04:35:58 sent >>> 
+kick 3 5 0
+
+04:36:00 sent >>> new_step
+
+04:36:00 sent >>> no_action 1
+
+04:36:00 sent >>> -1 3
+
+04:36:01 sent >>> new_step
+
+04:36:01 sent >>> no_action 1
+
+04:36:01 sent >>> no_action 3
+
+04:36:02 sent >>> new_step
+
+04:36:02 sent >>> no_action 1
+
+04:36:02 sent >>> no_action 3
+
+04:36:03 sent >>> new_step
+
+04:36:03 sent >>> no_action 1
+
+04:36:03 sent >>> 1 3
+
+04:36:04 sent >>> new_step
+
+04:36:04 sent >>> no_action 1
+
+04:36:04 sent >>> 
+kick 3 1 0
+
+04:36:05 sent >>> new_step
+
+04:36:05 sent >>> no_action 1
+
+04:36:05 sent >>> 
+kick 3 5 0
+
+04:36:06 sent >>> new_step
+
+04:36:06 sent >>> no_action 1
+
+04:36:06 sent >>> -1 3
+
+04:36:07 sent >>> new_step
+
+04:36:07 sent >>> no_action 1
+
+04:36:07 sent >>> no_action 3
+
+04:36:08 sent >>> new_step
+
+04:36:08 sent >>> no_action 1
+
+04:36:08 sent >>> no_action 3
+
+04:36:09 sent >>> new_step
+
+04:36:09 sent >>> no_action 1
+
+04:36:09 sent >>> 1 3
+
+04:36:10 sent >>> new_step
+
+04:36:10 sent >>> no_action 1
+
+04:36:10 sent >>> 
+kick 3 1 0
+
+04:36:11 sent >>> new_step
+
+04:36:11 sent >>> no_action 1
+
+04:36:11 sent >>> 
+kick 3 5 0
+
+04:36:12 sent >>> new_step
+
+04:36:12 sent >>> no_action 1
+
+04:36:12 sent >>> -1 3
+
+04:36:13 sent >>> new_step
+
+04:36:13 sent >>> no_action 1
+
+04:36:13 sent >>> no_action 3
+
+04:36:14 sent >>> new_step
+
+04:36:14 sent >>> no_action 1
+
+04:36:14 sent >>> no_action 3
+
+04:36:15 sent >>> new_step
+
+04:36:15 sent >>> no_action 1
+
+04:36:15 sent >>> no_action 3
+
+04:36:16 sent >>> new_step
+
+04:36:16 sent >>> no_action 1
+
+04:36:16 sent >>> kick 3 1 -1
+
+04:36:17 sent >>> new_step
+
+04:36:17 sent >>> no_action 1
+
+04:36:17 sent >>> 
+kick 3 1 1
+
+04:36:18 sent >>> new_step
+
+04:36:18 sent >>> no_action 1
+
+04:36:18 sent >>> 1 3
+
+04:36:19 sent >>> new_step
+
+04:36:19 sent >>> no_action 1
+
+04:36:19 sent >>> kick 3 5 -1
+
+04:36:20 sent >>> new_step
+
+04:36:20 sent >>> no_action 1
+
+04:36:20 sent >>> -1 3
+
+04:36:21 sent >>> new_step
+
+04:36:21 sent >>> no_action 1
+
+04:36:21 sent >>> no_action 3
+
+04:36:22 sent >>> new_step
+
+04:36:22 sent >>> no_action 1
+
+04:36:22 sent >>> no_action 3
+
+04:36:23 sent >>> new_step
+
+04:36:23 sent >>> no_action 1
+
+04:36:23 sent >>> 1 3
+
+04:36:24 sent >>> new_step
+
+04:36:24 sent >>> no_action 1
+
+04:36:24 sent >>> 
+kick 3 1 0
+
+04:36:25 sent >>> new_step
+
+04:36:25 sent >>> no_action 1
+
+04:36:25 sent >>> 
+kick 3 5 0
+
+04:36:26 sent >>> new_step
+
+04:36:26 sent >>> no_action 1
+
+04:36:26 sent >>> -1 3
+
+04:36:27 sent >>> new_step
+
+04:36:27 sent >>> no_action 1
+
+04:36:27 sent >>> no_action 3
+
+04:36:28 sent >>> new_step
+
+04:36:28 sent >>> no_action 1
+
+04:36:28 sent >>> no_action 3
+
+04:36:29 sent >>> new_step
+
+04:36:29 sent >>> no_action 1
+
+04:36:29 sent >>> 1 3
+
+04:36:30 sent >>> new_step
+
+04:36:30 sent >>> no_action 1
+
+04:36:30 sent >>> kick 3 1 -1
+
+04:36:31 sent >>> new_step
+
+04:36:31 sent >>> no_action 1
+
+04:36:31 sent >>> -1 3
+
+04:36:32 sent >>> new_step
+
+04:36:32 sent >>> no_action 1
+
+04:36:32 sent >>> kick 3 5 -1
+
+04:36:33 sent >>> new_step
+
+04:36:33 sent >>> no_action 1
+
+04:36:33 sent >>> no_action 3
+
+04:36:34 sent >>> new_step
+
+04:36:34 sent >>> no_action 1
+
+04:36:34 sent >>> no_action 3
+
+04:36:35 sent >>> new_step
+
+04:36:35 sent >>> no_action 1
+
+04:36:35 sent >>> no_action 3
+
+04:36:36 sent >>> new_step
+
+04:36:36 sent >>> no_action 1
+
+04:36:36 sent >>> kick 3 1 -1
+
+04:36:37 sent >>> new_step
+
+04:36:37 sent >>> no_action 1
+
+04:36:37 sent >>> no_action 3
+
+04:36:38 sent >>> new_step
+
+04:36:38 sent >>> no_action 1
+
+04:36:38 sent >>> no_action 3
+
+04:36:39 sent >>> new_step
+
+04:36:39 sent >>> no_action 1
+
+04:36:39 sent >>> -1 3
+
+04:36:40 sent >>> new_step
+
+04:36:40 sent >>> no_action 1
+
+04:36:40 sent >>> 
+kick 3 1 0
+
+04:36:41 sent >>> new_step
+
+04:36:41 sent >>> no_action 1
+
+04:36:41 sent >>> 
+kick 3 5 1
+
+04:36:42 sent >>> new_step
+
+04:36:42 sent >>> no_action 1
+
+04:36:42 sent >>> 1 3
+
+04:36:43 sent >>> new_step
+
+04:36:43 sent >>> no_action 1
+
+04:36:43 sent >>> no_action 3
+
+04:36:44 sent >>> new_step
+
+04:36:44 sent >>> no_action 1
+
+04:36:44 sent >>> no_action 3
+
+04:36:45 sent >>> new_step
+
+04:36:45 sent >>> no_action 1
+
+04:36:45 sent >>> no_action 3
+
+04:36:46 sent >>> new_step
+
+04:36:46 sent >>> no_action 1
+
+04:36:46 sent >>> 
+kick 3 1 0
+
+04:36:47 sent >>> new_step
+
+04:36:47 sent >>> no_action 1
+
+04:36:47 sent >>> no_action 3
+
+04:36:48 sent >>> new_step
+
+04:36:48 sent >>> no_action 1
+
+04:36:48 sent >>> 
+kick 3 1 0
+
+04:36:49 sent >>> new_step
+
+04:36:49 sent >>> no_action 1
+
+04:36:49 sent >>> no_action 3
+
+04:36:50 sent >>> new_step
+
+04:36:50 sent >>> no_action 1
+
+04:36:50 sent >>> -1 3
+
+04:36:51 sent >>> new_step
+
+04:36:51 sent >>> no_action 1
+
+04:36:51 sent >>> 
+kick 3 5 1
+
+04:36:52 sent >>> new_step
+
+04:36:52 sent >>> no_action 1
+
+04:36:52 sent >>> 1 3
+
+04:36:53 sent >>> new_step
+
+04:36:53 sent >>> no_action 1
+
+04:36:53 sent >>> no_action 3
+
+04:36:54 sent >>> new_step
+
+04:36:54 sent >>> no_action 1
+
+04:36:54 sent >>> no_action 3
+
+04:36:55 sent >>> new_step
+
+04:36:55 sent >>> no_action 1
+
+04:36:55 sent >>> no_action 3
+
+04:36:56 sent >>> new_step
+
+04:36:56 sent >>> no_action 1
+
+04:36:56 sent >>> 
+kick 3 1 1
+
+04:36:57 sent >>> new_step
+
+04:36:57 sent >>> no_action 1
+
+04:36:57 sent >>> 
+kick 3 1 0
+
+04:36:58 sent >>> new_step
+
+04:36:58 sent >>> no_action 1
+
+04:36:58 sent >>> 
+kick 3 5 1
+
+04:36:59 sent >>> new_step
+
+04:36:59 sent >>> no_action 1
+
+04:36:59 sent >>> no_action 3
+
+04:37:00 sent >>> new_step
+
+04:37:00 sent >>> no_action 1
+
+04:37:00 sent >>> no_action 3
+
+04:37:01 sent >>> new_step
+
+04:37:01 sent >>> no_action 1
+
+04:37:01 sent >>> no_action 3
+
+04:37:02 sent >>> new_step
+
+04:37:02 sent >>> no_action 1
+
+04:37:02 sent >>> 
+kick 3 1 1
+
+04:37:03 sent >>> new_step
+
+04:37:03 sent >>> no_action 1
+
+04:37:03 sent >>> 
+kick 3 1 0
+
+04:37:04 sent >>> new_step
+
+04:37:04 sent >>> no_action 1
+
+04:37:04 sent >>> kick 3 5 -1
+
+04:37:05 sent >>> new_step
+
+04:37:05 sent >>> no_action 1
+
+04:37:05 sent >>> no_action 3
+
+04:37:06 sent >>> new_step
+
+04:37:06 sent >>> no_action 1
+
+04:37:06 sent >>> no_action 3
+
+04:37:07 sent >>> new_step
+
+04:37:07 sent >>> no_action 1
+
+04:37:07 sent >>> no_action 3
+
+04:37:08 sent >>> new_step
+
+04:37:08 sent >>> no_action 1
+
+04:37:08 sent >>> no_action 3
+
+04:37:09 sent >>> new_step
+
+04:37:09 sent >>> no_action 1
+
+04:37:09 sent >>> 1 3
+
+04:37:10 sent >>> new_step
+
+04:37:10 sent >>> no_action 1
+
+04:37:10 sent >>> kick 3 1 -1
+
+04:37:11 sent >>> new_step
+
+04:37:11 sent >>> no_action 1
+
+04:37:11 sent >>> -1 3
+
+04:37:12 sent >>> new_step
+
+04:37:12 sent >>> no_action 1
+
+04:37:12 sent >>> 
+kick 3 5 0
+
+04:37:13 sent >>> new_step
+
+04:37:13 sent >>> no_action 1
+
+04:37:13 sent >>> no_action 3
+
+04:37:14 sent >>> new_step
+
+04:37:14 sent >>> no_action 1
+
+04:37:14 sent >>> 1 3
+
+04:37:15 sent >>> new_step
+
+04:37:15 sent >>> no_action 1
+
+04:37:15 sent >>> 
+kick 3 5 0
+
+04:37:16 sent >>> new_step
+
+04:37:16 sent >>> no_action 1
+
+04:37:16 sent >>> -1 3
+
+04:37:17 sent >>> new_step
+
+04:37:17 sent >>> no_action 1
+
+04:37:17 sent >>> no_action 3
+
+04:37:18 sent >>> new_step
+
+04:37:18 sent >>> no_action 1
+
+04:37:18 sent >>> no_action 3
+
+04:37:19 sent >>> new_step
+
+04:37:19 sent >>> no_action 1
+
+04:37:19 sent >>> -1 3
+
+04:37:20 sent >>> new_step
+
+04:37:20 sent >>> no_action 1
+
+04:37:20 sent >>> 
+kick 3 1 1
+
+04:37:21 sent >>> new_step
+
+04:37:21 sent >>> no_action 1
+
+04:37:21 sent >>> 1 3
+
+04:37:22 sent >>> new_step
+
+04:37:22 sent >>> no_action 1
+
+04:37:22 sent >>> 
+kick 3 5 1
+
+04:37:23 sent >>> new_step
+
+04:37:23 sent >>> no_action 1
+
+04:37:23 sent >>> no_action 3
+
+04:37:24 sent >>> new_step
+
+04:37:24 sent >>> no_action 1
+
+04:37:24 sent >>> no_action 3
+
+04:37:25 sent >>> new_step
+
+04:37:25 sent >>> no_action 1
+
+04:37:25 sent >>> no_action 3
+
+04:37:26 sent >>> new_step
+
+04:37:26 sent >>> no_action 1
+
+04:37:26 sent >>> 
+kick 3 1 0
+
+04:37:27 sent >>> new_step
+
+04:37:27 sent >>> no_action 1
+
+04:37:27 sent >>> no_action 3
+
+04:37:28 sent >>> new_step
+
+04:37:28 sent >>> no_action 1
+
+04:37:28 sent >>> 
+kick 3 1 1
+
+04:37:29 sent >>> new_step
+
+04:37:29 sent >>> no_action 1
+
+04:37:29 sent >>> no_action 3
+
+04:37:30 sent >>> new_step
+
+04:37:30 sent >>> no_action 1
+
+04:37:30 sent >>> no_action 3
+
+04:37:31 sent >>> new_step
+
+04:37:31 sent >>> no_action 1
+
+04:37:31 sent >>> 1 3
+
+04:37:32 sent >>> new_step
+
+04:37:32 sent >>> no_action 1
+
+04:37:32 sent >>> 
+kick 3 1 0
+
+04:37:33 sent >>> new_step
+
+04:37:33 sent >>> no_action 1
+
+04:37:33 sent >>> kick 3 5 -1
+
+04:37:34 sent >>> new_step
+
+04:37:34 sent >>> no_action 1
+
+04:37:34 sent >>> -1 3
+
+04:37:35 sent >>> new_step
+
+04:37:35 sent >>> no_action 1
+
+04:37:35 sent >>> no_action 3
+
+04:37:36 sent >>> new_step
+
+04:37:36 sent >>> no_action 1
+
+04:37:36 sent >>> no_action 3
+
+04:37:37 sent >>> new_step
+
+04:37:37 sent >>> no_action 1
+
+04:37:37 sent >>> no_action 3
+
+04:37:38 sent >>> new_step
+
+04:37:38 sent >>> no_action 1
+
+04:37:38 sent >>> kick 3 1 -1
+
+04:37:39 sent >>> new_step
+
+04:37:39 sent >>> no_action 1
+
+04:37:39 sent >>> no_action 3
+
+04:37:40 sent >>> new_step
+
+04:37:40 sent >>> no_action 1
+
+04:37:40 sent >>> no_action 3
+
+04:37:41 sent >>> new_step
+
+04:37:41 sent >>> no_action 1
+
+04:37:41 sent >>> 1 3
+
+04:37:42 sent >>> new_step
+
+04:37:42 sent >>> no_action 1
+
+04:37:42 sent >>> kick 3 1 -1
+
+04:37:44 sent >>> new_step
+
+04:37:44 sent >>> no_action 1
+
+04:37:44 sent >>> -1 3
+
+04:37:45 sent >>> new_step
+
+04:37:45 sent >>> no_action 1
+
+04:37:45 sent >>> kick 3 5 -1
+
+04:37:46 sent >>> new_step
+
+04:37:46 sent >>> no_action 1
+
+04:37:46 sent >>> no_action 3
+
+04:37:47 sent >>> new_step
+
+04:37:47 sent >>> no_action 1
+
+04:37:47 sent >>> no_action 3
+
+04:37:48 sent >>> new_step
+
+04:37:48 sent >>> no_action 1
+
+04:37:48 sent >>> no_action 3
+
+04:37:49 sent >>> new_step
+
+04:37:49 sent >>> no_action 1
+
+04:37:49 sent >>> no_action 3
+
+04:37:50 sent >>> new_step
+
+04:37:50 sent >>> no_action 1
+
+04:37:50 sent >>> -1 3
+
+04:37:51 sent >>> new_step
+
+04:37:51 sent >>> no_action 1
+
+04:37:51 sent >>> 
+kick 3 1 1
+
+04:37:52 sent >>> new_step
+
+04:37:52 sent >>> no_action 1
+
+04:37:52 sent >>> 1 3
+
+04:37:53 sent >>> new_step
+
+04:37:53 sent >>> no_action 1
+
+04:37:53 sent >>> 
+kick 3 5 1
+
+04:37:54 sent >>> new_step
+
+04:37:54 sent >>> no_action 1
+
+04:37:54 sent >>> no_action 3
+
+04:37:55 sent >>> new_step
+
+04:37:55 sent >>> no_action 1
+
+04:37:55 sent >>> no_action 3
+
+04:37:56 sent >>> new_step
+
+04:37:56 sent >>> no_action 1
+
+04:37:56 sent >>> no_action 3
+
+04:37:57 sent >>> new_step
+
+04:37:57 sent >>> no_action 1
+
+04:37:57 sent >>> 
+kick 3 1 0
+
+04:37:58 sent >>> new_step
+
+04:37:58 sent >>> no_action 1
+
+04:37:58 sent >>> 
+kick 3 1 0
+
+04:37:59 sent >>> new_step
+
+04:37:59 sent >>> no_action 1
+
+04:37:59 sent >>> 
+kick 3 5 0
+
+04:38:00 sent >>> new_step
+
+04:38:00 sent >>> no_action 1
+
+04:38:00 sent >>> no_action 3
+
+04:38:01 sent >>> new_step
+
+04:38:01 sent >>> no_action 1
+
+04:38:01 sent >>> 
+kick 3 1 1
+
+04:38:02 sent >>> new_step
+
+04:38:02 sent >>> no_action 1
+
+04:38:02 sent >>> 
+kick 3 1 0
+
+04:38:03 sent >>> new_step
+
+04:38:03 sent >>> no_action 1
+
+04:38:03 sent >>> kick 3 5 -1
+
+04:38:04 sent >>> new_step
+
+04:38:04 sent >>> no_action 1
+
+04:38:04 sent >>> no_action 3
+
+04:38:05 sent >>> new_step
+
+04:38:05 sent >>> no_action 1
+
+04:38:05 sent >>> no_action 3
+
+04:38:06 sent >>> new_step
+
+04:38:06 sent >>> no_action 1
+
+04:38:06 sent >>> no_action 3
+
+04:38:07 sent >>> new_step
+
+04:38:07 sent >>> no_action 1
+
+04:38:07 sent >>> 
+kick 3 1 0
+
+04:38:08 sent >>> new_step
+
+04:38:08 sent >>> no_action 1
+
+04:38:08 sent >>> 
+kick 3 1 0
+
+04:38:09 sent >>> new_step
+
+04:38:09 sent >>> no_action 1
+
+04:38:09 sent >>> 
+kick 3 5 0
+
+04:38:10 sent >>> new_step
+
+04:38:10 sent >>> no_action 1
+
+04:38:10 sent >>> no_action 3
+
+04:38:11 sent >>> new_step
+
+04:38:11 sent >>> no_action 1
+
+04:38:11 sent >>> no_action 3
+
+04:38:12 sent >>> new_step
+
+04:38:12 sent >>> no_action 1
+
+04:38:12 sent >>> no_action 3
+
+04:38:13 sent >>> new_step
+
+04:38:13 sent >>> no_action 1
+
+04:38:13 sent >>> 
+kick 3 1 0
+
+04:38:14 sent >>> new_step
+
+04:38:14 sent >>> no_action 1
+
+04:38:14 sent >>> kick 3 1 -1
+
+04:38:15 sent >>> new_step
+
+04:38:15 sent >>> no_action 1
+
+04:38:15 sent >>> 1 3
+
+04:38:16 sent >>> new_step
+
+04:38:16 sent >>> no_action 1
+
+04:38:16 sent >>> 
+kick 3 5 0
+
+04:38:17 sent >>> new_step
+
+04:38:17 sent >>> no_action 1
+
+04:38:17 sent >>> -1 3
+
+04:38:18 sent >>> new_step
+
+04:38:18 sent >>> no_action 1
+
+04:38:18 sent >>> no_action 3
+
+04:38:19 sent >>> new_step
+
+04:38:19 sent >>> no_action 1
+
+04:38:19 sent >>> no_action 3
+
+04:38:20 sent >>> new_step
+
+04:38:20 sent >>> no_action 1
+
+04:38:20 sent >>> no_action 3
+
+04:38:21 sent >>> new_step
+
+04:38:21 sent >>> no_action 1
+
+04:38:21 sent >>> no_action 3
+
+04:38:22 sent >>> new_step
+
+04:38:22 sent >>> no_action 1
+
+04:38:22 sent >>> no_action 3
+
+04:38:23 sent >>> new_step
+
+04:38:23 sent >>> no_action 1
+
+04:38:23 sent >>> no_action 3
+
+04:38:24 sent >>> new_step
+
+04:38:24 sent >>> no_action 1
+
+04:38:24 sent >>> no_action 3
+
+04:38:25 sent >>> new_step
+
+04:38:25 sent >>> no_action 1
+
+04:38:25 sent >>> no_action 3
+
+04:38:26 sent >>> new_step
+
+04:38:26 sent >>> no_action 1
+
+04:38:26 sent >>> no_action 3
+
+04:38:27 sent >>> new_step
+
+04:38:27 sent >>> no_action 1
+
+04:38:27 sent >>> no_action 3
+
+04:38:28 sent >>> new_step
+
+04:38:28 sent >>> no_action 1
+
+04:38:28 sent >>> no_action 3
+
+04:38:29 sent >>> new_step
+
+04:38:29 sent >>> no_action 1
+
+04:38:29 sent >>> no_action 3
+
+04:38:30 sent >>> new_step
+
+04:38:30 sent >>> no_action 1
+
+04:38:30 sent >>> no_action 3
+
+04:38:31 sent >>> new_step
+
+04:38:31 sent >>> no_action 1
+
+04:38:31 sent >>> no_action 3
+
+04:38:32 sent >>> new_step
+
+04:38:32 sent >>> no_action 1
+
+04:38:32 sent >>> no_action 3
+
+04:38:33 sent >>> new_step
+
+04:38:33 sent >>> no_action 1
+
+04:38:33 sent >>> no_action 3
+
+04:38:34 sent >>> new_step
+
+04:38:34 sent >>> no_action 1
+
+04:38:34 sent >>> no_action 3
+
+04:38:35 sent >>> new_step
+
+04:38:35 sent >>> no_action 1
+
+04:38:35 sent >>> no_action 3
+
+04:38:36 sent >>> new_step
+
+04:38:36 sent >>> no_action 1
+
+04:38:36 sent >>> no_action 3
+
+04:38:37 sent >>> new_step
+
+04:38:37 sent >>> no_action 1
+
+04:38:37 sent >>> no_action 3
+
+04:38:38 sent >>> new_step
+
+04:38:38 sent >>> no_action 1
+
+04:38:38 sent >>> no_action 3
+
+04:38:39 sent >>> new_step
+
+04:38:39 sent >>> no_action 1
+
+04:38:39 sent >>> no_action 3
+
+04:38:40 sent >>> new_step
+
+04:38:40 sent >>> no_action 1
+
+04:38:40 sent >>> no_action 3
+
+04:38:41 sent >>> new_step
+
+04:38:41 sent >>> no_action 1
+
+04:38:41 sent >>> no_action 3
+
+04:38:42 sent >>> new_step
+
+04:38:42 sent >>> no_action 1
+
+04:38:42 sent >>> no_action 3
+
+04:38:43 sent >>> new_step
+
+04:38:43 sent >>> no_action 1
+
+04:38:43 sent >>> no_action 3
+
+04:38:44 sent >>> new_step
+
+04:38:44 sent >>> no_action 1
+
+04:38:44 sent >>> no_action 3
+
+04:38:45 sent >>> new_step
+
+04:38:45 sent >>> no_action 1
+
+04:38:45 sent >>> no_action 3
+
+04:38:46 sent >>> new_step
+
+04:38:46 sent >>> no_action 1
+
+04:38:46 sent >>> no_action 3
+
+04:38:47 sent >>> new_step
+
+04:38:47 sent >>> no_action 1
+
+04:38:47 sent >>> no_action 3
+
+04:38:48 sent >>> new_step
+
+04:38:48 sent >>> no_action 1
+
+04:38:48 sent >>> no_action 3
+
+04:38:49 sent >>> new_step
+
+04:38:49 sent >>> no_action 1
+
+04:38:49 sent >>> no_action 3
+
+04:38:50 sent >>> new_step
+
+04:38:50 sent >>> no_action 1
+
+04:38:50 sent >>> no_action 3
+
+04:38:51 sent >>> new_step
+
+04:38:51 sent >>> no_action 1
+
+04:38:51 sent >>> no_action 3
+
+04:38:52 sent >>> new_step
+
+04:38:52 sent >>> no_action 1
+
+04:38:52 sent >>> no_action 3
+
+04:38:53 sent >>> new_step
+
+04:38:53 sent >>> no_action 1
+
+04:38:53 sent >>> no_action 3
+
+04:38:54 sent >>> new_step
+
+04:38:54 sent >>> no_action 1
+
+04:38:54 sent >>> no_action 3
+
+04:38:55 sent >>> new_step
+
+04:38:55 sent >>> no_action 1
+
+04:38:55 sent >>> no_action 3
+
+04:38:56 sent >>> new_step
+
+04:38:56 sent >>> no_action 1
+
+04:38:56 sent >>> no_action 3
+
+04:38:57 sent >>> new_step
+
+04:38:57 sent >>> no_action 1
+
+04:38:57 sent >>> no_action 3
+
+04:38:58 sent >>> new_step
+
+04:38:58 sent >>> no_action 1
+
+04:38:58 sent >>> no_action 3
+
+04:38:59 sent >>> new_step
+
+04:38:59 sent >>> no_action 1
+
+04:38:59 sent >>> no_action 3
+
+04:39:00 sent >>> new_step
+
+04:39:00 sent >>> no_action 1
+
+04:39:00 sent >>> no_action 3
+
+04:39:01 sent >>> new_step
+
+04:39:01 sent >>> no_action 1
+
+04:39:01 sent >>> no_action 3
+
+04:39:02 sent >>> new_step
+
+04:39:02 sent >>> no_action 1
+
+04:39:02 sent >>> no_action 3
+
+04:39:03 sent >>> new_step
+
+04:39:03 sent >>> no_action 1
+
+04:39:03 sent >>> no_action 3
+
+04:39:04 sent >>> new_step
+
+04:39:04 sent >>> no_action 1
+
+04:39:04 sent >>> no_action 3
+
+04:39:05 sent >>> new_step
+
+04:39:05 sent >>> no_action 1
+
+04:39:05 sent >>> no_action 3
+
+04:39:06 sent >>> new_step
+
+04:39:06 sent >>> no_action 1
+
+04:39:06 sent >>> no_action 3
+
+04:39:07 sent >>> new_step
+
+04:39:07 sent >>> no_action 1
+
+04:39:07 sent >>> no_action 3
+
+04:39:08 sent >>> new_step
+
+04:39:08 sent >>> no_action 1
+
+04:39:08 sent >>> no_action 3
+
+04:39:09 sent >>> new_step
+
+04:39:09 sent >>> no_action 1
+
+04:39:09 sent >>> no_action 3
+
+04:39:10 sent >>> new_step
+
+04:39:10 sent >>> no_action 1
+
+04:39:10 sent >>> no_action 3
+
+04:39:11 sent >>> new_step
+
+04:39:11 sent >>> no_action 1
+
+04:39:11 sent >>> no_action 3
+
+04:39:12 sent >>> new_step
+
+04:39:12 sent >>> no_action 1
+
+04:39:12 sent >>> no_action 3
+
+04:39:13 sent >>> new_step
+
+04:39:13 sent >>> no_action 1
+
+04:39:13 sent >>> no_action 3
+
+04:39:14 sent >>> new_step
+
+04:39:14 sent >>> no_action 1
+
+04:39:14 sent >>> no_action 3
+
+04:39:15 sent >>> new_step
+
+04:39:15 sent >>> no_action 1
+
+04:39:15 sent >>> no_action 3
+
+04:39:16 sent >>> new_step
+
+04:39:16 sent >>> no_action 1
+
+04:39:16 sent >>> no_action 3
+
+04:39:17 sent >>> new_step
+
+04:39:17 sent >>> no_action 1
+
+04:39:17 sent >>> no_action 3
+
+04:39:18 sent >>> new_step
+
+04:39:18 sent >>> no_action 1
+
+04:39:18 sent >>> no_action 3
+
+04:39:19 sent >>> new_step
+
+04:39:19 sent >>> no_action 1
+
+04:39:19 sent >>> no_action 3
+
+04:39:20 sent >>> new_step
+
+04:39:20 sent >>> no_action 1
+
+04:39:20 sent >>> no_action 3
+
+04:39:21 sent >>> new_step
+
+04:39:21 sent >>> no_action 1
+
+04:39:21 sent >>> no_action 3
+
+04:39:22 sent >>> new_step
+
+04:39:22 sent >>> no_action 1
+
+04:39:22 sent >>> no_action 3
+
+04:39:23 sent >>> new_step
+
+04:39:23 sent >>> no_action 1
+
+04:39:23 sent >>> no_action 3
+
+04:39:24 sent >>> new_step
+
+04:39:24 sent >>> no_action 1
+
+04:39:24 sent >>> no_action 3
+
+04:39:25 sent >>> new_step
+
+04:39:25 sent >>> no_action 1
+
+04:39:25 sent >>> no_action 3
+
+04:39:26 sent >>> new_step
+
+04:39:26 sent >>> no_action 1
+
+04:39:26 sent >>> no_action 3
+
+04:39:27 sent >>> new_step
+
+04:39:27 sent >>> no_action 1
+
+04:39:27 sent >>> no_action 3
+
+04:39:28 sent >>> new_step
+
+04:39:28 sent >>> no_action 1
+
+04:39:28 sent >>> no_action 3
+
+04:39:29 sent >>> new_step
+
+04:39:29 sent >>> no_action 1
+
+04:39:29 sent >>> no_action 3
+
+04:39:30 sent >>> new_step
+
+04:39:30 sent >>> no_action 1
+
+04:39:30 sent >>> no_action 3
+
+04:39:31 sent >>> new_step
+
+04:39:31 sent >>> no_action 1
+
+04:39:31 sent >>> no_action 3
+
+04:39:32 sent >>> new_step
+
+04:39:32 sent >>> no_action 1
+
+04:39:32 sent >>> no_action 3
+
+04:39:33 sent >>> new_step
+
+04:39:33 sent >>> no_action 1
+
+04:39:33 sent >>> no_action 3
+
+04:39:34 sent >>> new_step
+
+04:39:34 sent >>> no_action 1
+
+04:39:34 sent >>> no_action 3
+
+04:39:35 sent >>> new_step
+
+04:39:35 sent >>> no_action 1
+
+04:39:35 sent >>> no_action 3
+
+04:39:37 sent >>> new_step
+
+04:39:37 sent >>> no_action 1
+
+04:39:37 sent >>> no_action 3
+
+04:39:38 sent >>> new_step
+
+04:39:38 sent >>> no_action 1
+
+04:39:38 sent >>> no_action 3
+
+04:39:39 sent >>> new_step
+
+04:39:39 sent >>> no_action 1
+
+04:39:39 sent >>> no_action 3
+
+04:39:40 sent >>> new_step
+
+04:39:40 sent >>> no_action 1
+
+04:39:40 sent >>> no_action 3
+
+04:39:41 sent >>> new_step
+
+04:39:41 sent >>> no_action 1
+
+04:39:41 sent >>> no_action 3
+
+04:49:55 sent >>> new_step
+
+04:49:55 sent >>> no_action 1
+
+04:49:55 sent >>> 
+kick 3 1 0
+
+04:49:56 sent >>> new_step
+
+04:49:56 sent >>> no_action 1
+
+04:49:56 sent >>> kick 3 1 -1
+
+04:49:57 sent >>> new_step
+
+04:49:57 sent >>> no_action 1
+
+04:49:57 sent >>> 1 3
+
+04:49:58 sent >>> new_step
+
+04:49:58 sent >>> no_action 1
+
+04:49:58 sent >>> 
+kick 3 5 0
+
+04:49:59 sent >>> new_step
+
+04:49:59 sent >>> no_action 1
+
+04:49:59 sent >>> -1 3
+
+04:50:00 sent >>> new_step
+
+04:50:00 sent >>> no_action 1
+
+04:50:00 sent >>> no_action 3
+
+04:50:01 sent >>> new_step
+
+04:50:01 sent >>> no_action 1
+
+04:50:01 sent >>> no_action 3
+
+04:50:02 sent >>> new_step
+
+04:50:02 sent >>> no_action 1
+
+04:50:02 sent >>> 1 3
+
+04:50:03 sent >>> new_step
+
+04:50:03 sent >>> no_action 1
+
+04:50:03 sent >>> 
+kick 3 1 1
+
+04:50:04 sent >>> new_step
+
+04:50:04 sent >>> no_action 1
+
+04:50:04 sent >>> -1 3
+
+04:50:05 sent >>> new_step
+
+04:50:05 sent >>> no_action 1
+
+04:50:05 sent >>> 
+kick 3 5 0
+
+04:50:06 sent >>> new_step
+
+04:50:06 sent >>> no_action 1
+
+04:50:06 sent >>> no_action 3
+
+04:50:07 sent >>> new_step
+
+04:50:07 sent >>> no_action 1
+
+04:50:07 sent >>> 1 3
+
+04:50:08 sent >>> new_step
+
+04:50:08 sent >>> no_action 1
+
+04:50:08 sent >>> 
+kick 3 5 0
+
+04:50:09 sent >>> new_step
+
+04:50:09 sent >>> no_action 1
+
+04:50:09 sent >>> -1 3
+
+04:50:10 sent >>> new_step
+
+04:50:10 sent >>> no_action 1
+
+04:50:10 sent >>> no_action 3
+
+04:50:11 sent >>> new_step
+
+04:50:11 sent >>> no_action 1
+
+04:50:11 sent >>> no_action 3
+
+04:50:12 sent >>> new_step
+
+04:50:12 sent >>> no_action 1
+
+04:50:12 sent >>> no_action 3
+
+04:50:13 sent >>> new_step
+
+04:50:13 sent >>> no_action 1
+
+04:50:13 sent >>> kick 3 1 -1
+
+04:50:14 sent >>> new_step
+
+04:50:14 sent >>> no_action 1
+
+04:50:14 sent >>> no_action 3
+
+04:50:15 sent >>> new_step
+
+04:50:15 sent >>> no_action 1
+
+04:50:15 sent >>> no_action 3
+
+04:50:16 sent >>> new_step
+
+04:50:16 sent >>> no_action 1
+
+04:50:16 sent >>> 1 3
+
+04:50:17 sent >>> new_step
+
+04:50:17 sent >>> no_action 1
+
+04:50:17 sent >>> 
+kick 3 1 0
+
+04:50:18 sent >>> new_step
+
+04:50:18 sent >>> no_action 1
+
+04:50:18 sent >>> 
+kick 3 5 0
+
+04:50:19 sent >>> new_step
+
+04:50:19 sent >>> no_action 1
+
+04:50:19 sent >>> -1 3
+
+04:50:20 sent >>> new_step
+
+04:50:20 sent >>> no_action 1
+
+04:50:20 sent >>> no_action 3
+
+04:50:21 sent >>> new_step
+
+04:50:21 sent >>> no_action 1
+
+04:50:21 sent >>> no_action 3
+
+04:50:22 sent >>> new_step
+
+04:50:22 sent >>> no_action 1
+
+04:50:22 sent >>> -1 3
+
+04:50:23 sent >>> new_step
+
+04:50:23 sent >>> no_action 1
+
+04:50:23 sent >>> 
+kick 3 1 1
+
+04:50:24 sent >>> new_step
+
+04:50:24 sent >>> no_action 1
+
+04:50:24 sent >>> 1 3
+
+04:50:25 sent >>> new_step
+
+04:50:25 sent >>> no_action 1
+
+04:50:25 sent >>> 
+kick 3 5 1
+
+04:50:26 sent >>> new_step
+
+04:50:26 sent >>> no_action 1
+
+04:50:26 sent >>> no_action 3
+
+04:50:27 sent >>> new_step
+
+04:50:27 sent >>> no_action 1
+
+04:50:27 sent >>> no_action 3
+
+04:50:28 sent >>> new_step
+
+04:50:28 sent >>> no_action 1
+
+04:50:28 sent >>> no_action 3
+
+04:50:29 sent >>> new_step
+
+04:50:29 sent >>> no_action 1
+
+04:50:29 sent >>> no_action 3
+
+04:50:30 sent >>> new_step
+
+04:50:30 sent >>> no_action 1
+
+04:50:30 sent >>> -1 3
+
+04:50:31 sent >>> new_step
+
+04:50:31 sent >>> no_action 1
+
+04:50:31 sent >>> 
+kick 3 1 1
+
+04:50:32 sent >>> new_step
+
+04:50:32 sent >>> no_action 1
+
+04:50:32 sent >>> 1 3
+
+04:50:33 sent >>> new_step
+
+04:50:33 sent >>> no_action 1
+
+04:50:33 sent >>> 
+kick 3 5 1
+
+04:53:44 sent >>> new_step
+
+04:53:44 sent >>> no_action 1
+
+04:53:44 sent >>> 
+kick 3 1 0
+
+04:53:45 sent >>> new_step
+
+04:53:45 sent >>> no_action 1
+
+04:53:45 sent >>> 
+kick 3 1 1
+
+04:53:46 sent >>> new_step
+
+04:53:46 sent >>> no_action 1
+
+04:53:46 sent >>> 1 3
+
+04:53:47 sent >>> new_step
+
+04:53:47 sent >>> no_action 1
+
+04:53:47 sent >>> 
+kick 3 5 0
+
+04:53:48 sent >>> new_step
+
+04:53:48 sent >>> no_action 1
+
+04:53:48 sent >>> -1 3
+
+04:53:49 sent >>> new_step
+
+04:53:49 sent >>> no_action 1
+
+04:53:49 sent >>> no_action 3
+
+04:53:50 sent >>> new_step
+
+04:53:50 sent >>> no_action 1
+
+04:53:50 sent >>> no_action 3
+
+04:53:51 sent >>> new_step
+
+04:53:51 sent >>> no_action 1
+
+04:53:51 sent >>> no_action 3
+
+04:53:52 sent >>> new_step
+
+04:53:52 sent >>> no_action 1
+
+04:53:52 sent >>> no_action 3
+
+04:53:53 sent >>> new_step
+
+04:53:53 sent >>> no_action 1
+
+04:53:53 sent >>> 1 3
+
+04:53:54 sent >>> new_step
+
+04:53:54 sent >>> no_action 1
+
+04:53:54 sent >>> kick 3 5 -1
+
+04:53:55 sent >>> new_step
+
+04:53:55 sent >>> no_action 1
+
+04:53:55 sent >>> -1 3
+
+04:53:56 sent >>> new_step
+
+04:53:56 sent >>> no_action 1
+
+04:53:56 sent >>> no_action 3
+
+04:53:57 sent >>> new_step
+
+04:53:57 sent >>> no_action 1
+
+04:53:57 sent >>> no_action 3
+
+04:53:58 sent >>> new_step
+
+04:53:58 sent >>> no_action 1
+
+04:53:58 sent >>> no_action 3
+
+04:53:59 sent >>> new_step
+
+04:53:59 sent >>> no_action 1
+
+04:53:59 sent >>> no_action 3
+
+04:54:01 sent >>> new_step
+
+04:54:01 sent >>> no_action 1
+
+04:54:01 sent >>> 1 3
+
+04:54:02 sent >>> new_step
+
+04:54:02 sent >>> no_action 1
+
+04:54:02 sent >>> kick 3 5 -1
+
+04:54:03 sent >>> new_step
+
+04:54:03 sent >>> no_action 1
+
+04:54:03 sent >>> -1 3
+
+04:54:04 sent >>> new_step
+
+04:54:04 sent >>> no_action 1
+
+04:54:04 sent >>> no_action 3
+
+04:54:05 sent >>> new_step
+
+04:54:05 sent >>> no_action 1
+
+04:54:05 sent >>> no_action 3
+
+04:54:06 sent >>> new_step
+
+04:54:06 sent >>> no_action 1
+
+04:54:06 sent >>> no_action 3
+
+04:54:07 sent >>> new_step
+
+04:54:07 sent >>> no_action 1
+
+04:54:07 sent >>> no_action 3
+
+04:54:08 sent >>> new_step
+
+04:54:08 sent >>> no_action 1
+
+04:54:08 sent >>> 1 3
+
+04:54:09 sent >>> new_step
+
+04:54:09 sent >>> no_action 1
+
+04:54:09 sent >>> kick 3 5 -1
+
+04:54:10 sent >>> new_step
+
+04:54:10 sent >>> no_action 1
+
+04:54:10 sent >>> -1 3
+
+04:54:11 sent >>> new_step
+
+04:54:11 sent >>> no_action 1
+
+04:54:11 sent >>> no_action 3
+
+04:54:12 sent >>> new_step
+
+04:54:12 sent >>> no_action 1
+
+04:54:12 sent >>> no_action 3
+
+04:54:13 sent >>> new_step
+
+04:54:13 sent >>> no_action 1
+
+04:54:13 sent >>> 1 3
+
+04:54:14 sent >>> new_step
+
+04:54:14 sent >>> no_action 1
+
+04:54:14 sent >>> 
+kick 3 1 1
+
+04:54:15 sent >>> new_step
+
+04:54:15 sent >>> no_action 1
+
+04:54:15 sent >>> -1 3
+
+04:54:16 sent >>> new_step
+
+04:54:16 sent >>> no_action 1
+
+04:54:16 sent >>> kick 3 5 -1
+
+04:54:17 sent >>> new_step
+
+04:54:17 sent >>> no_action 1
+
+04:54:17 sent >>> no_action 3
+
+04:54:18 sent >>> new_step
+
+04:54:18 sent >>> no_action 1
+
+04:54:18 sent >>> no_action 3
+
+04:54:19 sent >>> new_step
+
+04:54:19 sent >>> no_action 1
+
+04:54:19 sent >>> no_action 3
+
+04:54:20 sent >>> new_step
+
+04:54:20 sent >>> no_action 1
+
+04:54:20 sent >>> no_action 3
+
+04:54:21 sent >>> new_step
+
+04:54:21 sent >>> no_action 1
+
+04:54:21 sent >>> 1 3
+
+04:54:22 sent >>> new_step
+
+04:54:22 sent >>> no_action 1
+
+04:54:22 sent >>> kick 3 1 -1
+
+04:54:23 sent >>> new_step
+
+04:54:23 sent >>> no_action 1
+
+04:54:23 sent >>> -1 3
+
+04:54:24 sent >>> new_step
+
+04:54:24 sent >>> no_action 1
+
+04:54:24 sent >>> 
+kick 3 5 1
+
+04:54:25 sent >>> new_step
+
+04:54:25 sent >>> no_action 1
+
+04:54:25 sent >>> no_action 3
+
+04:54:26 sent >>> new_step
+
+04:54:26 sent >>> no_action 1
+
+04:54:26 sent >>> no_action 3
+
+04:54:27 sent >>> new_step
+
+04:54:27 sent >>> no_action 1
+
+04:54:27 sent >>> no_action 3
+
+04:54:28 sent >>> new_step
+
+04:54:28 sent >>> no_action 1
+
+04:54:28 sent >>> 
+kick 3 1 1
+
+04:54:29 sent >>> new_step
+
+04:54:29 sent >>> no_action 1
+
+04:54:29 sent >>> no_action 3
+
+04:54:30 sent >>> new_step
+
+04:54:30 sent >>> no_action 1
+
+04:54:30 sent >>> no_action 3
+
+04:54:31 sent >>> new_step
+
+04:54:31 sent >>> no_action 1
+
+04:54:31 sent >>> 1 3
+
+04:54:32 sent >>> new_step
+
+04:54:32 sent >>> no_action 1
+
+04:54:32 sent >>> 
+kick 3 1 0
+
+04:54:33 sent >>> new_step
+
+04:54:33 sent >>> no_action 1
+
+04:54:33 sent >>> kick 3 5 -1
+
+04:54:34 sent >>> new_step
+
+04:54:34 sent >>> no_action 1
+
+04:54:34 sent >>> -1 3
+
+04:54:35 sent >>> new_step
+
+04:54:35 sent >>> no_action 1
+
+04:54:35 sent >>> no_action 3
+
+04:54:36 sent >>> new_step
+
+04:54:36 sent >>> no_action 1
+
+04:54:36 sent >>> no_action 3
+
+04:54:37 sent >>> new_step
+
+04:54:37 sent >>> no_action 1
+
+04:54:37 sent >>> no_action 3
+
+04:54:38 sent >>> new_step
+
+04:54:38 sent >>> no_action 1
+
+04:54:38 sent >>> 
+kick 3 1 0
+
+04:54:39 sent >>> new_step
+
+04:54:39 sent >>> no_action 1
+
+04:54:39 sent >>> no_action 3
+
+04:54:40 sent >>> new_step
+
+04:54:40 sent >>> no_action 1
+
+04:54:40 sent >>> no_action 3
+
+04:54:41 sent >>> new_step
+
+04:54:41 sent >>> no_action 1
+
+04:54:41 sent >>> 1 3
+
+04:54:42 sent >>> new_step
+
+04:54:42 sent >>> no_action 1
+
+04:54:42 sent >>> kick 3 5 -1
+
+04:54:43 sent >>> new_step
+
+04:54:43 sent >>> no_action 1
+
+04:54:43 sent >>> -1 3
+
+04:54:44 sent >>> new_step
+
+04:54:44 sent >>> no_action 1
+
+04:54:44 sent >>> no_action 3
+
+04:54:45 sent >>> new_step
+
+04:54:45 sent >>> no_action 1
+
+04:54:45 sent >>> no_action 3
+
+04:54:46 sent >>> new_step
+
+04:54:46 sent >>> no_action 1
+
+04:54:46 sent >>> 1 3
+
+04:54:47 sent >>> new_step
+
+04:54:47 sent >>> no_action 1
+
+04:54:47 sent >>> kick 3 1 -1
+
+04:54:48 sent >>> new_step
+
+04:54:48 sent >>> no_action 1
+
+04:54:48 sent >>> -1 3
+
+04:54:49 sent >>> new_step
+
+04:54:49 sent >>> no_action 1
+
+04:54:49 sent >>> kick 3 5 -1
+
+04:54:50 sent >>> new_step
+
+04:54:50 sent >>> no_action 1
+
+04:54:50 sent >>> no_action 3
+
+04:54:51 sent >>> new_step
+
+04:54:51 sent >>> no_action 1
+
+04:54:51 sent >>> no_action 3
+
+04:54:52 sent >>> new_step
+
+04:54:52 sent >>> no_action 1
+
+04:54:52 sent >>> no_action 3
+
+04:54:53 sent >>> new_step
+
+04:54:53 sent >>> no_action 1
+
+04:54:53 sent >>> no_action 3
+
+04:54:54 sent >>> new_step
+
+04:54:54 sent >>> no_action 1
+
+04:54:54 sent >>> -1 3
+
+04:54:55 sent >>> new_step
+
+04:54:55 sent >>> no_action 1
+
+04:54:55 sent >>> 
+kick 3 1 1
+
+04:54:56 sent >>> new_step
+
+04:54:56 sent >>> no_action 1
+
+04:54:56 sent >>> 1 3
+
+04:54:57 sent >>> new_step
+
+04:54:57 sent >>> no_action 1
+
+04:54:57 sent >>> 
+kick 3 5 1
+
+04:54:58 sent >>> new_step
+
+04:54:58 sent >>> no_action 1
+
+04:54:58 sent >>> no_action 3
+
+04:54:59 sent >>> new_step
+
+04:54:59 sent >>> no_action 1
+
+04:54:59 sent >>> no_action 3
+
+04:55:00 sent >>> new_step
+
+04:55:00 sent >>> no_action 1
+
+04:55:00 sent >>> no_action 3
+
+04:55:01 sent >>> new_step
+
+04:55:01 sent >>> no_action 1
+
+04:55:01 sent >>> 
+kick 3 1 1
+
+04:55:02 sent >>> new_step
+
+04:55:02 sent >>> no_action 1
+
+04:55:02 sent >>> 
+kick 3 1 0
+
+04:55:03 sent >>> new_step
+
+04:55:03 sent >>> no_action 1
+
+04:55:03 sent >>> 
+kick 3 5 1
+
+04:55:04 sent >>> new_step
+
+04:55:04 sent >>> no_action 1
+
+04:55:04 sent >>> no_action 3
+
+04:55:05 sent >>> new_step
+
+04:55:05 sent >>> no_action 1
+
+04:55:05 sent >>> no_action 3
+
+04:55:06 sent >>> new_step
+
+04:55:06 sent >>> no_action 1
+
+04:55:06 sent >>> no_action 3
+
+04:55:07 sent >>> new_step
+
+04:55:07 sent >>> no_action 1
+
+04:55:07 sent >>> no_action 3
+
+04:55:08 sent >>> new_step
+
+04:55:08 sent >>> no_action 1
+
+04:55:08 sent >>> 1 3
+
+04:55:09 sent >>> new_step
+
+04:55:09 sent >>> no_action 1
+
+04:55:09 sent >>> kick 3 1 -1
+
+04:55:10 sent >>> new_step
+
+04:55:10 sent >>> no_action 1
+
+04:55:10 sent >>> -1 3
+
+04:55:11 sent >>> new_step
+
+04:55:11 sent >>> no_action 1
+
+04:55:11 sent >>> 
+kick 3 5 1
+
+04:55:12 sent >>> new_step
+
+04:55:12 sent >>> no_action 1
+
+04:55:12 sent >>> no_action 3
+
+04:55:13 sent >>> new_step
+
+04:55:13 sent >>> no_action 1
+
+04:55:13 sent >>> no_action 3
+
+04:55:14 sent >>> new_step
+
+04:55:14 sent >>> no_action 1
+
+04:55:14 sent >>> no_action 3
+
+04:55:15 sent >>> new_step
+
+04:55:15 sent >>> no_action 1
+
+04:55:15 sent >>> no_action 3
+
+04:55:16 sent >>> new_step
+
+04:55:16 sent >>> no_action 1
+
+04:55:16 sent >>> 1 3
+
+04:55:17 sent >>> new_step
+
+04:55:17 sent >>> no_action 1
+
+04:55:17 sent >>> kick 3 1 -1
+
+04:55:18 sent >>> new_step
+
+04:55:18 sent >>> no_action 1
+
+04:55:18 sent >>> -1 3
+
+04:55:19 sent >>> new_step
+
+04:55:19 sent >>> no_action 1
+
+04:55:19 sent >>> 
+kick 3 5 1
+
+04:55:20 sent >>> new_step
+
+04:55:20 sent >>> no_action 1
+
+04:55:20 sent >>> no_action 3
+
+04:55:21 sent >>> new_step
+
+04:55:21 sent >>> no_action 1
+
+04:55:21 sent >>> no_action 3
+
+04:55:22 sent >>> new_step
+
+04:55:22 sent >>> no_action 1
+
+04:55:22 sent >>> no_action 3
+
+04:55:23 sent >>> new_step
+
+04:55:23 sent >>> no_action 1
+
+04:55:23 sent >>> kick 3 1 -1
+
+04:55:24 sent >>> new_step
+
+04:55:24 sent >>> no_action 1
+
+04:55:24 sent >>> no_action 3
+
+04:55:25 sent >>> new_step
+
+04:55:25 sent >>> no_action 1
+
+04:55:25 sent >>> no_action 3
+
+04:55:26 sent >>> new_step
+
+04:55:26 sent >>> no_action 1
+
+04:55:26 sent >>> 1 3
+
+04:55:27 sent >>> new_step
+
+04:55:27 sent >>> no_action 1
+
+04:55:27 sent >>> kick 3 1 -1
+
+04:55:28 sent >>> new_step
+
+04:55:28 sent >>> no_action 1
+
+04:55:28 sent >>> -1 3
+
+04:55:29 sent >>> new_step
+
+04:55:29 sent >>> no_action 1
+
+04:55:29 sent >>> 
+kick 3 5 1
+
+04:55:30 sent >>> new_step
+
+04:55:30 sent >>> no_action 1
+
+04:55:30 sent >>> no_action 3
+
+04:55:31 sent >>> new_step
+
+04:55:31 sent >>> no_action 1
+
+04:55:31 sent >>> no_action 3
+
+04:55:32 sent >>> new_step
+
+04:55:32 sent >>> no_action 1
+
+04:55:32 sent >>> no_action 3
+
+04:55:33 sent >>> new_step
+
+04:55:33 sent >>> no_action 1
+
+04:55:33 sent >>> no_action 3
+
+04:55:34 sent >>> new_step
+
+04:55:34 sent >>> no_action 1
+
+04:55:34 sent >>> 1 3
+
+04:58:44 sent >>> new_step
+
+04:58:44 sent >>> no_action 1
+
+04:58:44 sent >>> 
+kick 3 1 0
+
+04:58:45 sent >>> new_step
+
+04:58:45 sent >>> no_action 1
+
+04:58:45 sent >>> kick 3 1 -1
+
+04:58:46 sent >>> new_step
+
+04:58:46 sent >>> no_action 1
+
+04:58:46 sent >>> 1 3
+
+04:58:47 sent >>> new_step
+
+04:58:47 sent >>> no_action 1
+
+04:58:47 sent >>> 
+kick 3 5 0
+
+04:58:48 sent >>> new_step
+
+04:58:48 sent >>> no_action 1
+
+04:58:48 sent >>> -1 3
+
+04:58:49 sent >>> new_step
+
+04:58:49 sent >>> no_action 1
+
+04:58:49 sent >>> no_action 3
+
+04:58:50 sent >>> new_step
+
+04:58:50 sent >>> no_action 1
+
+04:58:50 sent >>> no_action 3
+
+04:58:51 sent >>> new_step
+
+04:58:51 sent >>> no_action 1
+
+04:58:51 sent >>> no_action 3
+
+04:58:52 sent >>> new_step
+
+04:58:52 sent >>> no_action 1
+
+04:58:52 sent >>> 
+kick 3 1 0
+
+04:58:53 sent >>> new_step
+
+04:58:53 sent >>> no_action 1
+
+04:58:53 sent >>> kick 3 1 -1
+
+04:58:54 sent >>> new_step
+
+04:58:54 sent >>> no_action 1
+
+04:58:54 sent >>> 1 3
+
+04:58:55 sent >>> new_step
+
+04:58:55 sent >>> no_action 1
+
+04:58:55 sent >>> 
+kick 3 5 0
+
+04:58:56 sent >>> new_step
+
+04:58:56 sent >>> no_action 1
+
+04:58:56 sent >>> -1 3
+
+04:58:57 sent >>> new_step
+
+04:58:57 sent >>> no_action 1
+
+04:58:57 sent >>> no_action 3
+
+04:58:58 sent >>> new_step
+
+04:58:58 sent >>> no_action 1
+
+04:58:58 sent >>> no_action 3
+
+04:58:59 sent >>> new_step
+
+04:58:59 sent >>> no_action 1
+
+04:58:59 sent >>> 1 3
+
+04:59:00 sent >>> new_step
+
+04:59:00 sent >>> no_action 1
+
+04:59:00 sent >>> kick 3 1 -1
+
+04:59:01 sent >>> new_step
+
+04:59:01 sent >>> no_action 1
+
+04:59:01 sent >>> -1 3
+
+04:59:02 sent >>> new_step
+
+04:59:02 sent >>> no_action 1
+
+04:59:02 sent >>> kick 3 5 -1
+
+04:59:03 sent >>> new_step
+
+04:59:03 sent >>> no_action 1
+
+04:59:03 sent >>> no_action 3
+
+04:59:04 sent >>> new_step
+
+04:59:04 sent >>> no_action 1
+
+04:59:04 sent >>> no_action 3
+
+04:59:05 sent >>> new_step
+
+04:59:05 sent >>> no_action 1
+
+04:59:05 sent >>> no_action 3
+
+04:59:06 sent >>> new_step
+
+04:59:06 sent >>> no_action 1
+
+04:59:06 sent >>> no_action 3
+
+04:59:07 sent >>> new_step
+
+04:59:07 sent >>> no_action 1
+
+04:59:07 sent >>> 1 3
+
+04:59:08 sent >>> new_step
+
+04:59:08 sent >>> no_action 1
+
+04:59:08 sent >>> kick 3 1 -1
+
+04:59:09 sent >>> new_step
+
+04:59:09 sent >>> no_action 1
+
+04:59:09 sent >>> -1 3
+
+04:59:10 sent >>> new_step
+
+04:59:10 sent >>> no_action 1
+
+04:59:10 sent >>> 
+kick 3 5 1
+
+04:59:11 sent >>> new_step
+
+04:59:11 sent >>> no_action 1
+
+04:59:11 sent >>> no_action 3
+
+04:59:12 sent >>> new_step
+
+04:59:12 sent >>> no_action 1
+
+04:59:12 sent >>> no_action 3
+
+04:59:13 sent >>> new_step
+
+04:59:13 sent >>> no_action 1
+
+04:59:13 sent >>> no_action 3
+
+04:59:14 sent >>> new_step
+
+04:59:14 sent >>> no_action 1
+
+04:59:14 sent >>> no_action 3
+
+04:59:15 sent >>> new_step
+
+04:59:15 sent >>> no_action 1
+
+04:59:15 sent >>> 1 3
+
+04:59:16 sent >>> new_step
+
+04:59:16 sent >>> no_action 1
+
+04:59:16 sent >>> 
+kick 3 1 1
+
+04:59:17 sent >>> new_step
+
+04:59:17 sent >>> no_action 1
+
+04:59:17 sent >>> -1 3
+
+04:59:18 sent >>> new_step
+
+04:59:18 sent >>> no_action 1
+
+04:59:18 sent >>> 
+kick 3 5 0
+
+04:59:19 sent >>> new_step
+
+04:59:19 sent >>> no_action 1
+
+04:59:19 sent >>> no_action 3
+
+04:59:20 sent >>> new_step
+
+04:59:20 sent >>> no_action 1
+
+04:59:20 sent >>> 1 3
+
+04:59:21 sent >>> new_step
+
+04:59:21 sent >>> no_action 1
+
+04:59:21 sent >>> 
+kick 3 5 0
+
+04:59:22 sent >>> new_step
+
+04:59:22 sent >>> no_action 1
+
+04:59:22 sent >>> -1 3
+
+04:59:23 sent >>> new_step
+
+04:59:23 sent >>> no_action 1
+
+04:59:23 sent >>> no_action 3
+
+04:59:24 sent >>> new_step
+
+04:59:24 sent >>> no_action 1
+
+04:59:24 sent >>> no_action 3
+
+04:59:25 sent >>> new_step
+
+04:59:25 sent >>> no_action 1
+
+04:59:25 sent >>> no_action 3
+
+04:59:26 sent >>> new_step
+
+04:59:26 sent >>> no_action 1
+
+04:59:26 sent >>> no_action 3
+
+04:59:27 sent >>> new_step
+
+04:59:27 sent >>> no_action 1
+
+04:59:27 sent >>> 1 3
+
+04:59:28 sent >>> new_step
+
+04:59:28 sent >>> no_action 1
+
+04:59:28 sent >>> kick 3 5 -1
+
+04:59:29 sent >>> new_step
+
+04:59:29 sent >>> no_action 1
+
+04:59:29 sent >>> -1 3
+
+04:59:30 sent >>> new_step
+
+04:59:30 sent >>> no_action 1
+
+04:59:30 sent >>> no_action 3
+
+04:59:31 sent >>> new_step
+
+04:59:31 sent >>> no_action 1
+
+04:59:31 sent >>> no_action 3
+
+04:59:32 sent >>> new_step
+
+04:59:32 sent >>> no_action 1
+
+04:59:32 sent >>> 1 3
+
+04:59:33 sent >>> new_step
+
+04:59:33 sent >>> no_action 1
+
+04:59:33 sent >>> 
+kick 3 1 1
+
+04:59:34 sent >>> new_step
+
+04:59:34 sent >>> no_action 1
+
+04:59:34 sent >>> -1 3
+
+04:59:35 sent >>> new_step
+
+04:59:35 sent >>> no_action 1
+
+04:59:35 sent >>> kick 3 5 -1
+
+04:59:36 sent >>> new_step
+
+04:59:36 sent >>> no_action 1
+
+04:59:36 sent >>> no_action 3
+
+04:59:37 sent >>> new_step
+
+04:59:37 sent >>> no_action 1
+
+04:59:37 sent >>> no_action 3
+
+04:59:38 sent >>> new_step
+
+04:59:38 sent >>> no_action 1
+
+04:59:38 sent >>> no_action 3
+
+04:59:39 sent >>> new_step
+
+04:59:39 sent >>> no_action 1
+
+04:59:39 sent >>> no_action 3
+
+04:59:40 sent >>> new_step
+
+04:59:40 sent >>> no_action 1
+
+04:59:40 sent >>> 1 3
+
+04:59:41 sent >>> new_step
+
+04:59:41 sent >>> no_action 1
+
+04:59:41 sent >>> 
+kick 3 1 0
+
+04:59:42 sent >>> new_step
+
+04:59:42 sent >>> no_action 1
+
+04:59:42 sent >>> kick 3 5 -1
+
+04:59:43 sent >>> new_step
+
+04:59:43 sent >>> no_action 1
+
+04:59:43 sent >>> -1 3
+
+04:59:44 sent >>> new_step
+
+04:59:44 sent >>> no_action 1
+
+04:59:44 sent >>> no_action 3
+
+04:59:45 sent >>> new_step
+
+04:59:45 sent >>> no_action 1
+
+04:59:45 sent >>> no_action 3
+
+04:59:46 sent >>> new_step
+
+04:59:46 sent >>> no_action 1
+
+04:59:46 sent >>> 1 3
+
+04:59:47 sent >>> new_step
+
+04:59:47 sent >>> no_action 1
+
+04:59:47 sent >>> 
+kick 3 1 0
+
+04:59:48 sent >>> new_step
+
+04:59:48 sent >>> no_action 1
+
+04:59:48 sent >>> kick 3 5 -1
+
+04:59:49 sent >>> new_step
+
+04:59:49 sent >>> no_action 1
+
+04:59:49 sent >>> -1 3
+
+04:59:50 sent >>> new_step
+
+04:59:50 sent >>> no_action 1
+
+04:59:50 sent >>> no_action 3
+
+04:59:51 sent >>> new_step
+
+04:59:51 sent >>> no_action 1
+
+04:59:51 sent >>> no_action 3
+
+04:59:52 sent >>> new_step
+
+04:59:52 sent >>> no_action 1
+
+04:59:52 sent >>> no_action 3
+
+04:59:53 sent >>> new_step
+
+04:59:53 sent >>> no_action 1
+
+04:59:53 sent >>> no_action 3
+
+04:59:54 sent >>> new_step
+
+04:59:54 sent >>> no_action 1
+
+04:59:54 sent >>> 1 3
+
+04:59:56 sent >>> new_step
+
+04:59:56 sent >>> no_action 1
+
+04:59:56 sent >>> kick 3 5 -1
+
+04:59:57 sent >>> new_step
+
+04:59:57 sent >>> no_action 1
+
+04:59:57 sent >>> -1 3
+
+04:59:58 sent >>> new_step
+
+04:59:58 sent >>> no_action 1
+
+04:59:58 sent >>> no_action 3
+
+04:59:59 sent >>> new_step
+
+04:59:59 sent >>> no_action 1
+
+04:59:59 sent >>> no_action 3
+
+05:00:00 sent >>> new_step
+
+05:00:00 sent >>> no_action 1
+
+05:00:00 sent >>> 1 3
+
+05:00:01 sent >>> new_step
+
+05:00:01 sent >>> no_action 1
+
+05:00:01 sent >>> kick 3 1 -1
+
+05:00:02 sent >>> new_step
+
+05:00:02 sent >>> no_action 1
+
+05:00:02 sent >>> -1 3
+
+05:00:03 sent >>> new_step
+
+05:00:03 sent >>> no_action 1
+
+05:00:03 sent >>> kick 3 5 -1
+
+05:00:04 sent >>> new_step
+
+05:00:04 sent >>> no_action 1
+
+05:00:04 sent >>> no_action 3
+
+05:00:05 sent >>> new_step
+
+05:00:05 sent >>> no_action 1
+
+05:00:05 sent >>> no_action 3
+
+05:00:06 sent >>> new_step
+
+05:00:06 sent >>> no_action 1
+
+05:00:06 sent >>> no_action 3
+
+05:00:07 sent >>> new_step
+
+05:00:07 sent >>> no_action 1
+
+05:00:07 sent >>> no_action 3
+
+05:00:08 sent >>> new_step
+
+05:00:08 sent >>> no_action 1
+
+05:00:08 sent >>> 1 3
+
+05:00:09 sent >>> new_step
+
+05:00:09 sent >>> no_action 1
+
+05:00:09 sent >>> 
+kick 3 1 0
+
+05:00:10 sent >>> new_step
+
+05:00:10 sent >>> no_action 1
+
+05:00:10 sent >>> 
+kick 3 5 0
+
+05:00:11 sent >>> new_step
+
+05:00:11 sent >>> no_action 1
+
+05:00:11 sent >>> -1 3
+
+05:00:12 sent >>> new_step
+
+05:00:12 sent >>> no_action 1
+
+05:00:12 sent >>> no_action 3
+
+05:00:13 sent >>> new_step
+
+05:00:13 sent >>> no_action 1
+
+05:00:13 sent >>> no_action 3
+
+05:00:14 sent >>> new_step
+
+05:00:14 sent >>> no_action 1
+
+05:00:14 sent >>> no_action 3
+
+05:00:15 sent >>> new_step
+
+05:00:15 sent >>> no_action 1
+
+05:00:15 sent >>> 
+kick 3 1 0
+
+05:00:16 sent >>> new_step
+
+05:00:16 sent >>> no_action 1
+
+05:00:16 sent >>> no_action 3
+
+05:00:17 sent >>> new_step
+
+05:00:17 sent >>> no_action 1
+
+05:00:17 sent >>> -1 3
+
+05:00:18 sent >>> new_step
+
+05:00:18 sent >>> no_action 1
+
+05:00:18 sent >>> 
+kick 3 5 1
+
+05:00:19 sent >>> new_step
+
+05:00:19 sent >>> no_action 1
+
+05:00:19 sent >>> 1 3
+
+05:00:20 sent >>> new_step
+
+05:00:20 sent >>> no_action 1
+
+05:00:20 sent >>> no_action 3
+
+05:00:21 sent >>> new_step
+
+05:00:21 sent >>> no_action 1
+
+05:00:21 sent >>> no_action 3
+
+05:00:22 sent >>> new_step
+
+05:00:22 sent >>> no_action 1
+
+05:00:22 sent >>> 1 3
+
+05:00:23 sent >>> new_step
+
+05:00:23 sent >>> no_action 1
+
+05:00:23 sent >>> 
+kick 3 1 0
+
+05:00:24 sent >>> new_step
+
+05:00:24 sent >>> no_action 1
+
+05:00:24 sent >>> 
+kick 3 5 0
+
+05:00:25 sent >>> new_step
+
+05:00:25 sent >>> no_action 1
+
+05:00:25 sent >>> -1 3
+
+05:00:26 sent >>> new_step
+
+05:00:26 sent >>> no_action 1
+
+05:00:26 sent >>> no_action 3
+
+05:00:27 sent >>> new_step
+
+05:00:27 sent >>> no_action 1
+
+05:00:27 sent >>> no_action 3
+
+05:00:28 sent >>> new_step
+
+05:00:28 sent >>> no_action 1
+
+05:00:28 sent >>> no_action 3
+
+05:00:29 sent >>> new_step
+
+05:00:29 sent >>> no_action 1
+
+05:00:29 sent >>> 
+kick 3 1 0
+
+05:00:30 sent >>> new_step
+
+05:00:30 sent >>> no_action 1
+
+05:00:30 sent >>> no_action 3
+
+05:00:31 sent >>> new_step
+
+05:00:31 sent >>> no_action 1
+
+05:00:31 sent >>> kick 3 1 -1
+
+05:00:32 sent >>> new_step
+
+05:00:32 sent >>> no_action 1
+
+05:00:32 sent >>> 
+kick 3 1 1
+
+05:00:33 sent >>> new_step
+
+05:00:33 sent >>> no_action 1
+
+05:00:33 sent >>> 1 3
+
+05:00:34 sent >>> new_step
+
+05:00:34 sent >>> no_action 1
+
+05:00:34 sent >>> 
+kick 3 5 0
+
+05:00:35 sent >>> new_step
+
+05:00:35 sent >>> no_action 1
+
+05:00:35 sent >>> -1 3
+
+05:00:36 sent >>> new_step
+
+05:00:36 sent >>> no_action 1
+
+05:00:36 sent >>> no_action 3
+
+05:00:37 sent >>> new_step
+
+05:00:37 sent >>> no_action 1
+
+05:00:37 sent >>> no_action 3
+
+05:00:38 sent >>> new_step
+
+05:00:38 sent >>> no_action 1
+
+05:00:38 sent >>> -1 3
+
+05:00:39 sent >>> new_step
+
+05:00:39 sent >>> no_action 1
+
+05:00:39 sent >>> 
+kick 3 1 1
+
+05:00:40 sent >>> new_step
+
+05:00:40 sent >>> no_action 1
+
+05:00:40 sent >>> 1 3
+
+05:00:41 sent >>> new_step
+
+05:00:41 sent >>> no_action 1
+
+05:00:41 sent >>> 
+kick 3 5 1
+
+05:00:42 sent >>> new_step
+
+05:00:42 sent >>> no_action 1
+
+05:00:42 sent >>> no_action 3
+
+05:00:43 sent >>> new_step
+
+05:00:43 sent >>> no_action 1
+
+05:00:43 sent >>> no_action 3
+
+05:00:44 sent >>> new_step
+
+05:00:44 sent >>> no_action 1
+
+05:00:44 sent >>> no_action 3
+
+05:00:45 sent >>> new_step
+
+05:00:45 sent >>> no_action 1
+
+05:00:45 sent >>> 
+kick 3 1 0
+
+05:00:46 sent >>> new_step
+
+05:00:46 sent >>> no_action 1
+
+05:00:46 sent >>> no_action 3
+
+05:00:47 sent >>> new_step
+
+05:00:47 sent >>> no_action 1
+
+05:00:47 sent >>> kick 3 1 -1
+
+05:00:48 sent >>> new_step
+
+05:00:48 sent >>> no_action 1
+
+05:00:48 sent >>> no_action 3
+
+05:00:49 sent >>> new_step
+
+05:00:49 sent >>> no_action 1
+
+05:00:49 sent >>> no_action 3
+
+05:00:50 sent >>> new_step
+
+05:00:50 sent >>> no_action 1
+
+05:00:50 sent >>> -1 3
+
+05:00:51 sent >>> new_step
+
+05:00:51 sent >>> no_action 1
+
+05:00:51 sent >>> 
+kick 3 1 0
+
+05:00:52 sent >>> new_step
+
+05:00:52 sent >>> no_action 1
+
+05:00:52 sent >>> 
+kick 3 5 1
+
+05:00:53 sent >>> new_step
+
+05:00:53 sent >>> no_action 1
+
+05:00:53 sent >>> 1 3
+
+05:00:54 sent >>> new_step
+
+05:00:54 sent >>> no_action 1
+
+05:00:54 sent >>> no_action 3
+
+05:00:55 sent >>> new_step
+
+05:00:55 sent >>> no_action 1
+
+05:00:55 sent >>> no_action 3
+
+05:00:56 sent >>> new_step
+
+05:00:56 sent >>> no_action 1
+
+05:00:56 sent >>> no_action 3
+
+05:00:57 sent >>> new_step
+
+05:00:57 sent >>> no_action 1
+
+05:00:57 sent >>> 
+kick 3 1 1
+
+05:00:58 sent >>> new_step
+
+05:00:58 sent >>> no_action 1
+
+05:00:58 sent >>> no_action 3
+
+05:00:59 sent >>> new_step
+
+05:00:59 sent >>> no_action 1
+
+05:00:59 sent >>> no_action 3
+
+05:01:00 sent >>> new_step
+
+05:01:00 sent >>> no_action 1
+
+05:01:00 sent >>> 1 3
+
+05:01:01 sent >>> new_step
+
+05:01:01 sent >>> no_action 1
+
+05:01:01 sent >>> 
+kick 3 1 1
+
+05:01:02 sent >>> new_step
+
+05:01:02 sent >>> no_action 1
+
+05:01:02 sent >>> -1 3
+
+05:01:03 sent >>> new_step
+
+05:01:03 sent >>> no_action 1
+
+05:01:03 sent >>> kick 3 5 -1
+
+05:01:04 sent >>> new_step
+
+05:01:04 sent >>> no_action 1
+
+05:01:04 sent >>> no_action 3
+
+05:01:05 sent >>> new_step
+
+05:01:05 sent >>> no_action 1
+
+05:01:05 sent >>> no_action 3
+
+05:01:06 sent >>> new_step
+
+05:01:06 sent >>> no_action 1
+
+05:01:06 sent >>> no_action 3
+
+05:01:07 sent >>> new_step
+
+05:01:07 sent >>> no_action 1
+
+05:01:07 sent >>> no_action 3
+
+05:01:08 sent >>> new_step
+
+05:01:08 sent >>> no_action 1
+
+05:01:08 sent >>> 1 3
+
+05:01:09 sent >>> new_step
+
+05:01:09 sent >>> no_action 1
+
+05:01:09 sent >>> kick 3 1 -1
+
+05:01:10 sent >>> new_step
+
+05:01:10 sent >>> no_action 1
+
+05:01:10 sent >>> -1 3
+
+05:01:11 sent >>> new_step
+
+05:01:11 sent >>> no_action 1
+
+05:01:11 sent >>> 
+kick 3 5 1
+
+05:01:12 sent >>> new_step
+
+05:01:12 sent >>> no_action 1
+
+05:01:12 sent >>> no_action 3
+
+05:01:13 sent >>> new_step
+
+05:01:13 sent >>> no_action 1
+
+05:01:13 sent >>> no_action 3
+
+05:01:14 sent >>> new_step
+
+05:01:14 sent >>> no_action 1
+
+05:01:14 sent >>> no_action 3
+
+05:01:15 sent >>> new_step
+
+05:01:15 sent >>> no_action 1
+
+05:01:15 sent >>> 
+kick 3 1 0
+
+05:01:16 sent >>> new_step
+
+05:01:16 sent >>> no_action 1
+
+05:01:16 sent >>> no_action 3
+
+05:01:17 sent >>> new_step
+
+05:01:17 sent >>> no_action 1
+
+05:01:17 sent >>> 
+kick 3 1 0
+
+05:01:18 sent >>> new_step
+
+05:01:18 sent >>> no_action 1
+
+05:01:18 sent >>> 
+kick 3 1 0
+
+05:01:19 sent >>> new_step
+
+05:01:19 sent >>> no_action 1
+
+05:01:19 sent >>> 
+kick 3 5 1
+
+05:01:20 sent >>> new_step
+
+05:01:20 sent >>> no_action 1
+
+05:01:20 sent >>> no_action 3
+
+05:01:21 sent >>> new_step
+
+05:01:21 sent >>> no_action 1
+
+05:01:21 sent >>> no_action 3
+
+05:01:22 sent >>> new_step
+
+05:01:22 sent >>> no_action 1
+
+05:01:22 sent >>> no_action 3
+
+05:01:23 sent >>> new_step
+
+05:01:23 sent >>> no_action 1
+
+05:01:23 sent >>> no_action 3
+
+05:01:24 sent >>> new_step
+
+05:01:24 sent >>> no_action 1
+
+05:01:24 sent >>> 1 3
+
+05:01:25 sent >>> new_step
+
+05:01:25 sent >>> no_action 1
+
+05:01:25 sent >>> 
+kick 3 1 0
+
+05:01:26 sent >>> new_step
+
+05:01:26 sent >>> no_action 1
+
+05:01:26 sent >>> 
+kick 3 5 0
+
+05:01:27 sent >>> new_step
+
+05:01:27 sent >>> no_action 1
+
+05:01:27 sent >>> -1 3
+
+05:01:28 sent >>> new_step
+
+05:01:28 sent >>> no_action 1
+
+05:01:28 sent >>> no_action 3
+
+05:01:29 sent >>> new_step
+
+05:01:29 sent >>> no_action 1
+
+05:01:29 sent >>> no_action 3
+
+05:01:30 sent >>> new_step
+
+05:01:30 sent >>> no_action 1
+
+05:01:30 sent >>> no_action 3
+
+05:01:31 sent >>> new_step
+
+05:01:31 sent >>> no_action 1
+
+05:01:31 sent >>> -1 3
+
+05:01:32 sent >>> new_step
+
+05:01:32 sent >>> no_action 1
+
+05:01:32 sent >>> 
+kick 3 5 1
+
+05:01:33 sent >>> new_step
+
+05:01:33 sent >>> no_action 1
+
+05:01:33 sent >>> 1 3
+
+05:01:34 sent >>> new_step
+
+05:01:34 sent >>> no_action 1
+
+05:01:34 sent >>> no_action 3
+
+05:01:35 sent >>> new_step
+
+05:01:35 sent >>> no_action 1
+
+05:01:35 sent >>> no_action 3
+
+05:01:36 sent >>> new_step
+
+05:01:36 sent >>> no_action 1
+
+05:01:36 sent >>> no_action 3
+
+05:01:37 sent >>> new_step
+
+05:01:37 sent >>> no_action 1
+
+05:01:37 sent >>> 
+kick 3 1 0
+
+05:01:38 sent >>> new_step
+
+05:01:38 sent >>> no_action 1
+
+05:01:38 sent >>> no_action 3
+
+05:01:40 sent >>> new_step
+
+05:01:40 sent >>> no_action 1
+
+05:01:40 sent >>> kick 3 1 -1
+
+05:01:41 sent >>> new_step
+
+05:01:41 sent >>> no_action 1
+
+05:01:41 sent >>> no_action 3
+
+05:01:42 sent >>> new_step
+
+05:01:42 sent >>> no_action 1
+
+05:01:42 sent >>> no_action 3
+
+05:01:43 sent >>> new_step
+
+05:01:43 sent >>> no_action 1
+
+05:01:43 sent >>> -1 3
+
+05:01:44 sent >>> new_step
+
+05:01:44 sent >>> no_action 1
+
+05:01:44 sent >>> 
+kick 3 1 0
+
+05:01:45 sent >>> new_step
+
+05:01:45 sent >>> no_action 1
+
+05:01:45 sent >>> 
+kick 3 5 1
+
+05:01:46 sent >>> new_step
+
+05:01:46 sent >>> no_action 1
+
+05:01:46 sent >>> 1 3
+
+05:01:47 sent >>> new_step
+
+05:01:47 sent >>> no_action 1
+
+05:01:47 sent >>> no_action 3
+
+05:01:48 sent >>> new_step
+
+05:01:48 sent >>> no_action 1
+
+05:01:48 sent >>> no_action 3
+
+05:01:49 sent >>> new_step
+
+05:01:49 sent >>> no_action 1
+
+05:01:49 sent >>> no_action 3
+
+05:01:50 sent >>> new_step
+
+05:01:50 sent >>> no_action 1
+
+05:01:50 sent >>> -1 3
+
+05:01:51 sent >>> new_step
+
+05:01:51 sent >>> no_action 1
+
+05:01:51 sent >>> 
+kick 3 5 1
+
+05:01:52 sent >>> new_step
+
+05:01:52 sent >>> no_action 1
+
+05:01:52 sent >>> 1 3
+
+05:01:53 sent >>> new_step
+
+05:01:53 sent >>> no_action 1
+
+05:01:53 sent >>> no_action 3
+
+05:01:54 sent >>> new_step
+
+05:01:54 sent >>> no_action 1
+
+05:01:54 sent >>> no_action 3
+
+05:01:55 sent >>> new_step
+
+05:01:55 sent >>> no_action 1
+
+05:01:55 sent >>> no_action 3
+
+05:01:56 sent >>> new_step
+
+05:01:56 sent >>> no_action 1
+
+05:01:56 sent >>> 
+kick 3 1 1
+
+05:01:57 sent >>> new_step
+
+05:01:57 sent >>> no_action 1
+
+05:01:57 sent >>> kick 3 1 -1
+
+05:01:58 sent >>> new_step
+
+05:01:58 sent >>> no_action 1
+
+05:01:58 sent >>> -1 3
+
+05:01:59 sent >>> new_step
+
+05:01:59 sent >>> no_action 1
+
+05:01:59 sent >>> 
+kick 3 5 1
+
+05:02:00 sent >>> new_step
+
+05:02:00 sent >>> no_action 1
+
+05:02:00 sent >>> 1 3
+
+05:02:01 sent >>> new_step
+
+05:02:01 sent >>> no_action 1
+
+05:02:01 sent >>> no_action 3
+
+05:02:02 sent >>> new_step
+
+05:02:02 sent >>> no_action 1
+
+05:02:02 sent >>> no_action 3
+
+05:02:03 sent >>> new_step
+
+05:02:03 sent >>> no_action 1
+
+05:02:03 sent >>> -1 3
+
+05:02:04 sent >>> new_step
+
+05:02:04 sent >>> no_action 1
+
+05:02:04 sent >>> 
+kick 3 1 0
+
+05:02:05 sent >>> new_step
+
+05:02:05 sent >>> no_action 1
+
+05:02:05 sent >>> 
+kick 3 5 1
+
+05:02:06 sent >>> new_step
+
+05:02:06 sent >>> no_action 1
+
+05:02:06 sent >>> 1 3
+
+05:02:07 sent >>> new_step
+
+05:02:07 sent >>> no_action 1
+
+05:02:07 sent >>> no_action 3
+
+05:02:08 sent >>> new_step
+
+05:02:08 sent >>> no_action 1
+
+05:02:08 sent >>> no_action 3
+
+05:02:09 sent >>> new_step
+
+05:02:09 sent >>> no_action 1
+
+05:02:09 sent >>> -1 3
+
+05:02:10 sent >>> new_step
+
+05:02:10 sent >>> no_action 1
+
+05:02:10 sent >>> 
+kick 3 1 0
+
+05:02:11 sent >>> new_step
+
+05:02:11 sent >>> no_action 1
+
+05:02:11 sent >>> 
+kick 3 5 1
+
+05:02:12 sent >>> new_step
+
+05:02:12 sent >>> no_action 1
+
+05:02:12 sent >>> 1 3
+
+05:02:13 sent >>> new_step
+
+05:02:13 sent >>> no_action 1
+
+05:02:13 sent >>> no_action 3
+
+05:02:14 sent >>> new_step
+
+05:02:14 sent >>> no_action 1
+
+05:02:14 sent >>> no_action 3
+
+05:02:15 sent >>> new_step
+
+05:02:15 sent >>> no_action 1
+
+05:02:15 sent >>> no_action 3
+
+05:02:16 sent >>> new_step
+
+05:02:16 sent >>> no_action 1
+
+05:02:16 sent >>> -1 3
+
+05:02:17 sent >>> new_step
+
+05:02:17 sent >>> no_action 1
+
+05:02:17 sent >>> 
+kick 3 5 1
+
+05:02:18 sent >>> new_step
+
+05:02:18 sent >>> no_action 1
+
+05:02:18 sent >>> 1 3
+
+05:02:19 sent >>> new_step
+
+05:02:19 sent >>> no_action 1
+
+05:02:19 sent >>> no_action 3
+
+05:02:20 sent >>> new_step
+
+05:02:20 sent >>> no_action 1
+
+05:02:20 sent >>> no_action 3
+
+05:02:21 sent >>> new_step
+
+05:02:21 sent >>> no_action 1
+
+05:02:21 sent >>> no_action 3
+
+05:02:22 sent >>> new_step
+
+05:02:22 sent >>> no_action 1
+
+05:02:22 sent >>> -1 3
+
+05:02:23 sent >>> new_step
+
+05:02:23 sent >>> no_action 1
+
+05:02:23 sent >>> 
+kick 3 5 1
+
+05:02:24 sent >>> new_step
+
+05:02:24 sent >>> no_action 1
+
+05:02:24 sent >>> 1 3
+
+05:02:25 sent >>> new_step
+
+05:02:25 sent >>> no_action 1
+
+05:02:25 sent >>> no_action 3
+
+05:02:26 sent >>> new_step
+
+05:02:26 sent >>> no_action 1
+
+05:02:26 sent >>> no_action 3
+
+05:02:27 sent >>> new_step
+
+05:02:27 sent >>> no_action 1
+
+05:02:27 sent >>> no_action 3
+
+05:02:28 sent >>> new_step
+
+05:02:28 sent >>> no_action 1
+
+05:02:28 sent >>> -1 3
+
+05:02:29 sent >>> new_step
+
+05:02:29 sent >>> no_action 1
+
+05:02:29 sent >>> 
+kick 3 5 1
+
+05:02:30 sent >>> new_step
+
+05:02:30 sent >>> no_action 1
+
+05:02:30 sent >>> 1 3
+
+05:02:31 sent >>> new_step
+
+05:02:31 sent >>> no_action 1
+
+05:02:31 sent >>> no_action 3
+
+05:02:32 sent >>> new_step
+
+05:02:32 sent >>> no_action 1
+
+05:02:32 sent >>> no_action 3
+
+05:02:33 sent >>> new_step
+
+05:02:33 sent >>> no_action 1
+
+05:02:33 sent >>> no_action 3
+
+05:02:34 sent >>> new_step
+
+05:02:34 sent >>> no_action 1
+
+05:02:34 sent >>> 
+kick 3 1 0
+
+05:02:35 sent >>> new_step
+
+05:02:35 sent >>> no_action 1
+
+05:02:35 sent >>> no_action 3
+
+05:02:36 sent >>> new_step
+
+05:02:36 sent >>> no_action 1
+
+05:02:36 sent >>> 
+kick 3 1 1
+
+05:02:37 sent >>> new_step
+
+05:02:37 sent >>> no_action 1
+
+05:02:37 sent >>> 
+kick 3 1 1
+
+05:02:38 sent >>> new_step
+
+05:02:38 sent >>> no_action 1
+
+05:02:38 sent >>> 1 3
+
+05:02:39 sent >>> new_step
+
+05:02:39 sent >>> no_action 1
+
+05:02:39 sent >>> 
+kick 3 5 0
+
+05:02:40 sent >>> new_step
+
+05:02:40 sent >>> no_action 1
+
+05:02:40 sent >>> -1 3
+
+05:02:41 sent >>> new_step
+
+05:02:41 sent >>> no_action 1
+
+05:02:41 sent >>> no_action 3
+
+05:02:42 sent >>> new_step
+
+05:02:42 sent >>> no_action 1
+
+05:02:42 sent >>> no_action 3
+
+05:02:43 sent >>> new_step
+
+05:02:43 sent >>> no_action 1
+
+05:02:43 sent >>> no_action 3
+
+05:02:44 sent >>> new_step
+
+05:02:44 sent >>> no_action 1
+
+05:02:44 sent >>> 
+kick 3 1 0
+
+05:02:45 sent >>> new_step
+
+05:02:45 sent >>> no_action 1
+
+05:02:45 sent >>> no_action 3
+
+05:02:46 sent >>> new_step
+
+05:02:46 sent >>> no_action 1
+
+05:02:46 sent >>> 
+kick 3 1 0
+
+05:02:47 sent >>> new_step
+
+05:02:47 sent >>> no_action 1
+
+05:02:47 sent >>> kick 3 1 -1
+
+05:02:48 sent >>> new_step
+
+05:02:48 sent >>> no_action 1
+
+05:02:48 sent >>> -1 3
+
+05:02:49 sent >>> new_step
+
+05:02:49 sent >>> no_action 1
+
+05:02:49 sent >>> 
+kick 3 5 1
+
+05:02:50 sent >>> new_step
+
+05:02:50 sent >>> no_action 1
+
+05:02:50 sent >>> 1 3
+
+05:02:51 sent >>> new_step
+
+05:02:51 sent >>> no_action 1
+
+05:02:51 sent >>> no_action 3
+
+05:02:52 sent >>> new_step
+
+05:02:52 sent >>> no_action 1
+
+05:02:52 sent >>> no_action 3
+
+05:02:53 sent >>> new_step
+
+05:02:53 sent >>> no_action 1
+
+05:02:53 sent >>> 1 3
+
+05:02:54 sent >>> new_step
+
+05:02:54 sent >>> no_action 1
+
+05:02:54 sent >>> 
+kick 3 1 1
+
+05:02:55 sent >>> new_step
+
+05:02:55 sent >>> no_action 1
+
+05:02:55 sent >>> -1 3
+
+05:02:56 sent >>> new_step
+
+05:02:56 sent >>> no_action 1
+
+05:02:56 sent >>> 
+kick 3 5 0
+
+05:02:57 sent >>> new_step
+
+05:02:57 sent >>> no_action 1
+
+05:02:57 sent >>> no_action 3
+
+05:02:58 sent >>> new_step
+
+05:02:58 sent >>> no_action 1
+
+05:02:58 sent >>> 
+kick 3 5 0
+
+05:02:59 sent >>> new_step
+
+05:02:59 sent >>> no_action 1
+
+05:02:59 sent >>> no_action 3
+
+05:03:00 sent >>> new_step
+
+05:03:00 sent >>> no_action 1
+
+05:03:00 sent >>> 1 3
+
+05:03:01 sent >>> new_step
+
+05:03:01 sent >>> no_action 1
+
+05:03:01 sent >>> 
+kick 3 5 0
+
+05:03:02 sent >>> new_step
+
+05:03:02 sent >>> no_action 1
+
+05:03:02 sent >>> -1 3
+
+05:03:03 sent >>> new_step
+
+05:03:03 sent >>> no_action 1
+
+05:03:03 sent >>> no_action 3
+
+05:03:04 sent >>> new_step
+
+05:03:04 sent >>> no_action 1
+
+05:03:04 sent >>> no_action 3
+
+05:03:05 sent >>> new_step
+
+05:03:05 sent >>> no_action 1
+
+05:03:05 sent >>> no_action 3
+
+05:03:06 sent >>> new_step
+
+05:03:06 sent >>> no_action 1
+
+05:03:06 sent >>> -1 3
+
+05:03:07 sent >>> new_step
+
+05:03:07 sent >>> no_action 1
+
+05:03:07 sent >>> 
+kick 3 5 1
+
+05:03:08 sent >>> new_step
+
+05:03:08 sent >>> no_action 1
+
+05:03:08 sent >>> 1 3
+
+05:03:09 sent >>> new_step
+
+05:03:09 sent >>> no_action 1
+
+05:03:09 sent >>> no_action 3
+
+05:03:10 sent >>> new_step
+
+05:03:10 sent >>> no_action 1
+
+05:03:10 sent >>> no_action 3
+
+05:03:11 sent >>> new_step
+
+05:03:11 sent >>> no_action 1
+
+05:03:11 sent >>> no_action 3
+
+05:03:12 sent >>> new_step
+
+05:03:12 sent >>> no_action 1
+
+05:03:12 sent >>> -1 3
+
+05:03:13 sent >>> new_step
+
+05:03:13 sent >>> no_action 1
+
+05:03:13 sent >>> 
+kick 3 5 1
+
+05:03:14 sent >>> new_step
+
+05:03:14 sent >>> no_action 1
+
+05:03:14 sent >>> 1 3
+
+05:03:15 sent >>> new_step
+
+05:03:15 sent >>> no_action 1
+
+05:03:15 sent >>> no_action 3
+
+05:03:16 sent >>> new_step
+
+05:03:16 sent >>> no_action 1
+
+05:03:16 sent >>> no_action 3
+
+05:03:17 sent >>> new_step
+
+05:03:17 sent >>> no_action 1
+
+05:03:17 sent >>> no_action 3
+
+05:03:18 sent >>> new_step
+
+05:03:18 sent >>> no_action 1
+
+05:03:18 sent >>> 
+kick 3 1 1
+
+05:03:19 sent >>> new_step
+
+05:03:19 sent >>> no_action 1
+
+05:03:19 sent >>> no_action 3
+
+05:03:20 sent >>> new_step
+
+05:03:20 sent >>> no_action 1
+
+05:03:20 sent >>> no_action 3
+
+05:03:21 sent >>> new_step
+
+05:03:21 sent >>> no_action 1
+
+05:03:21 sent >>> 1 3
+
+05:03:22 sent >>> new_step
+
+05:03:22 sent >>> no_action 1
+
+05:03:22 sent >>> kick 3 1 -1
+
+05:03:23 sent >>> new_step
+
+05:03:23 sent >>> no_action 1
+
+05:03:23 sent >>> -1 3
+
+05:03:24 sent >>> new_step
+
+05:03:24 sent >>> no_action 1
+
+05:03:24 sent >>> 
+kick 3 5 0
+
+05:03:26 sent >>> new_step
+
+05:03:26 sent >>> no_action 1
+
+05:03:26 sent >>> no_action 3
+
+05:03:27 sent >>> new_step
+
+05:03:27 sent >>> no_action 1
+
+05:03:27 sent >>> 1 3
+
+05:03:28 sent >>> new_step
+
+05:03:28 sent >>> no_action 1
+
+05:03:28 sent >>> 
+kick 3 5 0
+
+05:03:29 sent >>> new_step
+
+05:03:29 sent >>> no_action 1
+
+05:03:29 sent >>> -1 3
+
+05:03:30 sent >>> new_step
+
+05:03:30 sent >>> no_action 1
+
+05:03:30 sent >>> no_action 3
+
+05:03:31 sent >>> new_step
+
+05:03:31 sent >>> no_action 1
+
+05:03:31 sent >>> no_action 3
+
+05:03:32 sent >>> new_step
+
+05:03:32 sent >>> no_action 1
+
+05:03:32 sent >>> no_action 3
+
+05:03:33 sent >>> new_step
+
+05:03:33 sent >>> no_action 1
+
+05:03:33 sent >>> -1 3
+
+05:03:34 sent >>> new_step
+
+05:03:34 sent >>> no_action 1
+
+05:03:34 sent >>> 
+kick 3 5 1
+
+05:03:35 sent >>> new_step
+
+05:03:35 sent >>> no_action 1
+
+05:03:35 sent >>> 1 3
+
+05:03:36 sent >>> new_step
+
+05:03:36 sent >>> no_action 1
+
+05:03:36 sent >>> no_action 3
+
+05:03:37 sent >>> new_step
+
+05:03:37 sent >>> no_action 1
+
+05:03:37 sent >>> no_action 3
+
+05:03:38 sent >>> new_step
+
+05:03:38 sent >>> no_action 1
+
+05:03:38 sent >>> -1 3
+
+05:03:39 sent >>> new_step
+
+05:03:39 sent >>> no_action 1
+
+05:03:39 sent >>> 
+kick 3 1 1
+
+05:03:40 sent >>> new_step
+
+05:03:40 sent >>> no_action 1
+
+05:03:40 sent >>> 1 3
+
+05:03:41 sent >>> new_step
+
+05:03:41 sent >>> no_action 1
+
+05:03:41 sent >>> 
+kick 3 5 1
+
+05:03:42 sent >>> new_step
+
+05:03:42 sent >>> no_action 1
+
+05:03:42 sent >>> no_action 3
+
+05:03:43 sent >>> new_step
+
+05:03:43 sent >>> no_action 1
+
+05:03:43 sent >>> no_action 3
+
+05:03:44 sent >>> new_step
+
+05:03:44 sent >>> no_action 1
+
+05:03:44 sent >>> no_action 3
+
+05:03:45 sent >>> new_step
+
+05:03:45 sent >>> no_action 1
+
+05:03:45 sent >>> no_action 3
+
+05:03:46 sent >>> new_step
+
+05:03:46 sent >>> no_action 1
+
+05:03:46 sent >>> 1 3
+
+05:03:47 sent >>> new_step
+
+05:03:47 sent >>> no_action 1
+
+05:03:47 sent >>> 
+kick 3 1 1
+
+05:03:48 sent >>> new_step
+
+05:03:48 sent >>> no_action 1
+
+05:03:48 sent >>> -1 3
+

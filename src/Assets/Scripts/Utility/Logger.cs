@@ -24,7 +24,7 @@ public class Logger
         s += command + '\n';
 
 
-        string path = /*Directory.GetCurrentDirectory() + */filename;
+        string path = Directory.GetCurrentDirectory() + filename;
         if (!File.Exists(path))
         {
             using (StreamWriter sw = File.CreateText(path))

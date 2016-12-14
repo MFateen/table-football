@@ -67,7 +67,7 @@ public class RodModel
     public void Draw()
     {
         //Draw Rod
-        View.Draw(Position);
+        View.Draw((int)Position);
     }
 
     /*

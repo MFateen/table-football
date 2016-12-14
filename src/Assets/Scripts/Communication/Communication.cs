@@ -140,13 +140,13 @@ static class Communication
         defense_command = character + defense_command;
         byte[] x = ASCIIEncoding.ASCII.GetBytes(defense_command);
         N.Write(x, 0, x.Length);
-        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logss.txt", defense_command, LogType.Send);
+        logger.Log("logsent.txt", defense_command, LogType.Send);
 
         character = (char)offence_command.Length;
         offence_command = character + offence_command;
         x = ASCIIEncoding.ASCII.GetBytes(offence_command);
         N.Write(x, 0, x.Length);
-        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logss.txt", offence_command, LogType.Send);
+        logger.Log("logsent.txt", offence_command, LogType.Send);
     }
 
     static bool ParseMessage(string msg)
@@ -155,7 +155,7 @@ static class Communication
         while (msg.Length > 0)
         {
             msg = msg.Substring(1);
-            logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg, LogType.Receive);
+            logger.Log("logreceived.txt", msg, LogType.Receive);
             Command c = new Command();
 
             if (msg[0] == 'k')
@@ -170,13 +170,13 @@ static class Communication
                     if (msg[9] == '-')
                     {
                         c.DefenseActionParameters.Add(1);
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 11), LogType.Receive);
+                        logger.Log("logreceived.txt", msg.Substring(0, 11), LogType.Receive);
                         msg = msg.Substring(11);
                     }
                     else
                     {
                         c.DefenseActionParameters.Add(-1*((int)msg[9] - 48));
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 10), LogType.Receive);
+                        logger.Log("logreceived.txt", msg.Substring(0, 10), LogType.Receive);
                         msg = msg.Substring(10);
                     }
                 }
@@ -187,13 +187,13 @@ static class Communication
                     if (msg[9] == '-')
                     {
                         c.OffenceActionParameters.Add(1);
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 11), LogType.Receive);
+                        logger.Log("logreceived.txt", msg.Substring(0, 11), LogType.Receive);
                         msg = msg.Substring(11);
                     }
                     else
                     {
                         c.OffenceActionParameters.Add(-1*((int)msg[9] - 48));
-                        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 10), LogType.Receive);
+                        logger.Log("logreceived.txt", msg.Substring(0, 10), LogType.Receive);
                         msg = msg.Substring(10);
                     }
                 }
@@ -208,7 +208,7 @@ static class Communication
                 {
                     c.OffenceAction = ActionType.NO_ACTION;
                 }
-                logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 11), LogType.Receive);
+                logger.Log("logreceived.txt", msg.Substring(0, 11), LogType.Receive);
                 msg = msg.Substring(11);
             }
 
@@ -218,28 +218,28 @@ static class Communication
                 {
                     c.DefenseAction = ActionType.MOVEROD;
                     c.DefenseActionParameters.Add(-1*((int)msg[0] - 48));
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 3), LogType.Receive);
+                    logger.Log("logreceived.txt", msg.Substring(0, 3), LogType.Receive);
                     msg = msg.Substring(3);
                 }
                 else if (msg[2] == ' ' && (msg[3] == '1' || msg[3] == '4'))
                 {
                     c.DefenseAction = ActionType.MOVEROD;
                     c.DefenseActionParameters.Add(1);
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 4), LogType.Receive);
+                    logger.Log("logreceived.txt", msg.Substring(0, 4), LogType.Receive);
                     msg = msg.Substring(4);
                 }
                 else if (msg[2] != ' ')
                 {
                     c.OffenceAction = ActionType.MOVEROD;
                     c.OffenceActionParameters.Add(-1*((int)msg[0] - 48));
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 3), LogType.Receive);
+                    logger.Log("logreceived.txt", msg.Substring(0, 3), LogType.Receive);
                     msg = msg.Substring(3);
                 }
                 else
                 {
                     c.OffenceAction = ActionType.MOVEROD;
                     c.OffenceActionParameters.Add(1);
-                    logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 4), LogType.Receive);
+                    logger.Log("logreceived.txt", msg.Substring(0, 4), LogType.Receive);
                     msg = msg.Substring(4);
                 }
 
@@ -248,7 +248,7 @@ static class Communication
             if (msg.Length > 0 && msg[0] == 'n' && msg[1] == 'e') //newstep...unblock!
             {
                 newStepReceived = true;
-                logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logs.txt", msg.Substring(0, 8), LogType.Receive);
+                logger.Log("logreceived.txt", msg.Substring(0, 8), LogType.Receive);
                 msg = msg.Substring(8);
                 continue;
             }
@@ -280,12 +280,12 @@ static class Communication
         string n = character + new_step;
         byte[] x = ASCIIEncoding.ASCII.GetBytes(n);
         N.Write(x, 0, x.Length);
-        logger.Log(@"C:\Users\Ahmkel\Documents\CUFE\Semester_7\MI\logss.txt", new_step, LogType.Send);
+        logger.Log("logsent.txt", new_step, LogType.Send);
     }
 
     public static void HostConnect(string SERVER_IP)
     {
-        IPAddress localAdd = IPAddress.Parse("192.168.1.3");
+        IPAddress localAdd = IPAddress.Parse("192.168.1.7");
         TcpListener listener = new TcpListener(localAdd, 3000);
         listener.Start();
         client = listener.AcceptTcpClient();

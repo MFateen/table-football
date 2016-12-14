@@ -229,7 +229,6 @@ public class GameModel
         yield return Ninja.JumpToUnity;
         Draw();
         yield return Ninja.JumpBack;
-
     }
 
     public void Draw()
